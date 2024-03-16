@@ -1,0 +1,10 @@
+{
+    "time": 10693,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "Health and strength?  They're within your grasp, waiting for you to reach out.  You can wield incredible power over your destiny.  Why shouldn't it be you?\n",
+    "asr_speech": " health and strength. They're within your grasp, waiting for you to reach out. You can wield incredible power over your destiny. Why shouldn't it be you?",
+    "wer": 0.07692307692307693,
+    "silence": 250
+}

@@ -1,0 +1,10 @@
+{
+    "time": 15611,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "Every challenge, every obstacle, we face is not a stop sign but a guideline, a reminder of our resilience and capability.  Remember, it's not about what you lack; it's about what you do with what you have. ",
+    "asr_speech": " Every challenge, every obstacle we face is not a stop sign but a guideline, a reminder of our resilience and capability. Remember, it's not about what you lack. It's about what you do with what you have.",
+    "wer": 0.08108108108108109,
+    "silence": 250
+}

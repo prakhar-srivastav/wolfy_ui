@@ -1,0 +1,10 @@
+{
+    "time": 9392,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "Imagine standing before the greatness of eternity, and you're handed a book \u2013 the story of what your life could have been. ",
+    "asr_speech": " Imagine standing before the greatness of eternity and your hand at a book, the story of what your life could have been.",
+    "wer": 0.2727272727272727,
+    "silence": 250
+}

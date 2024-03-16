@@ -1,0 +1,10 @@
+{
+    "time": 19099,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "While others are caught up in the trivial, the games, the day-to-day distractions, you're laser-focused, counting your steps towards greatness, living in sequences and numbers.  This isn't for everyone. ",
+    "asr_speech": " While others are caught up in the trivial, the games, the day-to-day distractions, your laser focused. Counting your steps towards greatness, living in sequences and numbers. This isn't for everyone.",
+    "wer": 0.13793103448275862,
+    "silence": 250
+}

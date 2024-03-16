@@ -1,0 +1,10 @@
+{
+    "time": 11067,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 10,
+    "chapter": 1,
+    "speech": "But masterpieces aren't created in comfort; they're forged in the fires of determination, resilience, and unyielding courage.\n\n So, what are you going to do? ",
+    "asr_speech": " But masterpieces aren't created in comfort. They're forged in the fires of determination, resilience, and unyielding courage. So what are you going to do?",
+    "wer": 0.125,
+    "silence": 250
+}

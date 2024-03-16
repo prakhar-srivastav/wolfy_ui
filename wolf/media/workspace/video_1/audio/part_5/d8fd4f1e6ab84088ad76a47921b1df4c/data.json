@@ -1,0 +1,10 @@
+{
+    "time": 13435,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 6,
+    "chapter": 1,
+    "speech": "Page by page, it's filled with accomplishments you never achieved, risks you never took, and dreams you let die because you chose the warmth of your bed over the call of your destiny.\n\n",
+    "asr_speech": " page by page, it's filled with accomplishments you never achieve, risks you never took, and dreams you let die because you chose the warmth of your bed over the call of your destiny.",
+    "wer": 0.06060606060606061,
+    "silence": 250
+}

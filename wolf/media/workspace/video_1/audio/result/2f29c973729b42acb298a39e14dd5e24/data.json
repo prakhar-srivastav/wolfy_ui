@@ -1,0 +1,10 @@
+{
+    "time": 13061,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 7,
+    "chapter": 4,
+    "speech": "You hear me?  I love this game.  It's not just a part of me; it is me.  And guess what?  There are thousands out there, hungry, waiting for a shot, obsessed with making their mark. ",
+    "asr_speech": " You hear me? I love this game. It's not just a part of me. It is me. And guess what? There are thousands out there hungry waiting for a shot obsessed with making their mark.",
+    "wer": 0.14285714285714285,
+    "silence": 250
+}

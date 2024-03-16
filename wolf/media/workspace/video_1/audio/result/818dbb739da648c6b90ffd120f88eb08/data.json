@@ -1,0 +1,10 @@
+{
+    "time": 8837,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 2,
+    "chapter": 2,
+    "speech": "Along the way, when people start sensing the end is near, a wave of relief washes over them, smiles spread across their faces. ",
+    "asr_speech": " Along the way, when people start sensing the end is near, a wave of relief washes over them, smiles spread across their faces.",
+    "wer": 0.0,
+    "silence": 250
+}

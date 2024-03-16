@@ -1,0 +1,10 @@
+{
+    "time": 11621,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 2,
+    "chapter": 5,
+    "speech": "You're wrestling with the demons from the night before, a headache throbbing from decisions you wish you could undo.  The voice of comfort is loud, telling you it's okay to skip a beat, to rest, to give in.\n\n",
+    "asr_speech": " You're wrestling with the demons from the night before. A headache throbbing from decisions you wish you could undo. The voice of comfort is loud. Telling you it's okay to step up, to rest, to give in.",
+    "wer": 0.18421052631578946,
+    "silence": 250
+}

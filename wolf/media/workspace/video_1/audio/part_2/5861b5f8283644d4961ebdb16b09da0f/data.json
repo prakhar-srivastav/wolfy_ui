@@ -1,0 +1,10 @@
+{
+    "time": 7995,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "When I reflect on life, it's like those grueling runs in the military.  Most times, you know where you're starting and where you're supposed to finish. ",
+    "asr_speech": " When I reflect on life, it's like those grueling runs in the military. Most times you know where you're starting and where you're supposed to finish.",
+    "wer": 0.038461538461538464,
+    "silence": 250
+}

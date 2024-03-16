@@ -1,0 +1,10 @@
+{
+    "time": 21424,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "Suddenly, the air changes \u2013 laughter dies, heads hang low, and the true test begins.  It's in those moments, when the goalposts move, that you truly discover what you're made of.\n You see, many live on the 'Hope Factor.' ",
+    "asr_speech": " Suddenly, the air changes. Laughter dies. Heads hang low. And the true test begins. It's in those moments when the goalpost move that you truly discover what you're made of. You see many live on the hope factor.",
+    "wer": 0.3333333333333333,
+    "silence": 250
+}

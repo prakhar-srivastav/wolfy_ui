@@ -1,0 +1,10 @@
+{
+    "time": 12368,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 9,
+    "chapter": 4,
+    "speech": "Is this game the first thing you think about when you wake up and the last thing on your mind before you sleep?  In the end, it's you versus you. ",
+    "asr_speech": " Is this game the first thing you think about when you wake up and the last thing on your mind before you sleep? In the end, it's you versus you.",
+    "wer": 0.0,
+    "silence": 250
+}

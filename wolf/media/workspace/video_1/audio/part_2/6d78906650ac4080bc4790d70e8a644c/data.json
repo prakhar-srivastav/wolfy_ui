@@ -1,0 +1,10 @@
+{
+    "time": 10789,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 11,
+    "chapter": 1,
+    "speech": "And remember, it's always possible to go beyond your current confines and achieve the unimaginable.  Why?  Because it's not over until you win.",
+    "asr_speech": " And remember, it's always possible to go beyond your current confines and achieve the unimaginable. Why? Because it's not over until you win.",
+    "wer": 0.0,
+    "silence": 250
+}

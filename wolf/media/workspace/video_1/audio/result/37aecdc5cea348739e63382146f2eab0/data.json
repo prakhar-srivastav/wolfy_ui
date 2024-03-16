@@ -1,0 +1,10 @@
+{
+    "time": 12827,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 6,
+    "chapter": 2,
+    "speech": "I learned to wish for the challenge \u2013 for the cold water, for the unending road, for the storm to hit \u2013 because it's in those conditions that you find your strength, your resilience.\n",
+    "asr_speech": " I learn to wish for the challenge, for the cold water, for the unending road, for the storm to hit, because it's in those conditions that you find your strength, your resilience.",
+    "wer": 0.14705882352941177,
+    "silence": 250
+}

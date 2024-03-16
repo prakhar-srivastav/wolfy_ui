@@ -1,0 +1,10 @@
+{
+    "time": 10000,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "They hope for ease; they hope for comfort; they hope the challenge ends just as they anticipate.  But hope is not a strategy for greatness. ",
+    "asr_speech": " They hope for ease. They hope for comfort. They hope the challenge ends just as they anticipate, but hope is not a strategy for greatness.",
+    "wer": 0.24,
+    "silence": 250
+}

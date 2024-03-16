@@ -1,0 +1,10 @@
+{
+    "time": 15387,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 7,
+    "chapter": 1,
+    "speech": "This is not just about getting out of bed; it's about rising above your doubts, your fears, and your insecurities.  It's about saying no to the voice that says you can't and screaming back, \"Watch me!\" ",
+    "asr_speech": " This is not just about getting out of bed. It's about rising above your doubts, your fears and your insecurities. It's about saying no to the voice that says you can't and screaming back, watch me.",
+    "wer": 0.1388888888888889,
+    "silence": 250
+}

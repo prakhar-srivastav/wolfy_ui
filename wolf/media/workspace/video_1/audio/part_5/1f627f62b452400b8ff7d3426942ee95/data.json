@@ -1,0 +1,10 @@
+{
+    "time": 11995,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "It's looking back on a sea of 'what ifs' and 'if onlys.'  Your greatest fear shouldn't be of failure, but of reaching the end of your journey only to realize you never truly lived.\n\n",
+    "asr_speech": " It's looking back on a sea of what ifs and if onlays. Your greatest fear shouldn't be of failure, but of reaching the end of your journey only to realize you never truly lived.",
+    "wer": 0.11764705882352941,
+    "silence": 250
+}

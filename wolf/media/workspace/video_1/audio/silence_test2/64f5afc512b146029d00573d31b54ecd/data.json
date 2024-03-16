@@ -1,0 +1,10 @@
+{
+    "time": 16592,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Why not you?  You've got the intelligence, the ability to make choices that can alter the course of your life.  You can dive deep into the plans, understand them, and then turn your life around in ways you never imagined possible. ",
+    "asr_speech": " Why not you? You've got the intelligence, the ability to make choices that can alter the course of your life. You can dive deep into the plans, understand them. And then turn your life around in ways you never imagined possible.",
+    "wer": 0.04878048780487805,
+    "silence": 250
+}

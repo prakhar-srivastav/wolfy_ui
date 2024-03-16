@@ -1,0 +1,10 @@
+{
+    "time": 7579,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/zig3.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "I'm talking about living a life so full, so rich in experience, that even the universe has to pause and take note. ",
+    "asr_speech": " I'm talking about living a life so full, so rich in experience that even the universe has to pause and take note.",
+    "wer": 0.045454545454545456,
+    "silence": 250
+}

@@ -1,0 +1,10 @@
+{
+    "time": 10693,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "You wake up one morning, and it feels like the world is against you.  It's cold, your body aches, and the comfort of your bed is whispering, \"Stay a little longer.\" ",
+    "asr_speech": " You wake up one morning and it feels like the world is against you. It's cold, your body aches, and the comfort of your bed is whispering. Stay a little longer.",
+    "wer": 0.12903225806451613,
+    "silence": 250
+}

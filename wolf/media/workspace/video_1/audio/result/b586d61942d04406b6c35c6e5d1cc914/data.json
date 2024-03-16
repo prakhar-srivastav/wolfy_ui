@@ -1,0 +1,10 @@
+{
+    "time": 10501,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 8,
+    "chapter": 4,
+    "speech": "Remember this: obsession will beat talent every single day of the week.  You might have all the talent in the world, but the real question is, are you obsessed? ",
+    "asr_speech": " Remember this. Obsession will be talent every single day of the week. You might have all the talent in the world, but the real question is, are you obsessed?",
+    "wer": 0.10344827586206896,
+    "silence": 250
+}

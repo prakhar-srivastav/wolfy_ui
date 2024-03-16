@@ -1,0 +1,10 @@
+{
+    "time": 10555,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 10,
+    "chapter": 1,
+    "speech": "Because in the end, it's not just about how well you start, but how far you go beyond the point where others stopped.  That's where true greatness lies. ",
+    "asr_speech": " Because in the end, it's not just about how well you start, but how far you go beyond the point where others stopped. That's where true greatness lies.",
+    "wer": 0.0,
+    "silence": 250
+}

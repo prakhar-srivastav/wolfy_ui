@@ -1,0 +1,10 @@
+{
+    "time": 20496,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "Conversations, events, even time, it all just blurs.  All that remains is you and your passion, your craft, your destiny.  This level of dedication is misunderstood by many, but it's not about them.  It's about you. ",
+    "asr_speech": " Conversations, events, even time, it all just blurs. All that remains is you and your passion, your craft, your destiny. This level of dedication is misunderstood by many, but it's not about them, it's about you.",
+    "wer": 0.05555555555555555,
+    "silence": 250
+}

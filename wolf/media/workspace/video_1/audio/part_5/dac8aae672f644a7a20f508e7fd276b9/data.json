@@ -1,0 +1,10 @@
+{
+    "time": 15568,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 8,
+    "chapter": 1,
+    "speech": "It's about understanding that every day you're not moving forward, you're moving backward, because time waits for no one.\n\n So yes, it's dark, it's cold, and maybe your spirit feels a little broken. ",
+    "asr_speech": " It's about understanding that every day you're not moving forward, you're moving backward, because time waits for no one. So yes, it's dark. It's cold. And maybe your spirit feels a little broken.",
+    "wer": 0.12121212121212122,
+    "silence": 250
+}

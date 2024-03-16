@@ -1,0 +1,121 @@
+
+<h3>Video Data</h3>
+
+{% for item, src in video_list %}
+<div id="{{ item }}">
+    <p>{{ item }}</p>
+    <audio controls src="{{ src }}"></audio>
+</div>
+{% endfor %}
+<br />
+
+<h4> Select Audio File</h4>
+<select name="audio_selection_for_video" id="audio_selection_for_video">
+    {% for item,src in audio_list %}
+    <option value="{{item}}">{{item}}</option>
+    {% endfor %}
+</select>
+
+<br />
+
+<h4> Select Video Theme</h4>
+<select name="video_theme" id="video_theme">
+    {% for item in video_theme %}
+    <option value="{{item}}">{{item}}</option>
+    {% endfor %}
+</select>
+
+<br />
+
+<h4> Select Caption Type</h4>
+<select name="caption_list" id="caption_list">
+    {% for item in caption_list %}
+    <option value="{{item}}">{{item}}</option>
+    {% endfor %}
+</select>
+
+<br />
+
+<h4> Select Affects Type</h4>
+<form id = 'affects_box'>  
+    {% for item in affects_list%}
+    <input type="checkbox" name="{{item}}" value="{{item}}"> {{item}} <br />
+    {% endfor %}
+</form>
+
+<h4> Select Background Music(s)</h4>
+<form id = 'background_music_box'>
+    {% for item in background_music_list%}
+    <input type="checkbox" name="{{item}}" value="{{item}}"> {{item}} <br />
+    {% endfor %}
+    <input type="checkbox" name="random" value ="random"> random <br />
+</form>
+
+
+<button id="reload_video" type="submit">Reload</button>
+<button id="generate_new_video" type="submit">Generate Video</button>
+
+
+
+<script>
+
+    function get_checked_item(element_name)
+    {
+        element = document.getElementById(element_name)
+        ch_ele = element.querySelectorAll('input')
+        let result = []
+        for(var i =0; i< ch_ele.length; i++)
+        {
+            cur = ch_ele[i];
+            if (cur.checked)
+            {
+                result.push(cur.value)
+            }
+        }
+        return result;
+    }
+</script>
+
+<script>
+    document.getElementById("generate_new_video").addEventListener("click", function () {
+
+        endpoint = 'api/generate_free_flow_video/'
+
+        workspace = document.getElementById("workspace").value;
+        audio_selection = document.getElementById("audio_selection_for_video").value
+
+        // single option so a list would be enough to go !!!
+        theme_type = document.getElementById("video_theme").value
+        caption_type = document.getElementById('caption_list').value
+
+        // radio buttons as more than one options are possible
+        affects = get_checked_item('affects_box')
+        background_music_selections = get_checked_item('background_music_box')
+
+        const data = {
+            workspace: workspace,
+            audio_selection : audio_selection,
+            theme_type : theme_type,
+            caption_type : caption_type,
+            affects : affects,
+            background_music_selections : background_music_selections,
+        };
+
+        fetch(endpoint, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+
+            body: JSON.stringify({ data }),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('success')
+                console.log(data)
+            })
+            .catch((error) => {
+                console.log("Error:", error);
+            });
+    });
+</script>

@@ -1,0 +1,10 @@
+{
+    "time": 10875,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 6,
+    "chapter": 1,
+    "speech": "Why not you, when you have the heart to face the impossible, the spirit to forge paths where none existed, and the determination to keep going no matter what? ",
+    "asr_speech": " Why not you when you have the heart to face the impossible? The spirit to forge paths were nonexistent, and the determination to keep going, no matter what.",
+    "wer": 0.27586206896551724,
+    "silence": 250
+}

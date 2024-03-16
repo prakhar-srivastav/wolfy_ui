@@ -1,0 +1,10 @@
+{
+    "time": 8741,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/zig3.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "We get so caught up in fearing what others might think of us.  \"What if they think I'm too much? What if they say I'm obsessed or too competitive?\" ",
+    "asr_speech": " We get so caught up in fearing what others might think of us. What if they think I'm too much? What if they say I'm obsessed or too competitive?",
+    "wer": 0.06896551724137931,
+    "silence": 250
+}

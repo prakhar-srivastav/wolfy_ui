@@ -1,0 +1,10 @@
+{
+    "time": 5115,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/zig3.wav",
+    "rank": 9,
+    "chapter": 1,
+    "speech": "It's not about being unapproachable; it's about respecting the process, respecting the transformation.\n",
+    "asr_speech": " It's not about being unapproachable, it's about respecting the process, respecting the transformation.",
+    "wer": 0.07692307692307693,
+    "silence": 250
+}

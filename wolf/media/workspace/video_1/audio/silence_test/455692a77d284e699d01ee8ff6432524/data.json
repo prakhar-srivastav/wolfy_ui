@@ -1,0 +1,10 @@
+{
+    "time": 10320,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "You don't need perfect conditions to start; you need the courage to believe that despite the odds, despite the limitations, you have the power to shape your journey. ",
+    "asr_speech": " You don't need perfect conditions to start. You need the courage to believe that despite the odds, despite the limitations, you have the power to shape your journey.",
+    "wer": 0.07142857142857142,
+    "silence": 250
+}
