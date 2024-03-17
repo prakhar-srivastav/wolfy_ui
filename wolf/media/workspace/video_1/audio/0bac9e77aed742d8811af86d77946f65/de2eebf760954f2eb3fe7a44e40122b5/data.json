@@ -1,0 +1,10 @@
+{
+    "time": 15291,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 8,
+    "chapter": 1,
+    "speech": "Quantum computers, for example, leverage superposition and entanglement to perform calculations at speeds unattainable by classical computers, potentially revolutionizing fields like cryptography, material science, and complex system simulation.\n\n",
+    "asr_speech": " Quantum computers, for example, leverage superposition and entanglement to perform calculations at speeds unattainable by classical computers, potentially revolutionizing fields like photography, material science, and complex system simulation.",
+    "wer": 0.03571428571428571,
+    "silence": 250
+}

@@ -1,0 +1,138 @@
+{
+    "time": 14128,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "obsession becomes not just a part of the journey, but the journey itself.  You've got to be so deeply engrossed in your craft that the world thinks you're a little crazy.  Why?  Because true mastery demands it. ",
+    "asr_speech": " obsession becomes not just a part of the journey, but the journey itself. You've got to be so deeply engrossed in your crap that the world thinks you're a little crazy. Why? Because true mastery demands it.",
+    "wer": 0.02702702702702703,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " obsession becomes not just a part of the journey, but the journey itself. You've got to be so deeply engrossed in your crap that the world thinks you're a little crazy. Why? Because true mastery demands it.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.16,
+                "text": " obsession becomes not just a part of the journey, but the journey itself.",
+                "tokens": [
+                    50364,
+                    30521,
+                    3643,
+                    406,
+                    445,
+                    257,
+                    644,
+                    295,
+                    264,
+                    4671,
+                    11,
+                    457,
+                    264,
+                    4671,
+                    2564,
+                    13,
+                    50572
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26962122423895474,
+                "compression_ratio": 1.355263157894737,
+                "no_speech_prob": 0.05020283907651901
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.16,
+                "end": 9.32,
+                "text": " You've got to be so deeply engrossed in your crap that the world thinks you're a little",
+                "tokens": [
+                    50572,
+                    509,
+                    600,
+                    658,
+                    281,
+                    312,
+                    370,
+                    8760,
+                    465,
+                    861,
+                    772,
+                    292,
+                    294,
+                    428,
+                    12426,
+                    300,
+                    264,
+                    1002,
+                    7309,
+                    291,
+                    434,
+                    257,
+                    707,
+                    50830
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26962122423895474,
+                "compression_ratio": 1.355263157894737,
+                "no_speech_prob": 0.05020283907651901
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 9.32,
+                "end": 10.32,
+                "text": " crazy.",
+                "tokens": [
+                    50830,
+                    3219,
+                    13,
+                    50880
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26962122423895474,
+                "compression_ratio": 1.355263157894737,
+                "no_speech_prob": 0.05020283907651901
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 10.32,
+                "end": 11.4,
+                "text": " Why?",
+                "tokens": [
+                    50880,
+                    1545,
+                    30,
+                    50934
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26962122423895474,
+                "compression_ratio": 1.355263157894737,
+                "no_speech_prob": 0.05020283907651901
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 11.4,
+                "end": 13.280000000000001,
+                "text": " Because true mastery demands it.",
+                "tokens": [
+                    50934,
+                    1436,
+                    2074,
+                    37951,
+                    15107,
+                    309,
+                    13,
+                    51028
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26962122423895474,
+                "compression_ratio": 1.355263157894737,
+                "no_speech_prob": 0.05020283907651901
+            }
+        ],
+        "language": "en"
+    }
+}

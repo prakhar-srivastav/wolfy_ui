@@ -9,8 +9,10 @@ from pydub import AudioSegment
 from pydub.playback import play
 from jiwer import wer
 import json
-from django.conf import settings
-
+import sys
+sys.path.append('/home/prakharrrr4/wolfy_ui/wolf/wolf')
+import setting2 as settings
+# from django.conf import settings
 
 """
 AudioAudit :
@@ -245,7 +247,7 @@ class WolfyTTSMiddleware(object):
                             ):
 
             time = self.save_with_silence(text=text, file_path= file_path, speaker_wav=speaker_wav, silence = silence)
-            asr_speech, wer = self.get_asr_and_wer(text, file_path)
+            asr_speech, wer, segment_timestamps = self.get_asr_and_wer(text, file_path)
             data = {
                 'time' : time,
                 'speaker' : speaker_wav,
@@ -254,7 +256,8 @@ class WolfyTTSMiddleware(object):
                 'speech' : text,
                 'asr_speech' : asr_speech,
                 'wer' : wer,
-                'silence' : silence
+                'silence' : silence,
+                'segment_timestamps' : segment_timestamps
             }
             data_path = file_path.replace("speech.wav","data.json")
             self.save_json(data, data_path)
@@ -266,7 +269,7 @@ class WolfyTTSMiddleware(object):
         if not hasattr(self, 'asr_model'):
             self.asr_model = whisper.load_model("base")
         result = self.asr_model.transcribe(audio_file)
-        return result['text'], wer(text, result['text'])
+        return result['text'], wer(text, result['text']), result
 
 
     def get_folder_path(self):

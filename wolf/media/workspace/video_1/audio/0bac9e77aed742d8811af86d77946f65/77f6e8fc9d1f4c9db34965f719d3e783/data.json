@@ -1,0 +1,10 @@
+{
+    "time": 10971,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "In quantum mechanics, particles such as electrons, photons, or even atoms can exist in multiple states simultaneously, a phenomenon known as quantum superposition. ",
+    "asr_speech": " quantum mechanics, particles such as electrons, photons, or even atoms that exist in multiple states simultaneously, a phenomenon known as quantum superposition.",
+    "wer": 0.08695652173913043,
+    "silence": 250
+}

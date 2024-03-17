@@ -1,0 +1,10 @@
+{
+    "time": 8645,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "This means if you change the state of one particle, the state of its entangled partner will change in response instantly, even if they are light-years apart. ",
+    "asr_speech": " This means if you change the state of one particle, the state of its entangled partner will change in response instantly, even if they are light years apart.",
+    "wer": 0.07407407407407407,
+    "silence": 250
+}

@@ -1,0 +1,77 @@
+{
+    "time": 9392,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "It's about becoming so intertwined with your purpose that nothing else matters.  That's the hallmark of the truly dedicated, the sign of the truly great.",
+    "asr_speech": " It's about becoming so intertwined with your purpose that nothing else matters. That's the hallmark of the truly dedicated, the sign of the truly great",
+    "wer": 0.04,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " It's about becoming so intertwined with your purpose that nothing else matters. That's the hallmark of the truly dedicated, the sign of the truly great",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.32,
+                "text": " It's about becoming so intertwined with your purpose that nothing else matters.",
+                "tokens": [
+                    50364,
+                    467,
+                    311,
+                    466,
+                    5617,
+                    370,
+                    44400,
+                    2001,
+                    365,
+                    428,
+                    4334,
+                    300,
+                    1825,
+                    1646,
+                    7001,
+                    13,
+                    50580
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2205535570780436,
+                "compression_ratio": 1.3130434782608695,
+                "no_speech_prob": 0.014260570518672466
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.32,
+                "end": 8.6,
+                "text": " That's the hallmark of the truly dedicated, the sign of the truly great",
+                "tokens": [
+                    50580,
+                    663,
+                    311,
+                    264,
+                    6500,
+                    5638,
+                    295,
+                    264,
+                    4908,
+                    8374,
+                    11,
+                    264,
+                    1465,
+                    295,
+                    264,
+                    4908,
+                    869,
+                    50794
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2205535570780436,
+                "compression_ratio": 1.3130434782608695,
+                "no_speech_prob": 0.014260570518672466
+            }
+        ],
+        "language": "en"
+    }
+}

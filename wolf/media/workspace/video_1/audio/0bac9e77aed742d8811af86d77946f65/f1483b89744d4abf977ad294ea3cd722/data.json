@@ -1,0 +1,10 @@
+{
+    "time": 11760,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "This principle is famously illustrated by the thought experiment known as Schr\u00f6dinger's cat, where a cat in a box can be considered both alive and dead at the same time, until observed.\n\n",
+    "asr_speech": " This principle is famously illustrated by the thought experiment known as Schrodinger's cat, where a cat in a box can be considered both alive and dead at the same time until observed.",
+    "wer": 0.0625,
+    "silence": 250
+}

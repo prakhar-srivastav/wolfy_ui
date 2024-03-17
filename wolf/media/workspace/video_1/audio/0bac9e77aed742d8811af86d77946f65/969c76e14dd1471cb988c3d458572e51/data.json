@@ -1,0 +1,10 @@
+{
+    "time": 8091,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 6,
+    "chapter": 1,
+    "speech": "This phenomenon has been proven through numerous experiments and is a fundamental aspect of quantum physics, challenging our classical notions of space and time.\n\n",
+    "asr_speech": " This phenomenon has been proven through numerous experiments and is a fundamental aspect of quantum physics, challenging our classical notions of space and time.",
+    "wer": 0.0,
+    "silence": 250
+}

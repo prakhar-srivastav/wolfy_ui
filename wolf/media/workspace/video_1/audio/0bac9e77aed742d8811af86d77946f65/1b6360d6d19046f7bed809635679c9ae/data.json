@@ -1,0 +1,10 @@
+{
+    "time": 6843,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "Linked with superposition is the concept of quantum entanglement, which Albert Einstein referred to as \"spooky action at a distance.\" ",
+    "asr_speech": " Link with superposition is the concept of quantum entanglement, which Albert Einstein referred to as spooky action at a distance.",
+    "wer": 0.15,
+    "silence": 250
+}

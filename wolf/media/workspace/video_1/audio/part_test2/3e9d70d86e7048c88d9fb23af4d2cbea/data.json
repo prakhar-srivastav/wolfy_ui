@@ -1,0 +1,103 @@
+{
+    "time": 17477,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "While others are caught up in the trivial, the games, the day-to-day distractions, you're laser-focused, counting your steps towards greatness, living in sequences and numbers.  This isn't for everyone. ",
+    "asr_speech": " While others are caught up in the trivial, the gains, the day-to-day distractions, your laser focused, counting your steps towards greatness, living in sequences and numbers. This isn't for everyone.",
+    "wer": 0.13793103448275862,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " While others are caught up in the trivial, the gains, the day-to-day distractions, your laser focused, counting your steps towards greatness, living in sequences and numbers. This isn't for everyone.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 7.0,
+                "text": " While others are caught up in the trivial, the gains, the day-to-day distractions, your",
+                "tokens": [
+                    50364,
+                    3987,
+                    2357,
+                    366,
+                    5415,
+                    493,
+                    294,
+                    264,
+                    26703,
+                    11,
+                    264,
+                    16823,
+                    11,
+                    264,
+                    786,
+                    12,
+                    1353,
+                    12,
+                    810,
+                    37887,
+                    11,
+                    428,
+                    50714
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22104691485969388,
+                "compression_ratio": 1.3916083916083917,
+                "no_speech_prob": 0.006082430481910706
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 7.0,
+                "end": 15.6,
+                "text": " laser focused, counting your steps towards greatness, living in sequences and numbers.",
+                "tokens": [
+                    50714,
+                    12530,
+                    5178,
+                    11,
+                    13251,
+                    428,
+                    4439,
+                    3030,
+                    31196,
+                    11,
+                    2647,
+                    294,
+                    22978,
+                    293,
+                    3547,
+                    13,
+                    51144
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22104691485969388,
+                "compression_ratio": 1.3916083916083917,
+                "no_speech_prob": 0.006082430481910706
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 15.6,
+                "end": 16.6,
+                "text": " This isn't for everyone.",
+                "tokens": [
+                    51144,
+                    639,
+                    1943,
+                    380,
+                    337,
+                    1518,
+                    13,
+                    51194
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22104691485969388,
+                "compression_ratio": 1.3916083916083917,
+                "no_speech_prob": 0.006082430481910706
+            }
+        ],
+        "language": "en"
+    }
+}

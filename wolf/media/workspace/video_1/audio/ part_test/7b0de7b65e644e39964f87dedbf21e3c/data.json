@@ -1,0 +1,140 @@
+{
+    "time": 15152,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "Conversations, events, even time, it all just blurs.  All that remains is you and your passion, your craft, your destiny.  This level of dedication is misunderstood by many, but it's not about them.  It's about you. ",
+    "asr_speech": " conversations, events, even time. It all just blurs. All that remains is you and your passion, your craft, your destiny. This level of dedication is misunderstood by many, but it's not about them. It's about you.",
+    "wer": 0.08333333333333333,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " conversations, events, even time. It all just blurs. All that remains is you and your passion, your craft, your destiny. This level of dedication is misunderstood by many, but it's not about them. It's about you.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.82,
+                "text": " conversations, events, even time.",
+                "tokens": [
+                    50364,
+                    7315,
+                    11,
+                    3931,
+                    11,
+                    754,
+                    565,
+                    13,
+                    50505
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2994051933288574,
+                "compression_ratio": 1.4324324324324325,
+                "no_speech_prob": 0.14361783862113953
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 2.82,
+                "end": 4.42,
+                "text": " It all just blurs.",
+                "tokens": [
+                    50505,
+                    467,
+                    439,
+                    445,
+                    888,
+                    2156,
+                    13,
+                    50585
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2994051933288574,
+                "compression_ratio": 1.4324324324324325,
+                "no_speech_prob": 0.14361783862113953
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 4.42,
+                "end": 8.74,
+                "text": " All that remains is you and your passion, your craft, your destiny.",
+                "tokens": [
+                    50585,
+                    1057,
+                    300,
+                    7023,
+                    307,
+                    291,
+                    293,
+                    428,
+                    5418,
+                    11,
+                    428,
+                    8448,
+                    11,
+                    428,
+                    17893,
+                    13,
+                    50801
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2994051933288574,
+                "compression_ratio": 1.4324324324324325,
+                "no_speech_prob": 0.14361783862113953
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 8.74,
+                "end": 13.3,
+                "text": " This level of dedication is misunderstood by many, but it's not about them.",
+                "tokens": [
+                    50801,
+                    639,
+                    1496,
+                    295,
+                    21813,
+                    307,
+                    33870,
+                    538,
+                    867,
+                    11,
+                    457,
+                    309,
+                    311,
+                    406,
+                    466,
+                    552,
+                    13,
+                    51029
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2994051933288574,
+                "compression_ratio": 1.4324324324324325,
+                "no_speech_prob": 0.14361783862113953
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 13.3,
+                "end": 14.38,
+                "text": " It's about you.",
+                "tokens": [
+                    51029,
+                    467,
+                    311,
+                    466,
+                    291,
+                    13,
+                    51083
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2994051933288574,
+                "compression_ratio": 1.4324324324324325,
+                "no_speech_prob": 0.14361783862113953
+            }
+        ],
+        "language": "en"
+    }
+}

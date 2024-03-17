@@ -1,0 +1,10 @@
+{
+    "time": 15056,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 9,
+    "chapter": 1,
+    "speech": "This interplay of superposition and entanglement illustrates the rich, albeit unintuitive, nature of quantum mechanics, where the fundamental principles governing the micro-world offer both profound scientific insights and groundbreaking practical applications.",
+    "asr_speech": " This interplay of superposition and entanglement illustrates the rich, albeit unintuitive, nature-quantum mechanics, where the fundamental principles governing the micro world offer both profound scientific insights and groundbreaking practical applications.",
+    "wer": 0.16129032258064516,
+    "silence": 250
+}

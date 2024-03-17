@@ -12,6 +12,7 @@ import os
 import json
 import uuid
 
+
 def get_video_theme_choices():
     PATH = os.path.join(settings.MEDIA_ROOT,'data/video_theme')
     themes = [x.replace('.py','') for x in os.listdir(PATH)]
@@ -109,6 +110,7 @@ def control_panel(request):
             }
     return render(request, 'workspace/control_panel/display_workspace.html', context)
 
+
 @csrf_exempt
 def generate_free_flow_video(request):
     data = json.loads(request.body.decode('utf-8'))['data']
@@ -127,7 +129,6 @@ def generate_free_flow_video(request):
     step 5: Prepare and send descriptions
     """
     return HttpResponse('true')
-
 
 def workspace(request):
     context = {

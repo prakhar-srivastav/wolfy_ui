@@ -1,0 +1,134 @@
+{
+    "time": 16453,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "It's for those who dare to distance themselves from the comfort of 'normal' and dive deep into the abyss of excellence.  You see, when you commit to your dream, really commit, everything else fades into the background. ",
+    "asr_speech": " It's for those who dare to distance themselves from the comfort of normal and dive deep into the abyss of excellence. You see, when you commit to your dream, really commit everything else fades into the background.",
+    "wer": 0.05405405405405406,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " It's for those who dare to distance themselves from the comfort of normal and dive deep into the abyss of excellence. You see, when you commit to your dream, really commit everything else fades into the background.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.68,
+                "text": " It's for those who dare to distance themselves",
+                "tokens": [
+                    50364,
+                    467,
+                    311,
+                    337,
+                    729,
+                    567,
+                    8955,
+                    281,
+                    4560,
+                    2969,
+                    50498
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.16277399769535772,
+                "compression_ratio": 1.436241610738255,
+                "no_speech_prob": 0.004189920146018267
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 2.68,
+                "end": 5.76,
+                "text": " from the comfort of normal and dive deep",
+                "tokens": [
+                    50498,
+                    490,
+                    264,
+                    3400,
+                    295,
+                    2710,
+                    293,
+                    9192,
+                    2452,
+                    50652
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.16277399769535772,
+                "compression_ratio": 1.436241610738255,
+                "no_speech_prob": 0.004189920146018267
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 5.76,
+                "end": 7.48,
+                "text": " into the abyss of excellence.",
+                "tokens": [
+                    50652,
+                    666,
+                    264,
+                    410,
+                    31059,
+                    295,
+                    21268,
+                    13,
+                    50738
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.16277399769535772,
+                "compression_ratio": 1.436241610738255,
+                "no_speech_prob": 0.004189920146018267
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 8.44,
+                "end": 11.48,
+                "text": " You see, when you commit to your dream,",
+                "tokens": [
+                    50786,
+                    509,
+                    536,
+                    11,
+                    562,
+                    291,
+                    5599,
+                    281,
+                    428,
+                    3055,
+                    11,
+                    50938
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.16277399769535772,
+                "compression_ratio": 1.436241610738255,
+                "no_speech_prob": 0.004189920146018267
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 11.48,
+                "end": 16.48,
+                "text": " really commit everything else fades into the background.",
+                "tokens": [
+                    50938,
+                    534,
+                    5599,
+                    1203,
+                    1646,
+                    32679,
+                    666,
+                    264,
+                    3678,
+                    13,
+                    51188
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.16277399769535772,
+                "compression_ratio": 1.436241610738255,
+                "no_speech_prob": 0.004189920146018267
+            }
+        ],
+        "language": "en"
+    }
+}
