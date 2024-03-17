@@ -1,4 +1,4 @@
-import utility
+import utility, defaults
 import sys
 import os
 parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -6,6 +6,66 @@ sys.path.append(parent_dir)
 
 from audio_generator import WolfyTTSMiddleware
 
+from moviepy.editor import TextClip, AudioClip, VideoClip, AudioFileClip, VideoFileClip, CompositeAudioClip, ImageSequenceClip, ImageClip, CompositeVideoClip
+from moviepy.editor import concatenate_audioclips, concatenate_videoclips
+import moviepy.video.fx.all as vfx
+import random
+
+
+def reduce_warmth(clip, strength=0.8):
+    def process_frame(get_frame, t):
+        frame = get_frame(t)
+        frame[:, :, 0] = frame[:, :, 0] * strength
+        return frame
+
+    return clip.fl(process_frame)
+
+
+def create_video(audio_path, subtitle_path, video_path, font_path):
+
+    audio_clip = AudioFileClip(audio_path)
+    image_path = '/home/prakharrrr4/wolfy_ui/wolf/workspace/tracks/assets/images/joker.jpg'
+    image_clip = ImageClip(image_path).set_duration(audio_clip.duration)
+    clips = [image_clip]
+    subtitles = utility.read_json(subtitle_path)
+    for subtitle_data in subtitles:
+
+        start_time = subtitle_data['start']/1000
+        end_time = subtitle_data['end']/1000
+        subtitle = subtitle_data['text']
+        font_size = 60
+        font_path = defaults.ttf_file
+        txt_color = 'white'
+        if len(subtitle) >50:
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, fontsize=60, color=txt_color)
+                        .set_position(('center','center'))
+                        .set_start(start_time)
+                        .set_end(end_time)
+                        .set_duration(end_time-start_time)
+                        .crossfadein(0.5) 
+                        .crossfadeout(0.5)) 
+        elif len(subtitle) > 10:
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, fontsize=100, color=txt_color)
+                    .set_position(('center','center'))
+                    .set_start(start_time)
+                    .set_end(end_time)
+                    .set_duration(end_time-start_time)
+                    .crossfadein(0.5) 
+                    .crossfadeout(0.5))
+        else:
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file_2, fontsize=300, color=txt_color)
+                    .set_position(('center','center'))
+                    .set_start(start_time)
+                    .set_end(end_time)
+                    .set_duration(end_time-start_time)
+                    .crossfadein(0.5) 
+                    .crossfadeout(0.5))
+        clips.append(txt_clip)
+    clips[0] = vfx.lum_contrast(clips[0], lum = 20, contrast = 0.4)
+    clips[0] = reduce_warmth(clips[0])
+    final_video = CompositeVideoClip(clips).set_audio(audio_clip)
+    # final_video = vfx.lum_contrast(final_video)
+    final_video.write_videofile(video_path, fps=24, codec="libx264")
 
 def _make_(argument_map):
     workspace = argument_map.get('workspace')
@@ -21,11 +81,12 @@ def _make_(argument_map):
         data_files.append(values['data'])
     
     c_audio = utility.get_hash() + '.wav'
-    c_sub = utility.get_hash() + '.sub'
-    c_video = utility.get_hash() + 'mp4'
+    c_sub = utility.get_hash() + '.json'
+    c_video = utility.get_hash() + '.mp4'
 
-    utility.combine_audio(audio_files, c_audio, intro_silence = 1)
-    # utility.make_subtitles(c_audio, c_sub)
+    utility.combine_audio(audio_files, c_audio)
+    subtitles = wolfy_tts_middleware.get_subtitles()
+    utility.save_json(subtitles, c_sub)
     utility.add_reverb(c_audio)
 
     create_video(c_audio, c_sub, c_video, data_files)

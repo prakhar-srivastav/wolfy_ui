@@ -265,7 +265,7 @@ class WolfyTTSMiddleware(object):
 
     def get_asr_and_wer(self, text, audio_file):
         if text == "":
-            return "" , 0.0
+            return "" , 0.0, None
         if not hasattr(self, 'asr_model'):
             self.asr_model = whisper.load_model("base")
         result = self.asr_model.transcribe(audio_file)
@@ -488,6 +488,23 @@ class WolfyTTSMiddleware(object):
                             )
 
 
+    def get_subtitles(self):
+        context = self.get_internal_context()
+        subs = []
+        timer = 0
+        for key, value in context.items():
+            data = self.read_json(value['data'])
+            if 'segment_timestamps' in data.keys():
+                for segment in data['segment_timestamps']['segments']:
+                    subs.append({
+                        'start' : timer + segment['start'] * 1000,
+                        'end' : timer + segment['end'] * 1000,
+                        'text' : segment['text']
+                    })
+            timer += value['time']
+
+        return subs
+
 # obj = WolfyTTSMiddleware('video_test')
 # text ="""Let me tell. You are a champion. """
 # speaker_name = "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav"
@@ -502,4 +519,5 @@ class WolfyTTSMiddleware(object):
 # obj.improvise() -> refactors the audio files with the bad timings vector given
 #     obj.regenerate_ny_ids([ids]) -> refactors the audio files and returns the corrected context of only those ids
 #     obj.save_file(filename) -> renames the space to `filename` and mutates the _id_ attribute
+#     obj.get_subtitles()
 # """
