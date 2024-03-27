@@ -1,0 +1,70 @@
+{
+    "time": 6331,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 6,
+    "chapter": 11,
+    "speech": "Let's get it.  Let's breathe this game, live this game, and show them what we're really made of.",
+    "asr_speech": " Let's get it. Let's breathe this game. Live this game and show them what we're really made of.",
+    "wer": 0.16666666666666666,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Let's get it. Let's breathe this game. Live this game and show them what we're really made of.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.62,
+                "text": " Let's get it. Let's breathe this game.",
+                "tokens": [
+                    50364,
+                    961,
+                    311,
+                    483,
+                    309,
+                    13,
+                    961,
+                    311,
+                    10192,
+                    341,
+                    1216,
+                    13,
+                    50495
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2837164648647966,
+                "compression_ratio": 1.1898734177215189,
+                "no_speech_prob": 0.007771446369588375
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 2.62,
+                "end": 5.54,
+                "text": " Live this game and show them what we're really made of.",
+                "tokens": [
+                    50495,
+                    10385,
+                    341,
+                    1216,
+                    293,
+                    855,
+                    552,
+                    437,
+                    321,
+                    434,
+                    534,
+                    1027,
+                    295,
+                    13,
+                    50641
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2837164648647966,
+                "compression_ratio": 1.1898734177215189,
+                "no_speech_prob": 0.007771446369588375
+            }
+        ],
+        "language": "en"
+    }
+}

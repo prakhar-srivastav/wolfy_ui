@@ -1,0 +1,64 @@
+{
+    "time": 8368,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Know thyself, know thy enemy.  A thousand battles, a thousand victories.",
+    "asr_speech": " Know thyself, know thye enemy, a thousand battles, a thousand victories.",
+    "wer": 0.2727272727272727,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Know thyself, know thye enemy, a thousand battles, a thousand victories.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.56,
+                "text": " Know thyself, know thye enemy,",
+                "tokens": [
+                    50364,
+                    10265,
+                    258,
+                    749,
+                    1967,
+                    11,
+                    458,
+                    258,
+                    1200,
+                    5945,
+                    11,
+                    50542
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.3903546540633492,
+                "compression_ratio": 1.1612903225806452,
+                "no_speech_prob": 0.04354622960090637
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.56,
+                "end": 7.5600000000000005,
+                "text": " a thousand battles, a thousand victories.",
+                "tokens": [
+                    50542,
+                    257,
+                    4714,
+                    14648,
+                    11,
+                    257,
+                    4714,
+                    38259,
+                    13,
+                    50742
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.3903546540633492,
+                "compression_ratio": 1.1612903225806452,
+                "no_speech_prob": 0.04354622960090637
+            }
+        ],
+        "language": "en"
+    }
+}

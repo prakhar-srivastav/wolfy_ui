@@ -10,6 +10,7 @@
 {% if instance_name == "" %}
 <textarea id="instance_text_area" name="message" rows="1" cols="30"> </textarea>
 <button id="save_instance" type="submit">Save Instance</button>
+
 {% else %}
 <h2> {{instance_name}} </h2>
 {% endif %}
@@ -22,6 +23,7 @@
         <th>TIME</th>
         <th>SPEAKER</th>
         <th>REGENERATE</th>
+        <th>DELETE</th>
       </tr>
     
     {% for key, cur_row in content_context.items %}
@@ -32,6 +34,9 @@
         {% endwith %}
     {% endfor %}
 </table>
+
+<button id="delete_selection" type="submit">Delete Selections</button>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script>
@@ -128,6 +133,43 @@
 </script>
 
 <script>
-    
+document.getElementById("delete_selection").addEventListener("click", function () {
+        this.disabled = true;
+        var table = document.getElementById("audit_view")
+        var rows = document.getElementsByTagName("tr")
+
+        to_delete = [];
+
+        for(var i =1; i< rows.length; i++)
+        {
+            rows[i]
+            delete_box = rows[i].querySelector("input#delete_button")
+            if (delete_box.checked)
+            {
+                to_delete.push(rows[i].id);
+            }
+        }
+        endpoint = "api/delete_selection/";
+        const data = {
+            '_ids_': to_delete,
+        };
+
+        fetch(endpoint, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                    },
+            body: JSON.stringify({ data }),
+            })
+            .then((response) => response.json())
+            .then((data) => {
+                location.reload(true)
+            })
+            .catch((error) => {
+                console.log("Error:", error);
+            });
+        });    
+
+
 </script>
 {% endblock %}

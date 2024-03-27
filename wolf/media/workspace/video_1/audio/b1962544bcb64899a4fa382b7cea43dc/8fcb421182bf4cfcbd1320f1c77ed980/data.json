@@ -1,0 +1,66 @@
+{
+    "time": 11067,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Your limitation\u2014it's only your imagination.  Push beyond, and you'll discover worlds you've never dreamed of",
+    "asr_speech": " Your limitation is only your imagination. Push beyond and you'll discover worlds you've never dreamed of.",
+    "wer": 0.26666666666666666,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Your limitation is only your imagination. Push beyond and you'll discover worlds you've never dreamed of.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.0,
+                "text": " Your limitation is only your imagination.",
+                "tokens": [
+                    50364,
+                    2260,
+                    27432,
+                    307,
+                    787,
+                    428,
+                    12938,
+                    13,
+                    50614
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.3426777648925781,
+                "compression_ratio": 1.1666666666666667,
+                "no_speech_prob": 0.05593192204833031
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.2,
+                "end": 11.200000000000001,
+                "text": " Push beyond and you'll discover worlds you've never dreamed of.",
+                "tokens": [
+                    50674,
+                    18229,
+                    4399,
+                    293,
+                    291,
+                    603,
+                    4411,
+                    13401,
+                    291,
+                    600,
+                    1128,
+                    26726,
+                    295,
+                    13,
+                    50924
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.3426777648925781,
+                "compression_ratio": 1.1666666666666667,
+                "no_speech_prob": 0.05593192204833031
+            }
+        ],
+        "language": "en"
+    }
+}

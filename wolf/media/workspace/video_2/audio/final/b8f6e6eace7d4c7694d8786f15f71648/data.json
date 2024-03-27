@@ -1,0 +1,103 @@
+{
+    "time": 16496,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 3,
+    "chapter": 2,
+    "speech": "It's for those who dare to distance themselves from the comfort of 'normal' and dive deep into the abyss of excellence.  You see, when you commit to your dream, really commit, everything else fades into the background. ",
+    "asr_speech": " as for those who dare to distance themselves from the comfort of normal and dive deep into the abyss of excellence. You see, when you commit to your dream, really commit everything else fades into the background.",
+    "wer": 0.08108108108108109,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " as for those who dare to distance themselves from the comfort of normal and dive deep into the abyss of excellence. You see, when you commit to your dream, really commit everything else fades into the background.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 6.36,
+                "text": " as for those who dare to distance themselves from the comfort of normal and dive deep into",
+                "tokens": [
+                    50364,
+                    382,
+                    337,
+                    729,
+                    567,
+                    8955,
+                    281,
+                    4560,
+                    2969,
+                    490,
+                    264,
+                    3400,
+                    295,
+                    2710,
+                    293,
+                    9192,
+                    2452,
+                    666,
+                    50682
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22055188003851442,
+                "compression_ratio": 1.4620689655172414,
+                "no_speech_prob": 0.024269115179777145
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.36,
+                "end": 9.32,
+                "text": " the abyss of excellence.",
+                "tokens": [
+                    50682,
+                    264,
+                    410,
+                    31059,
+                    295,
+                    21268,
+                    13,
+                    50830
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22055188003851442,
+                "compression_ratio": 1.4620689655172414,
+                "no_speech_prob": 0.024269115179777145
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 9.32,
+                "end": 15.68,
+                "text": " You see, when you commit to your dream, really commit everything else fades into the background.",
+                "tokens": [
+                    50830,
+                    509,
+                    536,
+                    11,
+                    562,
+                    291,
+                    5599,
+                    281,
+                    428,
+                    3055,
+                    11,
+                    534,
+                    5599,
+                    1203,
+                    1646,
+                    32679,
+                    666,
+                    264,
+                    3678,
+                    13,
+                    51148
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22055188003851442,
+                "compression_ratio": 1.4620689655172414,
+                "no_speech_prob": 0.024269115179777145
+            }
+        ],
+        "language": "en"
+    }
+}

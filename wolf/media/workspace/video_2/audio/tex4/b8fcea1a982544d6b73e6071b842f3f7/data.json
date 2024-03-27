@@ -1,0 +1,11 @@
+{
+    "time": 3000,
+    "speaker": "",
+    "rank": 3,
+    "chapter": 5,
+    "speech": "",
+    "asr_speech": "",
+    "wer": 0.0,
+    "silence": 3000,
+    "segment_timestamps": null
+}

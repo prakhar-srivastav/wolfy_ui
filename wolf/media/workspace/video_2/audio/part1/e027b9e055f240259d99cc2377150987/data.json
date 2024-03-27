@@ -1,0 +1,119 @@
+{
+    "time": 13573,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 4,
+    "speech": "You've got to understand, stepping out into the unknown is terrifying because all we see are the potential pitfalls, the failures waiting to happen.  But what if I told you that you're limitless? ",
+    "asr_speech": " You've got to understand, stepping out into the unknown is terrifying, because all we see are the potential pitfalls. The failure's waiting to happen. But what if I told you that you're limitless?",
+    "wer": 0.12121212121212122,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " You've got to understand, stepping out into the unknown is terrifying, because all we see are the potential pitfalls. The failure's waiting to happen. But what if I told you that you're limitless?",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.22,
+                "text": " You've got to understand, stepping out into the unknown is terrifying,",
+                "tokens": [
+                    50364,
+                    509,
+                    600,
+                    658,
+                    281,
+                    1223,
+                    11,
+                    16821,
+                    484,
+                    666,
+                    264,
+                    9841,
+                    307,
+                    18106,
+                    11,
+                    50575
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28299803000230056,
+                "compression_ratio": 1.3333333333333333,
+                "no_speech_prob": 0.0085405008867383
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.22,
+                "end": 7.68,
+                "text": " because all we see are the potential pitfalls.",
+                "tokens": [
+                    50575,
+                    570,
+                    439,
+                    321,
+                    536,
+                    366,
+                    264,
+                    3995,
+                    10147,
+                    18542,
+                    13,
+                    50748
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28299803000230056,
+                "compression_ratio": 1.3333333333333333,
+                "no_speech_prob": 0.0085405008867383
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 7.68,
+                "end": 10.14,
+                "text": " The failure's waiting to happen.",
+                "tokens": [
+                    50748,
+                    440,
+                    7763,
+                    311,
+                    3806,
+                    281,
+                    1051,
+                    13,
+                    50871
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28299803000230056,
+                "compression_ratio": 1.3333333333333333,
+                "no_speech_prob": 0.0085405008867383
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 10.14,
+                "end": 12.8,
+                "text": " But what if I told you that you're limitless?",
+                "tokens": [
+                    50871,
+                    583,
+                    437,
+                    498,
+                    286,
+                    1907,
+                    291,
+                    300,
+                    291,
+                    434,
+                    4948,
+                    1832,
+                    30,
+                    51004
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28299803000230056,
+                "compression_ratio": 1.3333333333333333,
+                "no_speech_prob": 0.0085405008867383
+            }
+        ],
+        "language": "en"
+    }
+}

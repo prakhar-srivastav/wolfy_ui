@@ -1,0 +1,886 @@
+{
+    "time": 23250,
+    "speaker": "gpt_cove",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "God is One",
+    "asr_speech": " Dan St. Germain's one of my best friends and he's a hilarious comic and I bring him on the road And he just does little stuff that I'm just like dude that's so fucking funny. He'll get off stage I'll be like that line is so funny and I'm like oh thanks when we filmed because I'm you know put out my special on YouTube Friday March 1st when we filmed that I brought him because I was like let's just keep this like a weekend We're just gonna film this like this is because",
+    "wer": 31.333333333333332,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Dan St. Germain's one of my best friends and he's a hilarious comic and I bring him on the road And he just does little stuff that I'm just like dude that's so fucking funny. He'll get off stage I'll be like that line is so funny and I'm like oh thanks when we filmed because I'm you know put out my special on YouTube Friday March 1st when we filmed that I brought him because I was like let's just keep this like a weekend We're just gonna film this like this is because",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.04,
+                "end": 4.31,
+                "text": " Dan St. Germain's one of my best friends and he's a hilarious comic and I bring him on the road",
+                "tokens": [
+                    50364,
+                    3394,
+                    745,
+                    13,
+                    3848,
+                    491,
+                    311,
+                    472,
+                    295,
+                    452,
+                    1151,
+                    1855,
+                    293,
+                    415,
+                    311,
+                    257,
+                    19796,
+                    13900,
+                    293,
+                    286,
+                    1565,
+                    796,
+                    322,
+                    264,
+                    3060,
+                    50582
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24196604092915852,
+                "compression_ratio": 1.6978417266187051,
+                "no_speech_prob": 0.4833488464355469,
+                "confidence": 0.81,
+                "words": [
+                    {
+                        "text": "Dan",
+                        "start": 0.04,
+                        "end": 0.72,
+                        "confidence": 0.218
+                    },
+                    {
+                        "text": "St.",
+                        "start": 0.72,
+                        "end": 0.92,
+                        "confidence": 0.576
+                    },
+                    {
+                        "text": "Germain's",
+                        "start": 0.96,
+                        "end": 1.36,
+                        "confidence": 0.652
+                    },
+                    {
+                        "text": "one",
+                        "start": 1.36,
+                        "end": 1.44,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "of",
+                        "start": 1.44,
+                        "end": 1.54,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "my",
+                        "start": 1.54,
+                        "end": 1.66,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "best",
+                        "start": 1.66,
+                        "end": 1.86,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "friends",
+                        "start": 1.86,
+                        "end": 2.14,
+                        "confidence": 0.978
+                    },
+                    {
+                        "text": "and",
+                        "start": 2.14,
+                        "end": 2.42,
+                        "confidence": 0.683
+                    },
+                    {
+                        "text": "he's",
+                        "start": 2.42,
+                        "end": 2.62,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "a",
+                        "start": 2.62,
+                        "end": 2.72,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "hilarious",
+                        "start": 2.72,
+                        "end": 3.06,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "comic",
+                        "start": 3.06,
+                        "end": 3.44,
+                        "confidence": 0.969
+                    },
+                    {
+                        "text": "and",
+                        "start": 3.44,
+                        "end": 3.6,
+                        "confidence": 0.766
+                    },
+                    {
+                        "text": "I",
+                        "start": 3.6,
+                        "end": 3.68,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "bring",
+                        "start": 3.68,
+                        "end": 3.82,
+                        "confidence": 0.93
+                    },
+                    {
+                        "text": "him",
+                        "start": 3.82,
+                        "end": 3.94,
+                        "confidence": 0.734
+                    },
+                    {
+                        "text": "on",
+                        "start": 3.94,
+                        "end": 4.04,
+                        "confidence": 0.865
+                    },
+                    {
+                        "text": "the",
+                        "start": 4.04,
+                        "end": 4.16,
+                        "confidence": 0.931
+                    },
+                    {
+                        "text": "road",
+                        "start": 4.16,
+                        "end": 4.31,
+                        "confidence": 0.922
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.31,
+                "end": 8.82,
+                "text": " And he just does little stuff that I'm just like dude that's so fucking funny. He'll get off stage",
+                "tokens": [
+                    50582,
+                    400,
+                    415,
+                    445,
+                    775,
+                    707,
+                    1507,
+                    300,
+                    286,
+                    478,
+                    445,
+                    411,
+                    6449,
+                    300,
+                    311,
+                    370,
+                    5546,
+                    4074,
+                    13,
+                    634,
+                    603,
+                    483,
+                    766,
+                    3233,
+                    50807
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24196604092915852,
+                "compression_ratio": 1.6978417266187051,
+                "no_speech_prob": 0.4833488464355469,
+                "confidence": 0.921,
+                "words": [
+                    {
+                        "text": "And",
+                        "start": 4.31,
+                        "end": 4.52,
+                        "confidence": 0.834
+                    },
+                    {
+                        "text": "he",
+                        "start": 4.52,
+                        "end": 4.62,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "just",
+                        "start": 4.62,
+                        "end": 4.78,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "does",
+                        "start": 4.78,
+                        "end": 4.98,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "little",
+                        "start": 4.98,
+                        "end": 5.26,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "stuff",
+                        "start": 5.26,
+                        "end": 5.56,
+                        "confidence": 1.0
+                    },
+                    {
+                        "text": "that",
+                        "start": 5.56,
+                        "end": 5.8,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "I'm",
+                        "start": 5.8,
+                        "end": 5.92,
+                        "confidence": 0.978
+                    },
+                    {
+                        "text": "just",
+                        "start": 5.92,
+                        "end": 6.06,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "like",
+                        "start": 6.06,
+                        "end": 6.28,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "dude",
+                        "start": 6.28,
+                        "end": 6.48,
+                        "confidence": 0.674
+                    },
+                    {
+                        "text": "that's",
+                        "start": 6.48,
+                        "end": 6.82,
+                        "confidence": 0.619
+                    },
+                    {
+                        "text": "so",
+                        "start": 6.82,
+                        "end": 7.04,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "fucking",
+                        "start": 7.04,
+                        "end": 7.62,
+                        "confidence": 0.967
+                    },
+                    {
+                        "text": "funny.",
+                        "start": 7.62,
+                        "end": 8.04,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "He'll",
+                        "start": 8.1,
+                        "end": 8.34,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "get",
+                        "start": 8.34,
+                        "end": 8.46,
+                        "confidence": 0.961
+                    },
+                    {
+                        "text": "off",
+                        "start": 8.46,
+                        "end": 8.62,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "stage",
+                        "start": 8.62,
+                        "end": 8.82,
+                        "confidence": 0.946
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 8.82,
+                "end": 14.82,
+                "text": " I'll be like that line is so funny and I'm like oh thanks when we filmed because I'm you know put out my special on YouTube",
+                "tokens": [
+                    50807,
+                    286,
+                    603,
+                    312,
+                    411,
+                    300,
+                    1622,
+                    307,
+                    370,
+                    4074,
+                    293,
+                    286,
+                    478,
+                    411,
+                    1954,
+                    3231,
+                    562,
+                    321,
+                    15133,
+                    570,
+                    286,
+                    478,
+                    291,
+                    458,
+                    829,
+                    484,
+                    452,
+                    2121,
+                    322,
+                    3088,
+                    51113
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24196604092915852,
+                "compression_ratio": 1.6978417266187051,
+                "no_speech_prob": 0.4833488464355469,
+                "confidence": 0.785,
+                "words": [
+                    {
+                        "text": "I'll",
+                        "start": 8.82,
+                        "end": 9.06,
+                        "confidence": 0.69
+                    },
+                    {
+                        "text": "be",
+                        "start": 9.06,
+                        "end": 9.14,
+                        "confidence": 0.656
+                    },
+                    {
+                        "text": "like",
+                        "start": 9.14,
+                        "end": 9.22,
+                        "confidence": 0.942
+                    },
+                    {
+                        "text": "that",
+                        "start": 9.22,
+                        "end": 9.42,
+                        "confidence": 0.983
+                    },
+                    {
+                        "text": "line",
+                        "start": 9.42,
+                        "end": 9.98,
+                        "confidence": 0.91
+                    },
+                    {
+                        "text": "is",
+                        "start": 9.98,
+                        "end": 10.22,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "so",
+                        "start": 10.22,
+                        "end": 10.5,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "funny",
+                        "start": 10.5,
+                        "end": 10.86,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "and",
+                        "start": 10.86,
+                        "end": 11.02,
+                        "confidence": 0.336
+                    },
+                    {
+                        "text": "I'm",
+                        "start": 11.02,
+                        "end": 11.1,
+                        "confidence": 0.371
+                    },
+                    {
+                        "text": "like",
+                        "start": 11.1,
+                        "end": 11.24,
+                        "confidence": 0.926
+                    },
+                    {
+                        "text": "oh",
+                        "start": 11.24,
+                        "end": 11.6,
+                        "confidence": 0.586
+                    },
+                    {
+                        "text": "thanks",
+                        "start": 11.6,
+                        "end": 11.88,
+                        "confidence": 0.643
+                    },
+                    {
+                        "text": "when",
+                        "start": 11.88,
+                        "end": 12.36,
+                        "confidence": 0.891
+                    },
+                    {
+                        "text": "we",
+                        "start": 12.36,
+                        "end": 12.5,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "filmed",
+                        "start": 12.5,
+                        "end": 12.78,
+                        "confidence": 0.829
+                    },
+                    {
+                        "text": "because",
+                        "start": 12.78,
+                        "end": 13.08,
+                        "confidence": 0.566
+                    },
+                    {
+                        "text": "I'm",
+                        "start": 13.08,
+                        "end": 13.42,
+                        "confidence": 0.949
+                    },
+                    {
+                        "text": "you",
+                        "start": 13.42,
+                        "end": 13.62,
+                        "confidence": 0.889
+                    },
+                    {
+                        "text": "know",
+                        "start": 13.62,
+                        "end": 13.74,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "put",
+                        "start": 13.74,
+                        "end": 13.9,
+                        "confidence": 0.847
+                    },
+                    {
+                        "text": "out",
+                        "start": 13.9,
+                        "end": 14.02,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "my",
+                        "start": 14.02,
+                        "end": 14.16,
+                        "confidence": 0.978
+                    },
+                    {
+                        "text": "special",
+                        "start": 14.16,
+                        "end": 14.38,
+                        "confidence": 0.969
+                    },
+                    {
+                        "text": "on",
+                        "start": 14.38,
+                        "end": 14.58,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "YouTube",
+                        "start": 14.58,
+                        "end": 14.82,
+                        "confidence": 0.836
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 16.44,
+                "end": 20.92,
+                "text": " Friday March 1st when we filmed that I brought him because I was like let's just keep this like a weekend",
+                "tokens": [
+                    51173,
+                    6984,
+                    6129,
+                    502,
+                    372,
+                    562,
+                    321,
+                    15133,
+                    300,
+                    286,
+                    3038,
+                    796,
+                    570,
+                    286,
+                    390,
+                    411,
+                    718,
+                    311,
+                    445,
+                    1066,
+                    341,
+                    411,
+                    257,
+                    6711,
+                    51415
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24196604092915852,
+                "compression_ratio": 1.6978417266187051,
+                "no_speech_prob": 0.4833488464355469,
+                "confidence": 0.865,
+                "words": [
+                    {
+                        "text": "Friday",
+                        "start": 16.44,
+                        "end": 16.66,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "March",
+                        "start": 16.66,
+                        "end": 16.9,
+                        "confidence": 0.76
+                    },
+                    {
+                        "text": "1st",
+                        "start": 16.9,
+                        "end": 17.52,
+                        "confidence": 0.832
+                    },
+                    {
+                        "text": "when",
+                        "start": 17.52,
+                        "end": 18.12,
+                        "confidence": 0.497
+                    },
+                    {
+                        "text": "we",
+                        "start": 18.12,
+                        "end": 18.24,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "filmed",
+                        "start": 18.24,
+                        "end": 18.5,
+                        "confidence": 0.545
+                    },
+                    {
+                        "text": "that",
+                        "start": 18.5,
+                        "end": 18.72,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "I",
+                        "start": 18.72,
+                        "end": 18.92,
+                        "confidence": 0.944
+                    },
+                    {
+                        "text": "brought",
+                        "start": 18.92,
+                        "end": 19.1,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "him",
+                        "start": 19.1,
+                        "end": 19.32,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "because",
+                        "start": 19.32,
+                        "end": 19.54,
+                        "confidence": 0.567
+                    },
+                    {
+                        "text": "I",
+                        "start": 19.54,
+                        "end": 19.64,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "was",
+                        "start": 19.64,
+                        "end": 19.72,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "like",
+                        "start": 19.72,
+                        "end": 19.8,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "let's",
+                        "start": 19.8,
+                        "end": 20.02,
+                        "confidence": 0.872
+                    },
+                    {
+                        "text": "just",
+                        "start": 20.02,
+                        "end": 20.12,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "keep",
+                        "start": 20.12,
+                        "end": 20.26,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "this",
+                        "start": 20.26,
+                        "end": 20.4,
+                        "confidence": 0.671
+                    },
+                    {
+                        "text": "like",
+                        "start": 20.4,
+                        "end": 20.54,
+                        "confidence": 0.983
+                    },
+                    {
+                        "text": "a",
+                        "start": 20.54,
+                        "end": 20.66,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "weekend",
+                        "start": 20.66,
+                        "end": 20.92,
+                        "confidence": 0.99
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 20.92,
+                "end": 22.98,
+                "text": " We're just gonna film this like this is because",
+                "tokens": [
+                    51415,
+                    492,
+                    434,
+                    445,
+                    799,
+                    2007,
+                    341,
+                    411,
+                    341,
+                    307,
+                    570,
+                    51515
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24196604092915852,
+                "compression_ratio": 1.6978417266187051,
+                "no_speech_prob": 0.4833488464355469,
+                "confidence": 0.883,
+                "words": [
+                    {
+                        "text": "We're",
+                        "start": 20.92,
+                        "end": 21.5,
+                        "confidence": 0.961
+                    },
+                    {
+                        "text": "just",
+                        "start": 21.5,
+                        "end": 21.62,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "gonna",
+                        "start": 21.62,
+                        "end": 21.74,
+                        "confidence": 0.795
+                    },
+                    {
+                        "text": "film",
+                        "start": 21.74,
+                        "end": 21.96,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "this",
+                        "start": 21.96,
+                        "end": 22.12,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "like",
+                        "start": 22.12,
+                        "end": 22.3,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "this",
+                        "start": 22.3,
+                        "end": 22.48,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "is",
+                        "start": 22.48,
+                        "end": 22.66,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "because",
+                        "start": 22.66,
+                        "end": 22.98,
+                        "confidence": 0.428
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9989572763442993,
+            "zh": 6.808229954913259e-05,
+            "de": 4.827758311876096e-05,
+            "es": 8.472979243379086e-05,
+            "ru": 2.352861520193983e-05,
+            "ko": 9.452291851630434e-05,
+            "fr": 7.13496410753578e-05,
+            "ja": 0.00011948815517826006,
+            "pt": 0.00014413023018278182,
+            "tr": 2.0125091396039352e-05,
+            "pl": 5.6002976634772494e-05,
+            "ca": 4.3094163970636146e-07,
+            "nl": 8.65569290908752e-06,
+            "ar": 2.4605990347481566e-06,
+            "sv": 3.7813922517671017e-06,
+            "it": 4.633058779290877e-06,
+            "id": 1.0278889931214508e-05,
+            "hi": 2.33455139095895e-05,
+            "fi": 4.318485935073113e-06,
+            "vi": 4.561229616228957e-06,
+            "he": 5.447612352327269e-07,
+            "uk": 1.3040697410815483e-07,
+            "el": 1.3695296274818247e-06,
+            "ms": 1.7348913388559595e-05,
+            "cs": 2.0882830540358555e-06,
+            "ro": 7.090104503504335e-08,
+            "da": 1.0665906984286266e-06,
+            "hu": 8.241974569500599e-07,
+            "ta": 5.545045496546663e-06,
+            "no": 5.983031883260992e-07,
+            "th": 4.2273262806702405e-05,
+            "ur": 3.7813922517671017e-06,
+            "hr": 2.1669104910415626e-07,
+            "bg": 7.034928728444356e-08,
+            "lt": 1.225060088927421e-07,
+            "la": 4.3957239540759474e-05,
+            "mi": 1.2111492651456501e-05,
+            "ml": 2.2756819362257374e-06,
+            "cy": 4.1617877286626026e-05,
+            "sk": 1.7141672969955835e-07,
+            "te": 5.117558430356439e-07,
+            "fa": 2.083897641114163e-07,
+            "lv": 5.3518910192451585e-08,
+            "bn": 8.306616905429109e-07,
+            "sr": 5.8321607099287576e-08,
+            "az": 2.3935138315778204e-08,
+            "sl": 4.960107844453887e-07,
+            "kn": 9.691022739843902e-08,
+            "et": 1.062115373429151e-08,
+            "mk": 1.1529152743605664e-08,
+            "br": 2.188502094213618e-06,
+            "eu": 1.0981367637441508e-07,
+            "is": 8.892982350516832e-08,
+            "hy": 3.707146234432912e-08,
+            "ne": 3.1039559189594e-07,
+            "mn": 1.3881751215194527e-07,
+            "bs": 3.33005829133981e-07,
+            "kk": 2.6910997874551867e-08,
+            "sq": 1.588207965141919e-08,
+            "sw": 3.6006517234454805e-07,
+            "gl": 9.103873566118637e-08,
+            "mr": 5.1872312667455844e-08,
+            "pa": 8.686977537308849e-08,
+            "si": 4.921507184008078e-07,
+            "km": 8.455184797639959e-06,
+            "sn": 1.327393533756549e-06,
+            "yo": 6.029956693964778e-07,
+            "so": 2.3606601118331128e-09,
+            "af": 4.659589762923133e-07,
+            "oc": 3.002138981855751e-08,
+            "ka": 7.1307049154256674e-09,
+            "be": 8.686977537308849e-08,
+            "tg": 5.45581857469557e-10,
+            "sd": 4.760071092846374e-08,
+            "gu": 1.8640704979588918e-08,
+            "am": 6.416939868358895e-09,
+            "yi": 5.19814818744635e-07,
+            "lo": 9.998649375120294e-08,
+            "uz": 6.815433634121959e-11,
+            "fo": 2.4554310584790073e-07,
+            "ht": 8.637514952170022e-07,
+            "ps": 9.227817621138001e-09,
+            "tk": 1.3902660966902403e-10,
+            "nn": 1.7622118321014568e-05,
+            "mt": 3.220824851268844e-08,
+            "sa": 5.664620630341233e-07,
+            "lb": 1.3450636160428076e-09,
+            "my": 4.0800730971568555e-07,
+            "bo": 7.273516189343354e-07,
+            "tl": 1.9054052245337516e-05,
+            "mg": 8.548469571101336e-11,
+            "as": 9.595411576412971e-09,
+            "tt": 5.125267432681824e-10,
+            "haw": 9.656124348111916e-06,
+            "ln": 5.0367137127693695e-09,
+            "ha": 4.3327996746000963e-10,
+            "ba": 1.5298937117158573e-10,
+            "jw": 6.137805939943064e-06,
+            "su": 1.3715926172608306e-09
+        }
+    }
+}

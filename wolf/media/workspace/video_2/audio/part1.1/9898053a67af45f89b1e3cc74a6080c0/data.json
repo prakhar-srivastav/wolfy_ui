@@ -1,0 +1,108 @@
+{
+    "time": 11387,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "Health and strength?  They're within your grasp, waiting for you to reach out.  You can wield incredible power over your destiny.  Why shouldn't it be you?\n",
+    "asr_speech": " health and strength. You're within your grasp waiting for you to reach out. You can wield incredible power over your destiny. Why shouldn't it be you?",
+    "wer": 0.15384615384615385,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " health and strength. You're within your grasp waiting for you to reach out. You can wield incredible power over your destiny. Why shouldn't it be you?",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.12,
+                "text": " health and strength.",
+                "tokens": [
+                    50364,
+                    1585,
+                    293,
+                    3800,
+                    13,
+                    50470
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2874234594949862,
+                "compression_ratio": 1.2820512820512822,
+                "no_speech_prob": 0.16536936163902283
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 2.12,
+                "end": 5.8,
+                "text": " You're within your grasp waiting for you to reach out.",
+                "tokens": [
+                    50470,
+                    509,
+                    434,
+                    1951,
+                    428,
+                    21743,
+                    3806,
+                    337,
+                    291,
+                    281,
+                    2524,
+                    484,
+                    13,
+                    50654
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2874234594949862,
+                "compression_ratio": 1.2820512820512822,
+                "no_speech_prob": 0.16536936163902283
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 5.8,
+                "end": 9.200000000000001,
+                "text": " You can wield incredible power over your destiny.",
+                "tokens": [
+                    50654,
+                    509,
+                    393,
+                    35982,
+                    4651,
+                    1347,
+                    670,
+                    428,
+                    17893,
+                    13,
+                    50824
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2874234594949862,
+                "compression_ratio": 1.2820512820512822,
+                "no_speech_prob": 0.16536936163902283
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 9.200000000000001,
+                "end": 10.8,
+                "text": " Why shouldn't it be you?",
+                "tokens": [
+                    50824,
+                    1545,
+                    4659,
+                    380,
+                    309,
+                    312,
+                    291,
+                    30,
+                    50904
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2874234594949862,
+                "compression_ratio": 1.2820512820512822,
+                "no_speech_prob": 0.16536936163902283
+            }
+        ],
+        "language": "en"
+    }
+}

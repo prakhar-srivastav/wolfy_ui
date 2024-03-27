@@ -1,0 +1,135 @@
+{
+    "time": 16176,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/tony_robbins.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "You've got to understand, stepping out into the unknown is terrifying because all we see are the potential pitfalls, the failures waiting to happen.  But what if I told you that you're limitless? ",
+    "asr_speech": " You've got to understand. Stepping out into the unknown is terrifying. Because all we see are the potential pitfalls. The failure is waiting to happen. But what if I told you that you're limitless?",
+    "wer": 0.24242424242424243,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " You've got to understand. Stepping out into the unknown is terrifying. Because all we see are the potential pitfalls. The failure is waiting to happen. But what if I told you that you're limitless?",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.56,
+                "text": " You've got to understand.",
+                "tokens": [
+                    50364,
+                    509,
+                    600,
+                    658,
+                    281,
+                    1223,
+                    13,
+                    50492
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2584671540693803,
+                "compression_ratio": 1.3493150684931507,
+                "no_speech_prob": 0.014475974254310131
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 2.56,
+                "end": 6.24,
+                "text": " Stepping out into the unknown is terrifying.",
+                "tokens": [
+                    50492,
+                    3592,
+                    3759,
+                    484,
+                    666,
+                    264,
+                    9841,
+                    307,
+                    18106,
+                    13,
+                    50676
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2584671540693803,
+                "compression_ratio": 1.3493150684931507,
+                "no_speech_prob": 0.014475974254310131
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 6.24,
+                "end": 9.84,
+                "text": " Because all we see are the potential pitfalls.",
+                "tokens": [
+                    50676,
+                    1436,
+                    439,
+                    321,
+                    536,
+                    366,
+                    264,
+                    3995,
+                    10147,
+                    18542,
+                    13,
+                    50856
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2584671540693803,
+                "compression_ratio": 1.3493150684931507,
+                "no_speech_prob": 0.014475974254310131
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 9.84,
+                "end": 11.76,
+                "text": " The failure is waiting to happen.",
+                "tokens": [
+                    50856,
+                    440,
+                    7763,
+                    307,
+                    3806,
+                    281,
+                    1051,
+                    13,
+                    50952
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2584671540693803,
+                "compression_ratio": 1.3493150684931507,
+                "no_speech_prob": 0.014475974254310131
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 13.0,
+                "end": 15.6,
+                "text": " But what if I told you that you're limitless?",
+                "tokens": [
+                    51014,
+                    583,
+                    437,
+                    498,
+                    286,
+                    1907,
+                    291,
+                    300,
+                    291,
+                    434,
+                    4948,
+                    1832,
+                    30,
+                    51144
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2584671540693803,
+                "compression_ratio": 1.3493150684931507,
+                "no_speech_prob": 0.014475974254310131
+            }
+        ],
+        "language": "en"
+    }
+}

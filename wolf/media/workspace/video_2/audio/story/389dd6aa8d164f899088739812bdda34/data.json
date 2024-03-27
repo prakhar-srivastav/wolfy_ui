@@ -1,0 +1,129 @@
+{
+    "time": 11899,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 2,
+    "chapter": 12,
+    "speech": "That the only chains holding you back are the ones you've placed on yourself.  What are you passionate about?  What sets your soul on fire?  Lean into that.  Embrace that. ",
+    "asr_speech": " at the only chains holding you back or the ones you've placed on yourself. What are you passionate about? What sets your soul on fire? Lean into that. Embrace that.",
+    "wer": 0.06666666666666667,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " at the only chains holding you back or the ones you've placed on yourself. What are you passionate about? What sets your soul on fire? Lean into that. Embrace that.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.6,
+                "text": " at the only chains holding you back or the ones you've placed on yourself.",
+                "tokens": [
+                    50364,
+                    412,
+                    264,
+                    787,
+                    12626,
+                    5061,
+                    291,
+                    646,
+                    420,
+                    264,
+                    2306,
+                    291,
+                    600,
+                    7074,
+                    322,
+                    1803,
+                    13,
+                    50544
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.4118194969332948,
+                "compression_ratio": 1.3442622950819672,
+                "no_speech_prob": 0.021494830027222633
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.5600000000000005,
+                "end": 5.88,
+                "text": " What are you passionate about?",
+                "tokens": [
+                    50592,
+                    708,
+                    366,
+                    291,
+                    11410,
+                    466,
+                    30,
+                    50658
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.4118194969332948,
+                "compression_ratio": 1.3442622950819672,
+                "no_speech_prob": 0.021494830027222633
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 6.4,
+                "end": 8.2,
+                "text": " What sets your soul on fire?",
+                "tokens": [
+                    50684,
+                    708,
+                    6352,
+                    428,
+                    5133,
+                    322,
+                    2610,
+                    30,
+                    50774
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.4118194969332948,
+                "compression_ratio": 1.3442622950819672,
+                "no_speech_prob": 0.021494830027222633
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 8.72,
+                "end": 9.72,
+                "text": " Lean into that.",
+                "tokens": [
+                    50800,
+                    49303,
+                    666,
+                    300,
+                    13,
+                    50850
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.4118194969332948,
+                "compression_ratio": 1.3442622950819672,
+                "no_speech_prob": 0.021494830027222633
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 10.16,
+                "end": 11.16,
+                "text": " Embrace that.",
+                "tokens": [
+                    50872,
+                    3968,
+                    1443,
+                    617,
+                    300,
+                    13,
+                    50922
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.4118194969332948,
+                "compression_ratio": 1.3442622950819672,
+                "no_speech_prob": 0.021494830027222633
+            }
+        ],
+        "language": "en"
+    }
+}

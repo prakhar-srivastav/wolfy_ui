@@ -1,0 +1,95 @@
+{
+    "time": 8784,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 4,
+    "chapter": 3,
+    "speech": "Is this game the first thing you think about when you wake up and the last thing on your mind before you sleep?  In the end, it's you versus you. ",
+    "asr_speech": " Is this game the first thing you think about when you wake up and the last thing on your mind before you sleep? In the end, it's you versus you.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Is this game the first thing you think about when you wake up and the last thing on your mind before you sleep? In the end, it's you versus you.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.92,
+                "text": " Is this game the first thing you think about when you wake up and the last thing on your",
+                "tokens": [
+                    50364,
+                    1119,
+                    341,
+                    1216,
+                    264,
+                    700,
+                    551,
+                    291,
+                    519,
+                    466,
+                    562,
+                    291,
+                    6634,
+                    493,
+                    293,
+                    264,
+                    1036,
+                    551,
+                    322,
+                    428,
+                    50560
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.20691694864412633,
+                "compression_ratio": 1.3980582524271845,
+                "no_speech_prob": 0.02568851411342621
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.92,
+                "end": 5.76,
+                "text": " mind before you sleep?",
+                "tokens": [
+                    50560,
+                    1575,
+                    949,
+                    291,
+                    2817,
+                    30,
+                    50652
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.20691694864412633,
+                "compression_ratio": 1.3980582524271845,
+                "no_speech_prob": 0.02568851411342621
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 5.76,
+                "end": 8.0,
+                "text": " In the end, it's you versus you.",
+                "tokens": [
+                    50652,
+                    682,
+                    264,
+                    917,
+                    11,
+                    309,
+                    311,
+                    291,
+                    5717,
+                    291,
+                    13,
+                    50764
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.20691694864412633,
+                "compression_ratio": 1.3980582524271845,
+                "no_speech_prob": 0.02568851411342621
+            }
+        ],
+        "language": "en"
+    }
+}

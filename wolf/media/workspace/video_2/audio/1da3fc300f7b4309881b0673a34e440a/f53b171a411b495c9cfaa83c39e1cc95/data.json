@@ -1,0 +1,59 @@
+{
+    "time": 8368,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/zig3.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "Leave an impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+    "asr_speech": " Leon impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+    "wer": 0.08695652173913043,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Leon impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 8.0,
+                "text": " Leon impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+                "tokens": [
+                    50364,
+                    13244,
+                    9995,
+                    370,
+                    14382,
+                    11,
+                    370,
+                    30842,
+                    11,
+                    300,
+                    309,
+                    725,
+                    71,
+                    569,
+                    279,
+                    264,
+                    588,
+                    7253,
+                    295,
+                    437,
+                    309,
+                    1355,
+                    281,
+                    1621,
+                    257,
+                    993,
+                    295,
+                    4334,
+                    13,
+                    50764
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30080749142554497,
+                "compression_ratio": 1.2395833333333333,
+                "no_speech_prob": 0.0084115294739604
+            }
+        ],
+        "language": "en"
+    }
+}

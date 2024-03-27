@@ -1,0 +1,123 @@
+{
+    "time": 10693,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "Health and strength?  They're within your grasp, waiting for you to reach out.  You can wield incredible power over your destiny.  Why shouldn't it be you?",
+    "asr_speech": " Health and strength? There within your grasp, waiting for you to reach out. You can wield incredible power over your destiny. Why shouldn't it be you?",
+    "wer": 0.038461538461538464,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Health and strength? There within your grasp, waiting for you to reach out. You can wield incredible power over your destiny. Why shouldn't it be you?",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 1.9000000000000001,
+                "text": " Health and strength?",
+                "tokens": [
+                    50364,
+                    5912,
+                    293,
+                    3800,
+                    30,
+                    50459
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2653644029484239,
+                "compression_ratio": 1.2295081967213115,
+                "no_speech_prob": 0.0196247398853302
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 1.9000000000000001,
+                "end": 3.64,
+                "text": " There within your grasp,",
+                "tokens": [
+                    50459,
+                    821,
+                    1951,
+                    428,
+                    21743,
+                    11,
+                    50546
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2653644029484239,
+                "compression_ratio": 1.2295081967213115,
+                "no_speech_prob": 0.0196247398853302
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 3.64,
+                "end": 5.42,
+                "text": " waiting for you to reach out.",
+                "tokens": [
+                    50546,
+                    3806,
+                    337,
+                    291,
+                    281,
+                    2524,
+                    484,
+                    13,
+                    50635
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2653644029484239,
+                "compression_ratio": 1.2295081967213115,
+                "no_speech_prob": 0.0196247398853302
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 5.42,
+                "end": 8.84,
+                "text": " You can wield incredible power over your destiny.",
+                "tokens": [
+                    50635,
+                    509,
+                    393,
+                    35982,
+                    4651,
+                    1347,
+                    670,
+                    428,
+                    17893,
+                    13,
+                    50806
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2653644029484239,
+                "compression_ratio": 1.2295081967213115,
+                "no_speech_prob": 0.0196247398853302
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 8.84,
+                "end": 10.120000000000001,
+                "text": " Why shouldn't it be you?",
+                "tokens": [
+                    50806,
+                    1545,
+                    4659,
+                    380,
+                    309,
+                    312,
+                    291,
+                    30,
+                    50870
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2653644029484239,
+                "compression_ratio": 1.2295081967213115,
+                "no_speech_prob": 0.0196247398853302
+            }
+        ],
+        "language": "en"
+    }
+}

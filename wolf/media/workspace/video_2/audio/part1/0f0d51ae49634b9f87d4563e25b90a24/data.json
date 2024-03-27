@@ -1,0 +1,114 @@
+{
+    "time": 15899,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 1,
+    "chapter": 3,
+    "speech": "You gotta be all in, heart and soul, breathing and living this game, because if you're not, let's not waste our time, let's not even step into that arena.  They're gonna shut us down before we even get started. ",
+    "asr_speech": " You gotta be all in, heart and soul. Breathing and living this game. Because you're not, let's not waste our time. Let's not even step into that arena.",
+    "wer": 0.4358974358974359,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " You gotta be all in, heart and soul. Breathing and living this game. Because you're not, let's not waste our time. Let's not even step into that arena.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.24,
+                "text": " You gotta be all in, heart and soul.",
+                "tokens": [
+                    50364,
+                    509,
+                    3428,
+                    312,
+                    439,
+                    294,
+                    11,
+                    1917,
+                    293,
+                    5133,
+                    13,
+                    50476
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.37722725563860954,
+                "compression_ratio": 1.2905982905982907,
+                "no_speech_prob": 0.007790743373334408
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.92,
+                "end": 6.44,
+                "text": " Breathing and living this game.",
+                "tokens": [
+                    50610,
+                    20093,
+                    571,
+                    293,
+                    2647,
+                    341,
+                    1216,
+                    13,
+                    50686
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.37722725563860954,
+                "compression_ratio": 1.2905982905982907,
+                "no_speech_prob": 0.007790743373334408
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 7.68,
+                "end": 10.84,
+                "text": " Because you're not, let's not waste our time.",
+                "tokens": [
+                    50748,
+                    1436,
+                    291,
+                    434,
+                    406,
+                    11,
+                    718,
+                    311,
+                    406,
+                    5964,
+                    527,
+                    565,
+                    13,
+                    50906
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.37722725563860954,
+                "compression_ratio": 1.2905982905982907,
+                "no_speech_prob": 0.007790743373334408
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 12.64,
+                "end": 15.24,
+                "text": " Let's not even step into that arena.",
+                "tokens": [
+                    50996,
+                    961,
+                    311,
+                    406,
+                    754,
+                    1823,
+                    666,
+                    300,
+                    18451,
+                    13,
+                    51126
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.37722725563860954,
+                "compression_ratio": 1.2905982905982907,
+                "no_speech_prob": 0.007790743373334408
+            }
+        ],
+        "language": "en"
+    }
+}

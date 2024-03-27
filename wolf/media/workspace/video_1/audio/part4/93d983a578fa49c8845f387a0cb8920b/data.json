@@ -1,0 +1,127 @@
+{
+    "time": 11856,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "That the only chains holding you back are the ones you've placed on yourself.  What are you passionate about?  What sets your soul on fire?  Lean into that.  Embrace that. ",
+    "asr_speech": " that the only chains holding you back are the ones you've placed on yourself. What are you passionate about? What sets your soul on fire? Leaning into that embrace that.",
+    "wer": 0.13333333333333333,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " that the only chains holding you back are the ones you've placed on yourself. What are you passionate about? What sets your soul on fire? Leaning into that embrace that.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 1.86,
+                "text": " that the only chains holding you back",
+                "tokens": [
+                    50364,
+                    300,
+                    264,
+                    787,
+                    12626,
+                    5061,
+                    291,
+                    646,
+                    50457
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.21070833409086187,
+                "compression_ratio": 1.3629032258064515,
+                "no_speech_prob": 0.0046751913614571095
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 1.86,
+                "end": 4.5,
+                "text": " are the ones you've placed on yourself.",
+                "tokens": [
+                    50457,
+                    366,
+                    264,
+                    2306,
+                    291,
+                    600,
+                    7074,
+                    322,
+                    1803,
+                    13,
+                    50589
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.21070833409086187,
+                "compression_ratio": 1.3629032258064515,
+                "no_speech_prob": 0.0046751913614571095
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 4.5,
+                "end": 6.58,
+                "text": " What are you passionate about?",
+                "tokens": [
+                    50589,
+                    708,
+                    366,
+                    291,
+                    11410,
+                    466,
+                    30,
+                    50693
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.21070833409086187,
+                "compression_ratio": 1.3629032258064515,
+                "no_speech_prob": 0.0046751913614571095
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 6.58,
+                "end": 8.66,
+                "text": " What sets your soul on fire?",
+                "tokens": [
+                    50693,
+                    708,
+                    6352,
+                    428,
+                    5133,
+                    322,
+                    2610,
+                    30,
+                    50797
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.21070833409086187,
+                "compression_ratio": 1.3629032258064515,
+                "no_speech_prob": 0.0046751913614571095
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 8.66,
+                "end": 11.28,
+                "text": " Leaning into that embrace that.",
+                "tokens": [
+                    50797,
+                    1456,
+                    8415,
+                    666,
+                    300,
+                    14038,
+                    300,
+                    13,
+                    50928
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.21070833409086187,
+                "compression_ratio": 1.3629032258064515,
+                "no_speech_prob": 0.0046751913614571095
+            }
+        ],
+        "language": "en"
+    }
+}

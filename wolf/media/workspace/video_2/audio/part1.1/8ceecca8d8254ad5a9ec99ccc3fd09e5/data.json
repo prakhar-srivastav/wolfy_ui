@@ -1,0 +1,154 @@
+{
+    "time": 16219,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Why not you?  You've got the intelligence, the ability to make choices that can alter the course of your life.  You can dive deep into the plans, understand them, and then turn your life around in ways you never imagined possible. ",
+    "asr_speech": " Why not you? You've got the intelligence, the ability to make choices that can alter the course of your life. You can dive deep into the plans, understand them, and then turn your life around in ways you never imagine possible.",
+    "wer": 0.024390243902439025,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Why not you? You've got the intelligence, the ability to make choices that can alter the course of your life. You can dive deep into the plans, understand them, and then turn your life around in ways you never imagine possible.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 1.6,
+                "text": " Why not you?",
+                "tokens": [
+                    50364,
+                    1545,
+                    406,
+                    291,
+                    30,
+                    50444
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.14261305136758773,
+                "compression_ratio": 1.4645161290322581,
+                "no_speech_prob": 0.014018578454852104
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 1.6,
+                "end": 4.44,
+                "text": " You've got the intelligence, the ability to make choices",
+                "tokens": [
+                    50444,
+                    509,
+                    600,
+                    658,
+                    264,
+                    7599,
+                    11,
+                    264,
+                    3485,
+                    281,
+                    652,
+                    7994,
+                    50586
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.14261305136758773,
+                "compression_ratio": 1.4645161290322581,
+                "no_speech_prob": 0.014018578454852104
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 4.44,
+                "end": 6.88,
+                "text": " that can alter the course of your life.",
+                "tokens": [
+                    50586,
+                    300,
+                    393,
+                    11337,
+                    264,
+                    1164,
+                    295,
+                    428,
+                    993,
+                    13,
+                    50708
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.14261305136758773,
+                "compression_ratio": 1.4645161290322581,
+                "no_speech_prob": 0.014018578454852104
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 6.88,
+                "end": 11.0,
+                "text": " You can dive deep into the plans, understand them,",
+                "tokens": [
+                    50708,
+                    509,
+                    393,
+                    9192,
+                    2452,
+                    666,
+                    264,
+                    5482,
+                    11,
+                    1223,
+                    552,
+                    11,
+                    50914
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.14261305136758773,
+                "compression_ratio": 1.4645161290322581,
+                "no_speech_prob": 0.014018578454852104
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 11.0,
+                "end": 13.08,
+                "text": " and then turn your life around in ways",
+                "tokens": [
+                    50914,
+                    293,
+                    550,
+                    1261,
+                    428,
+                    993,
+                    926,
+                    294,
+                    2098,
+                    51018
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.14261305136758773,
+                "compression_ratio": 1.4645161290322581,
+                "no_speech_prob": 0.014018578454852104
+            },
+            {
+                "id": 5,
+                "seek": 0,
+                "start": 13.08,
+                "end": 15.6,
+                "text": " you never imagine possible.",
+                "tokens": [
+                    51018,
+                    291,
+                    1128,
+                    3811,
+                    1944,
+                    13,
+                    51144
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.14261305136758773,
+                "compression_ratio": 1.4645161290322581,
+                "no_speech_prob": 0.014018578454852104
+            }
+        ],
+        "language": "en"
+    }
+}

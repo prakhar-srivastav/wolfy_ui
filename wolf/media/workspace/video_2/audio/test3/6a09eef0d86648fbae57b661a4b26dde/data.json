@@ -1,0 +1,168 @@
+{
+    "time": 14736,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 14,
+    "speech": "Success?  It's not a team sport.  It's a solo journey.  It's tough, it's hard, and it ain't for everybody.  You see, folks who just follow the crowd, they'll never really figure out who they are. ",
+    "asr_speech": " Success is not a team sport. It's a solo journey. It's tough. It's hard. And it ain't for everybody. You see folks who just follow the crowd, they'll never really figure out who they are.",
+    "wer": 0.2,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Success is not a team sport. It's a solo journey. It's tough. It's hard. And it ain't for everybody. You see folks who just follow the crowd, they'll never really figure out who they are.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.36,
+                "text": " Success is not a team sport.",
+                "tokens": [
+                    50364,
+                    23669,
+                    307,
+                    406,
+                    257,
+                    1469,
+                    7282,
+                    13,
+                    50532
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.36,
+                "end": 5.12,
+                "text": " It's a solo journey.",
+                "tokens": [
+                    50532,
+                    467,
+                    311,
+                    257,
+                    6944,
+                    4671,
+                    13,
+                    50620
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 5.12,
+                "end": 6.24,
+                "text": " It's tough.",
+                "tokens": [
+                    50620,
+                    467,
+                    311,
+                    4930,
+                    13,
+                    50676
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 6.24,
+                "end": 7.4,
+                "text": " It's hard.",
+                "tokens": [
+                    50676,
+                    467,
+                    311,
+                    1152,
+                    13,
+                    50734
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 7.4,
+                "end": 9.32,
+                "text": " And it ain't for everybody.",
+                "tokens": [
+                    50734,
+                    400,
+                    309,
+                    7862,
+                    380,
+                    337,
+                    2201,
+                    13,
+                    50830
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            },
+            {
+                "id": 5,
+                "seek": 0,
+                "start": 9.32,
+                "end": 12.0,
+                "text": " You see folks who just follow the crowd,",
+                "tokens": [
+                    50830,
+                    509,
+                    536,
+                    4024,
+                    567,
+                    445,
+                    1524,
+                    264,
+                    6919,
+                    11,
+                    50964
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            },
+            {
+                "id": 6,
+                "seek": 0,
+                "start": 12.0,
+                "end": 14.84,
+                "text": " they'll never really figure out who they are.",
+                "tokens": [
+                    50964,
+                    436,
+                    603,
+                    1128,
+                    534,
+                    2573,
+                    484,
+                    567,
+                    436,
+                    366,
+                    13,
+                    51106
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22377380248039,
+                "compression_ratio": 1.364963503649635,
+                "no_speech_prob": 0.03234976530075073
+            }
+        ],
+        "language": "en"
+    }
+}

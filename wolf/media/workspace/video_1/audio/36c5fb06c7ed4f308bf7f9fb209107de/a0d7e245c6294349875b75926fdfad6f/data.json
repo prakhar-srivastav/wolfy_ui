@@ -1,0 +1,137 @@
+{
+    "time": 13808,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.  And the only way to do great work is to love what you do.",
+    "asr_speech": " Your work is going to fill a large part of your life. And the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
+    "wer": 0.046511627906976744,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Your work is going to fill a large part of your life. And the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.72,
+                "text": " Your work is going to fill a large part of your life.",
+                "tokens": [
+                    50364,
+                    2260,
+                    589,
+                    307,
+                    516,
+                    281,
+                    2836,
+                    257,
+                    2416,
+                    644,
+                    295,
+                    428,
+                    993,
+                    13,
+                    50550
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.17927745350620203,
+                "compression_ratio": 1.578512396694215,
+                "no_speech_prob": 0.011631397530436516
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.72,
+                "end": 6.16,
+                "text": " And the only way to be truly satisfied",
+                "tokens": [
+                    50550,
+                    400,
+                    264,
+                    787,
+                    636,
+                    281,
+                    312,
+                    4908,
+                    11239,
+                    50672
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.17927745350620203,
+                "compression_ratio": 1.578512396694215,
+                "no_speech_prob": 0.011631397530436516
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 6.16,
+                "end": 9.36,
+                "text": " is to do what you believe is great work.",
+                "tokens": [
+                    50672,
+                    307,
+                    281,
+                    360,
+                    437,
+                    291,
+                    1697,
+                    307,
+                    869,
+                    589,
+                    13,
+                    50832
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.17927745350620203,
+                "compression_ratio": 1.578512396694215,
+                "no_speech_prob": 0.011631397530436516
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 9.36,
+                "end": 11.44,
+                "text": " And the only way to do great work",
+                "tokens": [
+                    50832,
+                    400,
+                    264,
+                    787,
+                    636,
+                    281,
+                    360,
+                    869,
+                    589,
+                    50936
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.17927745350620203,
+                "compression_ratio": 1.578512396694215,
+                "no_speech_prob": 0.011631397530436516
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 11.44,
+                "end": 13.120000000000001,
+                "text": " is to love what you do.",
+                "tokens": [
+                    50936,
+                    307,
+                    281,
+                    959,
+                    437,
+                    291,
+                    360,
+                    13,
+                    51020
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.17927745350620203,
+                "compression_ratio": 1.578512396694215,
+                "no_speech_prob": 0.011631397530436516
+            }
+        ],
+        "language": "en"
+    }
+}

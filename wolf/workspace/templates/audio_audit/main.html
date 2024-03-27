@@ -32,6 +32,12 @@
 </select>
 <br />
 <br />
+
+<h2> OR </h2>
+
+<br>
+<br>    
+
 <button id="start_audit" type="submit">Start Audit</button>
 <button id="speech_maker" type="submit">Speech Maker</button>
 <div id="audit_flow" style="display: none;">
@@ -234,6 +240,7 @@
                     ['speaker_name',speaker_name],
                     ['workspace',workspace]
                 ];
+        
         uri = add_params_to_uri(uri, params);
         console.log(uri);
         window.location.href = uri

@@ -1,0 +1,74 @@
+{
+    "time": 12133,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "You've got to understand, stepping out into the unknown is terrifying because all we see are the potential pitfalls, the failures waiting to happen.  But what if I told you that you're limitless? ",
+    "asr_speech": " You've got to understand stepping out into the unknown is terrifying because all we see are the potential pitfalls, the failures waiting to happen.",
+    "wer": 0.30303030303030304,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " You've got to understand stepping out into the unknown is terrifying because all we see are the potential pitfalls, the failures waiting to happen.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 7.12,
+                "text": " You've got to understand stepping out into the unknown is terrifying because all we see",
+                "tokens": [
+                    50364,
+                    509,
+                    600,
+                    658,
+                    281,
+                    1223,
+                    16821,
+                    484,
+                    666,
+                    264,
+                    9841,
+                    307,
+                    18106,
+                    570,
+                    439,
+                    321,
+                    536,
+                    50720
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.29803726889870386,
+                "compression_ratio": 1.2894736842105263,
+                "no_speech_prob": 0.006470919121056795
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 7.12,
+                "end": 11.36,
+                "text": " are the potential pitfalls, the failures waiting to happen.",
+                "tokens": [
+                    50720,
+                    366,
+                    264,
+                    3995,
+                    10147,
+                    18542,
+                    11,
+                    264,
+                    20774,
+                    3806,
+                    281,
+                    1051,
+                    13,
+                    50932
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.29803726889870386,
+                "compression_ratio": 1.2894736842105263,
+                "no_speech_prob": 0.006470919121056795
+            }
+        ],
+        "language": "en"
+    }
+}

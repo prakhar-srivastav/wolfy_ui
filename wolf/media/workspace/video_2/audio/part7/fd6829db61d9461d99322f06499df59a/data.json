@@ -1,0 +1,90 @@
+{
+    "time": 14128,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "Facing down those inner demons shows you can take on any challenge.  And me?  I'm not just fighting; I'm winning.  Every.  Single.  Time",
+    "asr_speech": " facing down those inner demon shows you can take on any challenge. And me, I'm not just fighting. I'm winning every single time.",
+    "wer": 0.34782608695652173,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " facing down those inner demon shows you can take on any challenge. And me, I'm not just fighting. I'm winning every single time.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.0,
+                "text": " facing down those inner demon shows you can take on any challenge.",
+                "tokens": [
+                    50364,
+                    7170,
+                    760,
+                    729,
+                    7284,
+                    14283,
+                    3110,
+                    291,
+                    393,
+                    747,
+                    322,
+                    604,
+                    3430,
+                    13,
+                    50564
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2876465055677626,
+                "compression_ratio": 1.1962616822429906,
+                "no_speech_prob": 0.20865319669246674
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.0,
+                "end": 8.0,
+                "text": " And me, I'm not just fighting.",
+                "tokens": [
+                    50564,
+                    400,
+                    385,
+                    11,
+                    286,
+                    478,
+                    406,
+                    445,
+                    5237,
+                    13,
+                    50764
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2876465055677626,
+                "compression_ratio": 1.1962616822429906,
+                "no_speech_prob": 0.20865319669246674
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 8.0,
+                "end": 14.0,
+                "text": " I'm winning every single time.",
+                "tokens": [
+                    50764,
+                    286,
+                    478,
+                    8224,
+                    633,
+                    2167,
+                    565,
+                    13,
+                    51064
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2876465055677626,
+                "compression_ratio": 1.1962616822429906,
+                "no_speech_prob": 0.20865319669246674
+            }
+        ],
+        "language": "en"
+    }
+}

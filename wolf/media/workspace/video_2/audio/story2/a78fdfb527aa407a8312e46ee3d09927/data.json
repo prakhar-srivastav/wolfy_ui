@@ -1,0 +1,123 @@
+{
+    "time": 16592,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 4,
+    "chapter": 1,
+    "speech": "Every challenge, every obstacle, we face is not a stop sign but a guideline, a reminder of our resilience and capability.  Remember, it's not about what you lack; it's about what you do with what you have. ",
+    "asr_speech": " Every challenge, every obstacle we face is not a stop sign, but a guideline, or a reminder of our resilience and capability. Remember, it's not about what you lack. It's about what you do with what you have.",
+    "wer": 0.13513513513513514,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Every challenge, every obstacle we face is not a stop sign, but a guideline, or a reminder of our resilience and capability. Remember, it's not about what you lack. It's about what you do with what you have.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.6000000000000005,
+                "text": " Every challenge, every obstacle we face is not a stop sign, but a guideline,",
+                "tokens": [
+                    50364,
+                    2048,
+                    3430,
+                    11,
+                    633,
+                    23112,
+                    321,
+                    1851,
+                    307,
+                    406,
+                    257,
+                    1590,
+                    1465,
+                    11,
+                    457,
+                    257,
+                    41653,
+                    11,
+                    50644
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2493084498814174,
+                "compression_ratio": 1.4275862068965517,
+                "no_speech_prob": 0.014220526441931725
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.640000000000001,
+                "end": 9.28,
+                "text": " or a reminder of our resilience and capability.",
+                "tokens": [
+                    50696,
+                    420,
+                    257,
+                    13548,
+                    295,
+                    527,
+                    19980,
+                    293,
+                    13759,
+                    13,
+                    50828
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2493084498814174,
+                "compression_ratio": 1.4275862068965517,
+                "no_speech_prob": 0.014220526441931725
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 10.32,
+                "end": 12.96,
+                "text": " Remember, it's not about what you lack.",
+                "tokens": [
+                    50880,
+                    5459,
+                    11,
+                    309,
+                    311,
+                    406,
+                    466,
+                    437,
+                    291,
+                    5011,
+                    13,
+                    51012
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2493084498814174,
+                "compression_ratio": 1.4275862068965517,
+                "no_speech_prob": 0.014220526441931725
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 13.6,
+                "end": 15.8,
+                "text": " It's about what you do with what you have.",
+                "tokens": [
+                    51044,
+                    467,
+                    311,
+                    466,
+                    437,
+                    291,
+                    360,
+                    365,
+                    437,
+                    291,
+                    362,
+                    13,
+                    51154
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2493084498814174,
+                "compression_ratio": 1.4275862068965517,
+                "no_speech_prob": 0.014220526441931725
+            }
+        ],
+        "language": "en"
+    }
+}

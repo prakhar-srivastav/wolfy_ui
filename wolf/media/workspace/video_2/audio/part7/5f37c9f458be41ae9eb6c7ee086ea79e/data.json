@@ -1,0 +1,152 @@
+{
+    "time": 18917,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "It's rare.  Most wish they could, but they don't.  Be the example.  Keep pushing.\n Believing in yourself, it changes everything.  It makes you strong.  Not just kind of strong.  I'm talking unbreakable. ",
+    "asr_speech": " It's rare most wish they could, but they don't be the example. Keep pushing. Believing in yourself, it changes everything. It makes you strong. Not just kind of strong. I'm talking unbreakable.",
+    "wer": 0.125,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " It's rare most wish they could, but they don't be the example. Keep pushing. Believing in yourself, it changes everything. It makes you strong. Not just kind of strong. I'm talking unbreakable.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.68,
+                "text": " It's rare most wish they could, but they don't be the example.",
+                "tokens": [
+                    50364,
+                    467,
+                    311,
+                    5892,
+                    881,
+                    3172,
+                    436,
+                    727,
+                    11,
+                    457,
+                    436,
+                    500,
+                    380,
+                    312,
+                    264,
+                    1365,
+                    13,
+                    50648
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30183174650547867,
+                "compression_ratio": 1.3310344827586207,
+                "no_speech_prob": 0.01029399037361145
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.68,
+                "end": 7.6000000000000005,
+                "text": " Keep pushing.",
+                "tokens": [
+                    50648,
+                    5527,
+                    7380,
+                    13,
+                    50744
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30183174650547867,
+                "compression_ratio": 1.3310344827586207,
+                "no_speech_prob": 0.01029399037361145
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 7.6000000000000005,
+                "end": 11.28,
+                "text": " Believing in yourself, it changes everything.",
+                "tokens": [
+                    50744,
+                    6248,
+                    30244,
+                    294,
+                    1803,
+                    11,
+                    309,
+                    2962,
+                    1203,
+                    13,
+                    50928
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30183174650547867,
+                "compression_ratio": 1.3310344827586207,
+                "no_speech_prob": 0.01029399037361145
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 11.28,
+                "end": 13.6,
+                "text": " It makes you strong.",
+                "tokens": [
+                    50928,
+                    467,
+                    1669,
+                    291,
+                    2068,
+                    13,
+                    51044
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30183174650547867,
+                "compression_ratio": 1.3310344827586207,
+                "no_speech_prob": 0.01029399037361145
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 13.6,
+                "end": 16.0,
+                "text": " Not just kind of strong.",
+                "tokens": [
+                    51044,
+                    1726,
+                    445,
+                    733,
+                    295,
+                    2068,
+                    13,
+                    51164
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30183174650547867,
+                "compression_ratio": 1.3310344827586207,
+                "no_speech_prob": 0.01029399037361145
+            },
+            {
+                "id": 5,
+                "seek": 0,
+                "start": 16.0,
+                "end": 18.12,
+                "text": " I'm talking unbreakable.",
+                "tokens": [
+                    51164,
+                    286,
+                    478,
+                    1417,
+                    517,
+                    13225,
+                    712,
+                    13,
+                    51270
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.30183174650547867,
+                "compression_ratio": 1.3310344827586207,
+                "no_speech_prob": 0.01029399037361145
+            }
+        ],
+        "language": "en"
+    }
+}

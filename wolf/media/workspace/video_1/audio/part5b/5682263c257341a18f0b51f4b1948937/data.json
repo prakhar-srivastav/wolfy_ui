@@ -1,0 +1,76 @@
+{
+    "time": 9531,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/mathew.wav",
+    "rank": 2,
+    "chapter": 1,
+    "speech": "Leave an impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+    "asr_speech": " Leave it in pressure so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+    "wer": 0.13043478260869565,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Leave it in pressure so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 6.28,
+                "text": " Leave it in pressure so profound, so impactful, that it reshapes the very fabric of what it",
+                "tokens": [
+                    50364,
+                    9825,
+                    309,
+                    294,
+                    3321,
+                    370,
+                    14382,
+                    11,
+                    370,
+                    30842,
+                    11,
+                    300,
+                    309,
+                    725,
+                    71,
+                    569,
+                    279,
+                    264,
+                    588,
+                    7253,
+                    295,
+                    437,
+                    309,
+                    50678
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.31091453007289344,
+                "compression_ratio": 1.24,
+                "no_speech_prob": 0.0037605739198625088
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.28,
+                "end": 8.76,
+                "text": " means to live a life of purpose.",
+                "tokens": [
+                    50678,
+                    1355,
+                    281,
+                    1621,
+                    257,
+                    993,
+                    295,
+                    4334,
+                    13,
+                    50802
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.31091453007289344,
+                "compression_ratio": 1.24,
+                "no_speech_prob": 0.0037605739198625088
+            }
+        ],
+        "language": "en"
+    }
+}

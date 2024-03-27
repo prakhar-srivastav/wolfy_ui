@@ -1,0 +1,121 @@
+{
+    "time": 16539,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/stoic3.wav",
+    "rank": 1,
+    "chapter": 8,
+    "speech": "I'm proud of what I've become, proud of overcoming, proud of sticking it out.  I stayed true to myself, and now?  I get to live as me, with respect from others and, most importantly, respect for myself.\n",
+    "asr_speech": " I'm proud of what I've become, proud of overcoming, proud of sticking it out. I stayed true to myself. And now I get to live as me with respect from others and most importantly, respect for myself.",
+    "wer": 0.13513513513513514,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " I'm proud of what I've become, proud of overcoming, proud of sticking it out. I stayed true to myself. And now I get to live as me with respect from others and most importantly, respect for myself.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.28,
+                "text": " I'm proud of what I've become, proud of overcoming, proud of sticking it out.",
+                "tokens": [
+                    50364,
+                    286,
+                    478,
+                    4570,
+                    295,
+                    437,
+                    286,
+                    600,
+                    1813,
+                    11,
+                    4570,
+                    295,
+                    38047,
+                    11,
+                    4570,
+                    295,
+                    13465,
+                    309,
+                    484,
+                    13,
+                    50628
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2572387765955042,
+                "compression_ratio": 1.4701492537313432,
+                "no_speech_prob": 0.012562147341668606
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.28,
+                "end": 7.640000000000001,
+                "text": " I stayed true to myself.",
+                "tokens": [
+                    50628,
+                    286,
+                    9181,
+                    2074,
+                    281,
+                    2059,
+                    13,
+                    50746
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2572387765955042,
+                "compression_ratio": 1.4701492537313432,
+                "no_speech_prob": 0.012562147341668606
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 7.640000000000001,
+                "end": 14.94,
+                "text": " And now I get to live as me with respect from others and most importantly, respect for",
+                "tokens": [
+                    50746,
+                    400,
+                    586,
+                    286,
+                    483,
+                    281,
+                    1621,
+                    382,
+                    385,
+                    365,
+                    3104,
+                    490,
+                    2357,
+                    293,
+                    881,
+                    8906,
+                    11,
+                    3104,
+                    337,
+                    51111
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2572387765955042,
+                "compression_ratio": 1.4701492537313432,
+                "no_speech_prob": 0.012562147341668606
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 14.94,
+                "end": 15.44,
+                "text": " myself.",
+                "tokens": [
+                    51111,
+                    2059,
+                    13,
+                    51136
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2572387765955042,
+                "compression_ratio": 1.4701492537313432,
+                "no_speech_prob": 0.012562147341668606
+            }
+        ],
+        "language": "en"
+    }
+}

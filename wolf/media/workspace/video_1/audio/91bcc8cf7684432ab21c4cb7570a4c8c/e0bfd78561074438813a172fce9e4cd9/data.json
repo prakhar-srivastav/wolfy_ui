@@ -1,0 +1,33 @@
+{
+    "time": 2523,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/reggie_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "hi",
+    "asr_speech": " Hi.",
+    "wer": 1.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Hi.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 1.0,
+                "text": " Hi.",
+                "tokens": [
+                    50364,
+                    2421,
+                    13,
+                    50414
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.8145567893981933,
+                "compression_ratio": 0.2727272727272727,
+                "no_speech_prob": 0.06014076992869377
+            }
+        ],
+        "language": "en"
+    }
+}

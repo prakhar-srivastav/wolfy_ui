@@ -1,0 +1,64 @@
+{
+    "time": 5445,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 5,
+    "chapter": 14,
+    "speech": "If you believe in yourself, that's all you need.  Your own support is enough.",
+    "asr_speech": " If you believe in yourself, that's all you need. Your own support is enough.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " If you believe in yourself, that's all you need. Your own support is enough.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.2,
+                "text": " If you believe in yourself, that's all you need.",
+                "tokens": [
+                    50364,
+                    759,
+                    291,
+                    1697,
+                    294,
+                    1803,
+                    11,
+                    300,
+                    311,
+                    439,
+                    291,
+                    643,
+                    13,
+                    50524
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28284537273904553,
+                "compression_ratio": 0.987012987012987,
+                "no_speech_prob": 0.007300205994397402
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.2,
+                "end": 5.2,
+                "text": " Your own support is enough.",
+                "tokens": [
+                    50524,
+                    2260,
+                    1065,
+                    1406,
+                    307,
+                    1547,
+                    13,
+                    50624
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28284537273904553,
+                "compression_ratio": 0.987012987012987,
+                "no_speech_prob": 0.007300205994397402
+            }
+        ],
+        "language": "en"
+    }
+}

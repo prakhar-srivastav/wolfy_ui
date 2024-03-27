@@ -1,0 +1,51 @@
+{
+    "time": 7024,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/newport_ted.wav",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "Become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+    "asr_speech": " become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+    "wer": 0.07142857142857142,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 6.24,
+                "text": " become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+                "tokens": [
+                    50364,
+                    1813,
+                    370,
+                    1741,
+                    5757,
+                    292,
+                    294,
+                    428,
+                    5418,
+                    300,
+                    264,
+                    1194,
+                    295,
+                    17269,
+                    3617,
+                    507,
+                    1669,
+                    291,
+                    34735,
+                    563,
+                    13,
+                    50676
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22726148107777472,
+                "compression_ratio": 1.103896103896104,
+                "no_speech_prob": 0.01277843490242958
+            }
+        ],
+        "language": "en"
+    }
+}

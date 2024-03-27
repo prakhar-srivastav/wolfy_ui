@@ -1,0 +1,80 @@
+{
+    "time": 12229,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 3,
+    "chapter": 3,
+    "speech": "Remember this: obsession will beat talent every single day of the week.  You might have all the talent in the world, but the real question is, are you obsessed? ",
+    "asr_speech": " Remember this, obsession will be talent every single day of the week. You might have all the talent in the world, but the real question is, are you obsessed?",
+    "wer": 0.06896551724137931,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Remember this, obsession will be talent every single day of the week. You might have all the talent in the world, but the real question is, are you obsessed?",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.28,
+                "text": " Remember this, obsession will be talent every single day of the week.",
+                "tokens": [
+                    50364,
+                    5459,
+                    341,
+                    11,
+                    30521,
+                    486,
+                    312,
+                    8301,
+                    633,
+                    2167,
+                    786,
+                    295,
+                    264,
+                    1243,
+                    13,
+                    50578
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.23979869255652794,
+                "compression_ratio": 1.319327731092437,
+                "no_speech_prob": 0.024244269356131554
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.28,
+                "end": 11.36,
+                "text": " You might have all the talent in the world, but the real question is, are you obsessed?",
+                "tokens": [
+                    50578,
+                    509,
+                    1062,
+                    362,
+                    439,
+                    264,
+                    8301,
+                    294,
+                    264,
+                    1002,
+                    11,
+                    457,
+                    264,
+                    957,
+                    1168,
+                    307,
+                    11,
+                    366,
+                    291,
+                    16923,
+                    30,
+                    50932
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.23979869255652794,
+                "compression_ratio": 1.319327731092437,
+                "no_speech_prob": 0.024244269356131554
+            }
+        ],
+        "language": "en"
+    }
+}

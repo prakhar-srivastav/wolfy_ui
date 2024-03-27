@@ -12,7 +12,7 @@ import json
 import uuid
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
-from .audio_generator import WolfyTTSMiddleware
+from .audio_generator import ThemeFactory
 
 def get_speaker_path(speaker_name):
     PATH = os.path.join(settings.MEDIA_ROOT,'data/audio_data')
@@ -27,21 +27,22 @@ def speech_maker(request):
     speaker_name = data.get("speaker_name","").strip()
     workspace = data.get("workspace","").strip()
     instance_name = data.get('instance_name', "").strip()
-    # if theme is not None and theme != '':
-        # text = ThemeFactory(theme).apply_theme(text)
+    
+    theme_factory = ThemeFactory()
 
     global wolfy_tts_middleware
+
     if instance_name == "":
         text = ''
         if youtube_link is None or youtube_link == '':
             text = transcript
         else:
             text = get_youtube_captions(youtube_link)
-
-        wolfy_tts_middleware = WolfyTTSMiddleware(workspace)
+        wolfy_tts_middleware = theme_factory.get_middleware(workspace, theme = theme)
         wolfy_tts_middleware.synthesize(text, speaker_name)
     else:
-        wolfy_tts_middleware = WolfyTTSMiddleware(workspace, _id_ = instance_name)
+        wolfy_tts_middleware = theme_factory.get_middleware(workspace, theme = theme, _id_ = instance_name)
+
     content_context = wolfy_tts_middleware.get_context()
     
     return render(request,
@@ -65,14 +66,14 @@ def combine_audio_instance(request):
     data = json.loads(request.body.decode('utf-8'))['data']
     audio_list = data['audio_list']
     workspace = data['workspace']
-    a = WolfyTTSMiddleware(workspace, _id_ = audio_list[0])
+    a = ThemeFactory().get_middleware(workspace, _id_ = audio_list[0])
 
     for i in range(1,len(audio_list)):
         if audio_list[i].startswith('s_'):
             silence = int(audio_list[i].split('_')[-1])
             a.add_silence_audio(silence)
         else:
-            a += WolfyTTSMiddleware(workspace, audio_list[i])
+            a += ThemeFactory().get_middleware(workspace, _id_ = audio_list[i])
     return HttpResponse('true')
 
 
@@ -82,3 +83,11 @@ def regenerate(request):
     _ids_ = data['_ids_']
     context = wolfy_tts_middleware.regenerate_by_ids(_ids_)
     return JsonResponse(context)
+
+
+@csrf_exempt
+def delete_selection(request):
+    data = json.loads(request.body.decode('utf-8'))['data']
+    _ids_ = data['_ids_']
+    wolfy_tts_middleware.delete_by_ids(_ids_)
+    return HttpResponse('true')

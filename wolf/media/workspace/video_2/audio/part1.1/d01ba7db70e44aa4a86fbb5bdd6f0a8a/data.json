@@ -1,0 +1,109 @@
+{
+    "time": 11440,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "You don't need perfect conditions to start; you need the courage to believe that despite the odds, despite the limitations, you have the power to shape your journey. ",
+    "asr_speech": " You don't need perfect conditions to start. You need a courage to believe that despite the odds, despite the limitations, you have the power to shape your journey.",
+    "wer": 0.10714285714285714,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " You don't need perfect conditions to start. You need a courage to believe that despite the odds, despite the limitations, you have the power to shape your journey.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.34,
+                "text": " You don't need perfect conditions to start.",
+                "tokens": [
+                    50364,
+                    509,
+                    500,
+                    380,
+                    643,
+                    2176,
+                    4487,
+                    281,
+                    722,
+                    13,
+                    50531
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2721081461225237,
+                "compression_ratio": 1.393162393162393,
+                "no_speech_prob": 0.02905736304819584
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.34,
+                "end": 6.74,
+                "text": " You need a courage to believe that despite the odds,",
+                "tokens": [
+                    50531,
+                    509,
+                    643,
+                    257,
+                    9892,
+                    281,
+                    1697,
+                    300,
+                    7228,
+                    264,
+                    17439,
+                    11,
+                    50701
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2721081461225237,
+                "compression_ratio": 1.393162393162393,
+                "no_speech_prob": 0.02905736304819584
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 6.74,
+                "end": 9.78,
+                "text": " despite the limitations, you have the power",
+                "tokens": [
+                    50701,
+                    7228,
+                    264,
+                    15705,
+                    11,
+                    291,
+                    362,
+                    264,
+                    1347,
+                    50853
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2721081461225237,
+                "compression_ratio": 1.393162393162393,
+                "no_speech_prob": 0.02905736304819584
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 9.78,
+                "end": 11.38,
+                "text": " to shape your journey.",
+                "tokens": [
+                    50853,
+                    281,
+                    3909,
+                    428,
+                    4671,
+                    13,
+                    50933
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2721081461225237,
+                "compression_ratio": 1.393162393162393,
+                "no_speech_prob": 0.02905736304819584
+            }
+        ],
+        "language": "en"
+    }
+}

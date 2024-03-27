@@ -18,3 +18,6 @@ light_overlay = 'assets/video_affects/preview/light.mp4'
 fly_overlay = 'assets/video_affects/preview/fly.mp4'
 thunder_overlay = 'assets/video_affects/preview/thunder.mp4'
 dcloud_overlay = 'assets/video_affects/preview/dcloud.mp4'
+
+
+background_music_data = 'assets/background/'

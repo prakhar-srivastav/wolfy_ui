@@ -1,0 +1,93 @@
+{
+    "time": 11941,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 6,
+    "chapter": 1,
+    "speech": "Why not you, when you have the heart to face the impossible, the spirit to forge paths where none existed, and the determination to keep going no matter what? ",
+    "asr_speech": " Why not you when you have the heart to face the impossible? The spirit to forge paths were nonexisted and the determination to keep going no matter what.",
+    "wer": 0.2413793103448276,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Why not you when you have the heart to face the impossible? The spirit to forge paths were nonexisted and the determination to keep going no matter what.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.5200000000000005,
+                "text": " Why not you when you have the heart to face the impossible?",
+                "tokens": [
+                    50364,
+                    1545,
+                    406,
+                    291,
+                    562,
+                    291,
+                    362,
+                    264,
+                    1917,
+                    281,
+                    1851,
+                    264,
+                    6243,
+                    30,
+                    50590
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2685347336989183,
+                "compression_ratio": 1.3421052631578947,
+                "no_speech_prob": 0.022432338446378708
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.5200000000000005,
+                "end": 8.4,
+                "text": " The spirit to forge paths were nonexisted",
+                "tokens": [
+                    50590,
+                    440,
+                    3797,
+                    281,
+                    38741,
+                    14518,
+                    645,
+                    6022,
+                    87,
+                    33250,
+                    50784
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2685347336989183,
+                "compression_ratio": 1.3421052631578947,
+                "no_speech_prob": 0.022432338446378708
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 8.4,
+                "end": 11.4,
+                "text": " and the determination to keep going no matter what.",
+                "tokens": [
+                    50784,
+                    293,
+                    264,
+                    18432,
+                    281,
+                    1066,
+                    516,
+                    572,
+                    1871,
+                    437,
+                    13,
+                    50934
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2685347336989183,
+                "compression_ratio": 1.3421052631578947,
+                "no_speech_prob": 0.022432338446378708
+            }
+        ],
+        "language": "en"
+    }
+}

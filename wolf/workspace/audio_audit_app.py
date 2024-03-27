@@ -5,8 +5,7 @@ from django import forms
 from django.http import JsonResponse
 from django.templatetags.static import static
 from django.conf import settings
-from .audio_generator import AudioGenerator
-from .theme_factory import ThemeFactory
+from .audio_generator import AudioGenerator, ThemeFactory
 
 import sys
 import os
@@ -32,9 +31,7 @@ def get_workspace_choices():
     return os.listdir(workspace_path)
 
 def get_theme_choices():
-    PATH = os.path.join(settings.MEDIA_ROOT,'data/theme')
-    themes = [x.replace('.py','') for x in os.listdir(PATH)]
-    return themes
+    return ThemeFactory()._theme_
 
 def get_speaker_path(speaker_name):
     PATH = os.path.join(settings.MEDIA_ROOT,'data/audio_data')
@@ -61,11 +58,11 @@ def get_audio_file(request):
         text = transcript
     else:
         text = get_youtube_captions(youtube_link)
-    if theme is not None and theme.strip() != '':
-        text = ThemeFactory(theme).apply_theme(text)
-    
+
     global audio_generator
+
     audio_generator = AudioGenerator()
+
     audio_generator.synthesize(text, get_speaker_path(speaker_name))
     audio_file_name = uuid.uuid4().hex + '.wav'
     audio_url = os.path.join(settings.MEDIA_ROOT,audio_file_name)
@@ -109,6 +106,5 @@ def save_file(request):
 def test_timestamp_recorder(request):
     return render(request, 'audio_audit/timestamp_recorder.html')
 
-@csrf_exempt
-def speech_maker(request):
-    return HttpResponse('true')
+
+# def quote_preset()

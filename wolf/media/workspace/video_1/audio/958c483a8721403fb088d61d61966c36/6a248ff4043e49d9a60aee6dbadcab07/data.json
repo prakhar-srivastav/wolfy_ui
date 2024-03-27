@@ -1,0 +1,50 @@
+{
+    "time": 6555,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "If you know the enemy and know yourself you need not fear the results of a hundred battles",
+    "asr_speech": " If you know the enemy and know yourself, you need not fear the results of 100 battles.",
+    "wer": 0.2222222222222222,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " If you know the enemy and know yourself, you need not fear the results of 100 battles.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.76,
+                "text": " If you know the enemy and know yourself, you need not fear the results of 100 battles.",
+                "tokens": [
+                    50364,
+                    759,
+                    291,
+                    458,
+                    264,
+                    5945,
+                    293,
+                    458,
+                    1803,
+                    11,
+                    291,
+                    643,
+                    406,
+                    4240,
+                    264,
+                    3542,
+                    295,
+                    2319,
+                    14648,
+                    13,
+                    50652
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.20188938487659802,
+                "compression_ratio": 1.1025641025641026,
+                "no_speech_prob": 0.011793069541454315
+            }
+        ],
+        "language": "en"
+    }
+}

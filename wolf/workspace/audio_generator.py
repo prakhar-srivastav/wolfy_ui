@@ -3,7 +3,7 @@ import os
 import threading
 import time
 from TTS.api import TTS
-import whisper
+import whisper_timestamped as whisper
 import uuid
 from pydub import AudioSegment
 from pydub.playback import play
@@ -11,8 +11,11 @@ from jiwer import wer
 import json
 import sys
 sys.path.append('/home/prakharrrr4/wolfy_ui/wolf/wolf')
+
 import setting2 as settings
 # from django.conf import settings
+import workspace.scraper_middleware as sm
+
 
 """
 AudioAudit :
@@ -162,6 +165,23 @@ class AudioGenerator(object):
         self.combined_audio.export(result_path, format="wav")    
 
 
+class ThemeFactory(object):
+
+    def __init__(self):
+        self._theme_  = ['xtts', 'gpt']
+
+    def get_middleware(self,workspace, theme = '', _id_ = None):
+        
+        theme = theme.strip()
+        if theme == 'xtts' or theme == '':
+            return WolfyTTSMiddleware(workspace, _id_ = _id_)
+        elif theme == 'gpt_quote':
+            return WolfyGPTMiddleware(workspace, _id_ = _id_)
+        elif theme == 'gpt_movie':
+            raise ValueError("GptMovieMiddleware is not yet implemented")
+        else:
+            raise ValueError("GptMovieMiddleware is not yet implemented")
+
 
 class WolfyTTSMiddleware(object):
 
@@ -268,7 +288,8 @@ class WolfyTTSMiddleware(object):
             return "" , 0.0, None
         if not hasattr(self, 'asr_model'):
             self.asr_model = whisper.load_model("base")
-        result = self.asr_model.transcribe(audio_file)
+        audio = whisper.load_audio(audio_file)
+        result = whisper.transcribe(self.asr_model, audio)        
         return result['text'], wer(text, result['text']), result
 
 
@@ -279,8 +300,8 @@ class WolfyTTSMiddleware(object):
 
 
     def synthesize(self, text = '', speaker = '', output = ''):
-
         speaker = self.get_speaker_path(speaker)
+
         _folder_path_ = self.get_folder_path()
         sentences = self._sentence_splitter_(text)
         audio_files = []
@@ -369,6 +390,44 @@ class WolfyTTSMiddleware(object):
         self._id_ = nickname
         new_folder_path = self.get_folder_path()
         os.rename(older_folder_path, new_folder_path)
+
+
+    def delete_by_ids(self, _ids_):
+        if type(_ids_) != list:
+            _ids_ = [_ids_]
+
+        _ids_ = set(_ids_)
+        _folder_path_ = self.get_folder_path()
+
+        cur_c = 0
+        cur_r = 1
+
+        def update_record(hash, c, r):
+            audio_folder = os.path.join(_folder_path_, hash)
+            audio_data_path = os.path.join(audio_folder, 'data.json')
+            data = self.read_json(audio_data_path)
+            data['chapter'] = c
+            data['rank'] = r
+            self.save_json(data, audio_data_path)
+
+        
+        def delete_record(hash):
+            audio_folder = os.path.join(_folder_path_, hash)
+            import shutil
+            shutil.rmtree(audio_folder)
+
+
+        for key, value in self.get_internal_context().items():
+            con_key = ('_').join([str(x) for x in key])
+            c, r, hash = key
+            if con_key not in _ids_:
+                if c != cur_c:
+                    cur_c += 1
+                    cur_r = 1
+                update_record(hash, cur_c, cur_r)
+                cur_r += 1
+            else:
+                delete_record(hash)
 
 
     def regenerate_by_ids(self, _ids_):
@@ -494,30 +553,165 @@ class WolfyTTSMiddleware(object):
         timer = 0
         for key, value in context.items():
             data = self.read_json(value['data'])
-            if 'segment_timestamps' in data.keys():
-                for segment in data['segment_timestamps']['segments']:
+            if 'segment_timestamps' in data.keys() and data['segment_timestamps'] is not None:
+                for segment in data['segment_timestamps'].get('segments',[]):
+                    
+                    words = []
+
+                    for itr in segment['words']:
+                        words.append({
+                            'start' : timer + itr['start'] * 1000,
+                            'end' : timer + itr['end'] * 1000,
+                            'text' : itr['text']
+                        })
+
                     subs.append({
                         'start' : timer + segment['start'] * 1000,
                         'end' : timer + segment['end'] * 1000,
-                        'text' : segment['text']
+                        'text' : segment['text'],
+                        'chapter' : value['chapter'],
+                        'words' : words,
+                        'rank' : value['rank']
                     })
             timer += value['time']
 
         return subs
 
-# obj = WolfyTTSMiddleware('video_test')
-# text ="""Let me tell. You are a champion. """
-# speaker_name = "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav"
-# obj.synthesize(text, speaker_name)
-# con = obj.get_context()
-# import pdb; pdb.set_trace()
-# """
-#     obj.synthesize(text, speaker_name) -> creates an audio space and return the id
-#     obj.get_context() -> prepares the context to be loaded on the UI
-#obj.export() -> combines the audio content and make the finale result.mp3 along with srt file
-#     obj.combine_spaces() -> combines the two audio_spaces and deletes the other space from the workspace
-# obj.improvise() -> refactors the audio files with the bad timings vector given
-#     obj.regenerate_ny_ids([ids]) -> refactors the audio files and returns the corrected context of only those ids
-#     obj.save_file(filename) -> renames the space to `filename` and mutates the _id_ attribute
-#     obj.get_subtitles()
-# """
+
+    def get_subtitles_at_word_level(self):
+        words = []
+
+        for sen in self.get_subtitles():
+            for word in sen['words']:
+                words.append({
+                    'start' : word['start'],
+                    'end' : word['end'],
+                    'text' : word['text'],
+                    'chapter' : sen['chapter'],
+                    'rank' : sen['rank'],
+                })
+
+        return words
+
+class WolfyGPTMiddleware(WolfyTTSMiddleware):
+
+    def __init__(self, workspace, _id_ = None):
+        super().__init__(workspace, _id_ = _id_)
+        pass
+
+
+    def synthesize(self, text = '', speaker = '', output = ''):
+
+        speaker = 'gpt_cove'
+        _folder_path_ = self.get_folder_path()
+
+        author = '\n'.split(text)
+        author = [x.strip() for x in author]
+        sentences = sm.extract_quotes(author)
+
+        audio_files = []
+
+        os.makedirs(_folder_path_, exist_ok = True)
+
+        for itr in range(len(sentences)):
+            sen = sentences[itr]
+            _hash_ = uuid.uuid4().hex
+            audio_folder = os.path.join(_folder_path_, _hash_)
+            os.mkdir(audio_folder)
+            audio_file = os.path.join(audio_folder, 'speech.wav')
+            self.save_audio_instance(text = sen,
+                                     file_path = audio_file,
+                                     speaker_wav = speaker,
+                                     silence = 250,
+                                     rank = itr + 1,
+                                     chapter = 1,
+                                     )
+
+
+    def save_with_silence(self, text="", file_path = "", speaker_wav = "", silence = 250):
+        if text == "":
+            current_audio = AudioSegment.silent(duration=silence)
+        else:
+            sm.extract_audio_from_chat_gpt(text, file_path, speaker_wav)
+            sm.alter_audio(file_path, affect = 'slowed_reverb')
+            current_audio0 = AudioSegment.from_file(file_path)
+            current_audio = current_audio0 + AudioSegment.silent(duration=silence)
+        time = len(current_audio)
+        current_audio.export(file_path, format="wav") 
+        return time
+
+
+def test():
+    q1 = WolfyGPTMiddleware("test")
+    q1.synthesize("as")
+
+    ctx = q1.get_context()
+    ctx2 = q1.get_internal_context()
+    import pdb; pdb.set_trace()
+
+
+def test2():
+    
+    audio_wav = '/home/prakharrrr4/pegasus/spider/dan_clipped.wav'
+    audio = whisper.load_audio(audio_wav)
+    model = whisper.load_model("base")
+    result = whisper.transcribe(model, audio)
+    import pdb; pdb.set_trace()
+
+def test3():
+    q1 = WolfyGPTMiddleware(
+        'test'
+    )
+    q1.synthesize('as')
+    ret = q1.get_subtitles_at_word_level()
+    import pdb; pdb.set_trace()
+
+
+def test4():
+    q1 = WolfyGPTMiddleware(
+        'test'
+    )
+    q1.synthesize('as')
+    _ids_ = ['t1','t1'] # generate from context
+    q1.delete_by_ids(_ids_)
+
+
+"""
+Test Case 1
+WolfyGPTMiddleware
+
+1. synthesize -> working, filepath consistency ✅
+2. object addition, save_file ✅
+3. get_context, get_internal_context ✅
+4. silence addition ✅
+5. get subtitles in segment level ✅
+__________________________________________
+
+Test Case 2
+Function Add-ons
+
+0. regenerate_by_ids 
+1. whisperx ✅
+2. word level ts ✅
+3. delete speech [I] ✅
+4. get subtites at word level ✅
+
+_____________________________________________
+
+Test Case 3
+UI Tests
+
+1. delete function from UI ✅
+2. movie and quotes UI flow 
+
+_____________________________________________
+
+Test Case 4
+preset_{i}.py impl. 
+
+_____________________________________________
+
+Test Case 5
+Crawler(SM) Tests
+1. movie and quotes crawler
+"""

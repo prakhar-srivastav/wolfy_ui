@@ -5,7 +5,7 @@ from django import forms
 from django.http import JsonResponse
 from django.templatetags.static import static
 from django.conf import settings
-from .audio_generator import WolfyTTSMiddleware
+from .audio_generator import ThemeFactory
 
 import sys
 import os
@@ -74,7 +74,7 @@ def get_audio_context_from_workspace(workspace):
     audio_folder = os.path.join(settings.MEDIA_ROOT,'workspace/{}/audio'.format(workspace))
     audio_context = {}
     for _id_ in  os.listdir(audio_folder):
-        instance = WolfyTTSMiddleware(workspace, _id_ = _id_)
+        instance = ThemeFactory().get_middleware(workspace, _id_ = _id_)
         audio_context[_id_] = {
                                 'time' : round(instance.get_total_time()/(1000*60),2),
                                 'name' : _id_
@@ -94,19 +94,19 @@ def control_panel(request):
     data = request.GET
     workspace = data['workspace']
     audio_context = get_audio_context_from_workspace(workspace)
-    video_files = get_video_files_from_workspace(workspace)
-    video_theme_files = get_video_theme_choices()
-    caption_list = get_caption_list()
-    affects_list = get_affects_list()
+    # video_files = get_video_files_from_workspace(workspace)
+    # video_theme_files = get_video_theme_choices()
+    # caption_list = get_caption_list()
+    # affects_list = get_affects_list()
     background_music_list = get_background_music_list()
     context = {
         'workspace' : workspace,
         'audio_context' : audio_context,
-        'video_list' : video_files,
-        'video_theme' : video_theme_files,
-        'caption_list' : caption_list,
-        'affects_list' : affects_list,
-        'background_music_list' : background_music_list,
+        # 'video_list' : video_files,
+        # 'video_theme' : video_theme_files,
+        # 'caption_list' : caption_list,
+        # 'affects_list' : affects_list,
+        # 'background_music_list' : background_music_list,
             }
     return render(request, 'workspace/control_panel/display_workspace.html', context)
 

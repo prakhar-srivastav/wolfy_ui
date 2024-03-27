@@ -1,0 +1,156 @@
+{
+    "time": 21883,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Nothing in life is to be feared, it is only to be understood.  Now is the time to understand more, so that we may fear less.\n Read more at https://www.brainyquote.com/topics/now-quotes",
+    "asr_speech": " Nothing in life is to be feared. It is only to be understood. Now is the time to understand more so that we may fear less. Read more at ITTS. Brain-Equot, Comptopics, Now Quotes.",
+    "wer": 0.26666666666666666,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Nothing in life is to be feared. It is only to be understood. Now is the time to understand more so that we may fear less. Read more at ITTS. Brain-Equot, Comptopics, Now Quotes.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.64,
+                "text": " Nothing in life is to be feared.",
+                "tokens": [
+                    50364,
+                    6693,
+                    294,
+                    993,
+                    307,
+                    281,
+                    312,
+                    30629,
+                    13,
+                    50546
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.33771478562127977,
+                "compression_ratio": 1.3383458646616542,
+                "no_speech_prob": 0.0079176751896739
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.64,
+                "end": 6.32,
+                "text": " It is only to be understood.",
+                "tokens": [
+                    50546,
+                    467,
+                    307,
+                    787,
+                    281,
+                    312,
+                    7320,
+                    13,
+                    50680
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.33771478562127977,
+                "compression_ratio": 1.3383458646616542,
+                "no_speech_prob": 0.0079176751896739
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 6.32,
+                "end": 10.16,
+                "text": " Now is the time to understand more",
+                "tokens": [
+                    50680,
+                    823,
+                    307,
+                    264,
+                    565,
+                    281,
+                    1223,
+                    544,
+                    50872
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.33771478562127977,
+                "compression_ratio": 1.3383458646616542,
+                "no_speech_prob": 0.0079176751896739
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 10.16,
+                "end": 13.120000000000001,
+                "text": " so that we may fear less.",
+                "tokens": [
+                    50872,
+                    370,
+                    300,
+                    321,
+                    815,
+                    4240,
+                    1570,
+                    13,
+                    51020
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.33771478562127977,
+                "compression_ratio": 1.3383458646616542,
+                "no_speech_prob": 0.0079176751896739
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 13.120000000000001,
+                "end": 15.64,
+                "text": " Read more at ITTS.",
+                "tokens": [
+                    51020,
+                    17604,
+                    544,
+                    412,
+                    6783,
+                    7327,
+                    13,
+                    51146
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.33771478562127977,
+                "compression_ratio": 1.3383458646616542,
+                "no_speech_prob": 0.0079176751896739
+            },
+            {
+                "id": 5,
+                "seek": 0,
+                "start": 17.48,
+                "end": 21.28,
+                "text": " Brain-Equot, Comptopics, Now Quotes.",
+                "tokens": [
+                    51238,
+                    29783,
+                    12,
+                    36,
+                    358,
+                    310,
+                    11,
+                    2432,
+                    662,
+                    404,
+                    1167,
+                    11,
+                    823,
+                    2326,
+                    17251,
+                    13,
+                    51428
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.33771478562127977,
+                "compression_ratio": 1.3383458646616542,
+                "no_speech_prob": 0.0079176751896739
+            }
+        ],
+        "language": "en"
+    }
+}

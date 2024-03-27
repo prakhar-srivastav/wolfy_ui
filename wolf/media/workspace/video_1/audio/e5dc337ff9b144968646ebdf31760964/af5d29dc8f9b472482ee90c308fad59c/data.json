@@ -1,0 +1,86 @@
+{
+    "time": 8603,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Everybody has goals, aspirations or whatever, and everybody has been at a point in their life where nobody believed in them.",
+    "asr_speech": " Everybody has goals, aspirations, or whatever, and everybody has been at a point in their life where nobody believed in them.",
+    "wer": 0.047619047619047616,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Everybody has goals, aspirations, or whatever, and everybody has been at a point in their life where nobody believed in them.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 3.68,
+                "text": " Everybody has goals, aspirations, or whatever,",
+                "tokens": [
+                    50364,
+                    7646,
+                    575,
+                    5493,
+                    11,
+                    32458,
+                    11,
+                    420,
+                    2035,
+                    11,
+                    50548
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.23399852216243744,
+                "compression_ratio": 1.3020833333333333,
+                "no_speech_prob": 0.00790063664317131
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.68,
+                "end": 6.0,
+                "text": " and everybody has been at a point in their life",
+                "tokens": [
+                    50548,
+                    293,
+                    2201,
+                    575,
+                    668,
+                    412,
+                    257,
+                    935,
+                    294,
+                    641,
+                    993,
+                    50664
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.23399852216243744,
+                "compression_ratio": 1.3020833333333333,
+                "no_speech_prob": 0.00790063664317131
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 6.0,
+                "end": 7.92,
+                "text": " where nobody believed in them.",
+                "tokens": [
+                    50664,
+                    689,
+                    5079,
+                    7847,
+                    294,
+                    552,
+                    13,
+                    50760
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.23399852216243744,
+                "compression_ratio": 1.3020833333333333,
+                "no_speech_prob": 0.00790063664317131
+            }
+        ],
+        "language": "en"
+    }
+}

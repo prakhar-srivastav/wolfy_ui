@@ -1,0 +1,73 @@
+{
+    "time": 7632,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/stoic3.wav",
+    "rank": 1,
+    "chapter": 8,
+    "speech": "Keep your head up.  Keep moving forward.  You're writing your own story of strength, and trust me, it's one worth telling.",
+    "asr_speech": " Keep your head up, keep moving forward, you're writing your own story of strength and trust me, it's one worth telling.",
+    "wer": 0.23809523809523808,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Keep your head up, keep moving forward, you're writing your own story of strength and trust me, it's one worth telling.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.08,
+                "text": " Keep your head up, keep moving forward, you're writing your own story of strength and trust",
+                "tokens": [
+                    50364,
+                    5527,
+                    428,
+                    1378,
+                    493,
+                    11,
+                    1066,
+                    2684,
+                    2128,
+                    11,
+                    291,
+                    434,
+                    3579,
+                    428,
+                    1065,
+                    1657,
+                    295,
+                    3800,
+                    293,
+                    3361,
+                    50618
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28331586718559265,
+                "compression_ratio": 1.2268041237113403,
+                "no_speech_prob": 0.006973335053771734
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.08,
+                "end": 6.76,
+                "text": " me, it's one worth telling.",
+                "tokens": [
+                    50618,
+                    385,
+                    11,
+                    309,
+                    311,
+                    472,
+                    3163,
+                    3585,
+                    13,
+                    50702
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.28331586718559265,
+                "compression_ratio": 1.2268041237113403,
+                "no_speech_prob": 0.006973335053771734
+            }
+        ],
+        "language": "en"
+    }
+}

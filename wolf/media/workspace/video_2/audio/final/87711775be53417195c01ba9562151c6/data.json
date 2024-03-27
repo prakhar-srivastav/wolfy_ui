@@ -1,0 +1,166 @@
+{
+    "time": 16453,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/nick_ted.wav",
+    "rank": 2,
+    "chapter": 3,
+    "speech": "You hear me?  I love this game.  It's not just a part of me; it is me.  And guess what?  There are thousands out there, hungry, waiting for a shot, obsessed with making their mark. ",
+    "asr_speech": " You hear me, I love this game. It's not just a part of me. It is me. And guess what? There are thousands out there, hungry, waiting for a shot, obsessed with making their mark.",
+    "wer": 0.08571428571428572,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " You hear me, I love this game. It's not just a part of me. It is me. And guess what? There are thousands out there, hungry, waiting for a shot, obsessed with making their mark.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.0,
+                "text": " You hear me, I love this game.",
+                "tokens": [
+                    50364,
+                    509,
+                    1568,
+                    385,
+                    11,
+                    286,
+                    959,
+                    341,
+                    1216,
+                    13,
+                    50464
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 3.0,
+                "end": 5.0,
+                "text": " It's not just a part of me.",
+                "tokens": [
+                    50514,
+                    467,
+                    311,
+                    406,
+                    445,
+                    257,
+                    644,
+                    295,
+                    385,
+                    13,
+                    50614
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 5.0,
+                "end": 6.0,
+                "text": " It is me.",
+                "tokens": [
+                    50614,
+                    467,
+                    307,
+                    385,
+                    13,
+                    50664
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 6.0,
+                "end": 8.0,
+                "text": " And guess what?",
+                "tokens": [
+                    50664,
+                    400,
+                    2041,
+                    437,
+                    30,
+                    50764
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 9.0,
+                "end": 12.0,
+                "text": " There are thousands out there, hungry,",
+                "tokens": [
+                    50814,
+                    821,
+                    366,
+                    5383,
+                    484,
+                    456,
+                    11,
+                    8067,
+                    11,
+                    50964
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            },
+            {
+                "id": 5,
+                "seek": 0,
+                "start": 12.0,
+                "end": 14.0,
+                "text": " waiting for a shot,",
+                "tokens": [
+                    50964,
+                    3806,
+                    337,
+                    257,
+                    3347,
+                    11,
+                    51064
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            },
+            {
+                "id": 6,
+                "seek": 0,
+                "start": 14.0,
+                "end": 16.0,
+                "text": " obsessed with making their mark.",
+                "tokens": [
+                    51064,
+                    16923,
+                    365,
+                    1455,
+                    641,
+                    1491,
+                    13,
+                    51164
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24796826044718426,
+                "compression_ratio": 1.2941176470588236,
+                "no_speech_prob": 0.04537829011678696
+            }
+        ],
+        "language": "en"
+    }
+}

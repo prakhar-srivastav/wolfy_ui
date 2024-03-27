@@ -1,0 +1,120 @@
+{
+    "time": 14736,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/ivan_ted.wav",
+    "rank": 3,
+    "chapter": 7,
+    "speech": "Through the pain, the struggle, you build a kind of strength some folks can't even imagine.  You learn to appreciate people more, to have more compassion.\n Going through the darkest times gives you depth, clarity. ",
+    "asr_speech": " Through the pain, the struggle, you build a kind of strength some folks can't even imagine. You learn to appreciate people more, to have more compassion. Going through the darkest times gives you depth. Clarity.",
+    "wer": 0.05714285714285714,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Through the pain, the struggle, you build a kind of strength some folks can't even imagine. You learn to appreciate people more, to have more compassion. Going through the darkest times gives you depth. Clarity.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 5.72,
+                "text": " Through the pain, the struggle, you build a kind of strength some folks can't even imagine.",
+                "tokens": [
+                    50364,
+                    8927,
+                    264,
+                    1822,
+                    11,
+                    264,
+                    7799,
+                    11,
+                    291,
+                    1322,
+                    257,
+                    733,
+                    295,
+                    3800,
+                    512,
+                    4024,
+                    393,
+                    380,
+                    754,
+                    3811,
+                    13,
+                    50650
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26024593497222326,
+                "compression_ratio": 1.3525641025641026,
+                "no_speech_prob": 0.051615599542856216
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.72,
+                "end": 10.1,
+                "text": " You learn to appreciate people more, to have more compassion.",
+                "tokens": [
+                    50650,
+                    509,
+                    1466,
+                    281,
+                    4449,
+                    561,
+                    544,
+                    11,
+                    281,
+                    362,
+                    544,
+                    12601,
+                    13,
+                    50869
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26024593497222326,
+                "compression_ratio": 1.3525641025641026,
+                "no_speech_prob": 0.051615599542856216
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 10.1,
+                "end": 13.5,
+                "text": " Going through the darkest times gives you depth.",
+                "tokens": [
+                    50869,
+                    10963,
+                    807,
+                    264,
+                    33460,
+                    1413,
+                    2709,
+                    291,
+                    7161,
+                    13,
+                    51039
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26024593497222326,
+                "compression_ratio": 1.3525641025641026,
+                "no_speech_prob": 0.051615599542856216
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 13.5,
+                "end": 13.94,
+                "text": " Clarity.",
+                "tokens": [
+                    51039,
+                    2033,
+                    17409,
+                    13,
+                    51061
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26024593497222326,
+                "compression_ratio": 1.3525641025641026,
+                "no_speech_prob": 0.051615599542856216
+            }
+        ],
+        "language": "en"
+    }
+}

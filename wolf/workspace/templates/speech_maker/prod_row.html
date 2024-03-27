@@ -43,7 +43,13 @@
     <td id = "regenerate_td">
         <button id="regenerate_button_{{key}}" type="submit">Regenerate</button>
     </td>
+    <td>
+        <input type="checkbox" id="delete_button" name="delete">
+    </td>
+
 </tr>
+
+
 
 <script>
     document.getElementById("regenerate_button_{{ key|escapejs }}").addEventListener("click", function () {

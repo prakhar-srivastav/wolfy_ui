@@ -1,0 +1,51 @@
+{
+    "time": 5723,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/daniel_ted.wav",
+    "rank": 3,
+    "chapter": 12,
+    "speech": "Become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+    "asr_speech": " Become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 4.96,
+                "text": " Become so engulfed in your passion that the thought of mediocrity makes you nauseous.",
+                "tokens": [
+                    50364,
+                    44308,
+                    370,
+                    1741,
+                    5757,
+                    292,
+                    294,
+                    428,
+                    5418,
+                    300,
+                    264,
+                    1194,
+                    295,
+                    17269,
+                    3617,
+                    507,
+                    1669,
+                    291,
+                    34735,
+                    563,
+                    13,
+                    50612
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.16759295048921005,
+                "compression_ratio": 1.0759493670886076,
+                "no_speech_prob": 0.01948404125869274
+            }
+        ],
+        "language": "en"
+    }
+}

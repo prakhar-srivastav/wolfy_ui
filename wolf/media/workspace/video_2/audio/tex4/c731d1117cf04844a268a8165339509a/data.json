@@ -1,0 +1,75 @@
+{
+    "time": 9488,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/mathew.wav",
+    "rank": 2,
+    "chapter": 5,
+    "speech": "Leave an impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+    "asr_speech": " Leave an impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Leave an impression so profound, so impactful, that it reshapes the very fabric of what it means to live a life of purpose.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 6.28,
+                "text": " Leave an impression so profound, so impactful, that it reshapes the very fabric of what it",
+                "tokens": [
+                    50364,
+                    9825,
+                    364,
+                    9995,
+                    370,
+                    14382,
+                    11,
+                    370,
+                    30842,
+                    11,
+                    300,
+                    309,
+                    725,
+                    71,
+                    569,
+                    279,
+                    264,
+                    588,
+                    7253,
+                    295,
+                    437,
+                    309,
+                    50678
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2455462287454044,
+                "compression_ratio": 1.23,
+                "no_speech_prob": 0.003588596358895302
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.28,
+                "end": 8.68,
+                "text": " means to live a life of purpose.",
+                "tokens": [
+                    50678,
+                    1355,
+                    281,
+                    1621,
+                    257,
+                    993,
+                    295,
+                    4334,
+                    13,
+                    50798
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2455462287454044,
+                "compression_ratio": 1.23,
+                "no_speech_prob": 0.003588596358895302
+            }
+        ],
+        "language": "en"
+    }
+}

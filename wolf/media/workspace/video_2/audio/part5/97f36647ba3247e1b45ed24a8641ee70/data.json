@@ -1,0 +1,138 @@
+{
+    "time": 17563,
+    "speaker": "/home/prakharrrr4/wolfy_ui/wolf/media/data/audio_data/zig3.wav",
+    "rank": 1,
+    "chapter": 1,
+    "speech": "Don't just dream\u2014execute.  Don't just wish\u2014work.  And at the end of it all, when you stand before whatever judgment awaits, let there be no doubt, no question, that you gave it everything you had. ",
+    "asr_speech": " Don't just dream, execute. Don't just wish, work, and at the end of it all, when you stand before whatever judgment awaits, let there be no doubt, no question, that you gave it everything you had.",
+    "wer": 0.14705882352941177,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Don't just dream, execute. Don't just wish, work, and at the end of it all, when you stand before whatever judgment awaits, let there be no doubt, no question, that you gave it everything you had.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.0,
+                "end": 2.48,
+                "text": " Don't just dream, execute.",
+                "tokens": [
+                    50364,
+                    1468,
+                    380,
+                    445,
+                    3055,
+                    11,
+                    14483,
+                    13,
+                    50488
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22828636498286806,
+                "compression_ratio": 1.4202898550724639,
+                "no_speech_prob": 0.01045972853899002
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 2.48,
+                "end": 7.88,
+                "text": " Don't just wish, work, and at the end of it all,",
+                "tokens": [
+                    50488,
+                    1468,
+                    380,
+                    445,
+                    3172,
+                    11,
+                    589,
+                    11,
+                    293,
+                    412,
+                    264,
+                    917,
+                    295,
+                    309,
+                    439,
+                    11,
+                    50758
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22828636498286806,
+                "compression_ratio": 1.4202898550724639,
+                "no_speech_prob": 0.01045972853899002
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 7.88,
+                "end": 11.4,
+                "text": " when you stand before whatever judgment awaits,",
+                "tokens": [
+                    50758,
+                    562,
+                    291,
+                    1463,
+                    949,
+                    2035,
+                    12216,
+                    45955,
+                    11,
+                    50934
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22828636498286806,
+                "compression_ratio": 1.4202898550724639,
+                "no_speech_prob": 0.01045972853899002
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 11.4,
+                "end": 15.0,
+                "text": " let there be no doubt, no question,",
+                "tokens": [
+                    50934,
+                    718,
+                    456,
+                    312,
+                    572,
+                    6385,
+                    11,
+                    572,
+                    1168,
+                    11,
+                    51114
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22828636498286806,
+                "compression_ratio": 1.4202898550724639,
+                "no_speech_prob": 0.01045972853899002
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 15.0,
+                "end": 17.04,
+                "text": " that you gave it everything you had.",
+                "tokens": [
+                    51114,
+                    300,
+                    291,
+                    2729,
+                    309,
+                    1203,
+                    291,
+                    632,
+                    13,
+                    51216
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.22828636498286806,
+                "compression_ratio": 1.4202898550724639,
+                "no_speech_prob": 0.01045972853899002
+            }
+        ],
+        "language": "en"
+    }
+}
