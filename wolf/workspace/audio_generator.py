@@ -176,7 +176,7 @@ class ThemeFactory(object):
         if theme == 'xtts' or theme == '':
             return WolfyTTSMiddleware(workspace, _id_ = _id_)
         elif theme == 'gpt_quote':
-            return WolfyGPTMiddleware(workspace, _id_ = _id_)
+            return QuotesGPTMiddleware(workspace, _id_ = _id_)
         elif theme == 'gpt_movie':
             raise ValueError("GptMovieMiddleware is not yet implemented")
         else:
@@ -593,7 +593,7 @@ class WolfyTTSMiddleware(object):
 
         return words
 
-class WolfyGPTMiddleware(WolfyTTSMiddleware):
+class QuotesGPTMiddleware(WolfyTTSMiddleware):
 
     def __init__(self, workspace, _id_ = None):
         super().__init__(workspace, _id_ = _id_)
@@ -605,10 +605,14 @@ class WolfyGPTMiddleware(WolfyTTSMiddleware):
         speaker = 'gpt_cove'
         _folder_path_ = self.get_folder_path()
 
-        author = '\n'.split(text)
-        author = [x.strip() for x in author]
-        sentences = sm.extract_quotes(author)
+        author_text = '\n'.split(text)
+        author_list = [x.strip() for x in author]
 
+        sentences = []
+
+        for author in author_list:
+            cur = sm.extract_quotes(author)
+            sentences.extend(cur)
         audio_files = []
 
         os.makedirs(_folder_path_, exist_ok = True)
@@ -632,8 +636,8 @@ class WolfyGPTMiddleware(WolfyTTSMiddleware):
         if text == "":
             current_audio = AudioSegment.silent(duration=silence)
         else:
-            sm.extract_audio_from_chat_gpt(text, file_path, speaker_wav)
-            sm.alter_audio(file_path, affect = 'slowed_reverb')
+            sm.extract_audio_from_chat_gpt(text, file_path)
+            sm.alter_audio(file_path, affect = 'slowed-reverb')
             current_audio0 = AudioSegment.from_file(file_path)
             current_audio = current_audio0 + AudioSegment.silent(duration=silence)
         time = len(current_audio)
@@ -642,7 +646,7 @@ class WolfyGPTMiddleware(WolfyTTSMiddleware):
 
 
 def test():
-    q1 = WolfyGPTMiddleware("test")
+    q1 = QuotesGPTMiddleware("test")
     q1.synthesize("as")
 
     ctx = q1.get_context()
@@ -659,7 +663,7 @@ def test2():
     import pdb; pdb.set_trace()
 
 def test3():
-    q1 = WolfyGPTMiddleware(
+    q1 = QuotesGPTMiddleware(
         'test'
     )
     q1.synthesize('as')
@@ -668,17 +672,17 @@ def test3():
 
 
 def test4():
-    q1 = WolfyGPTMiddleware(
+    q1 = QuotesGPTMiddleware(
         'test'
     )
     q1.synthesize('as')
-    _ids_ = ['t1','t1'] # generate from context
+    _ids_ = ['t1','t1'] 
     q1.delete_by_ids(_ids_)
 
 
 """
 Test Case 1
-WolfyGPTMiddleware
+QuotesGPTMiddleware
 
 1. synthesize -> working, filepath consistency ✅
 2. object addition, save_file ✅
@@ -712,6 +716,6 @@ preset_{i}.py impl.
 _____________________________________________
 
 Test Case 5
-Crawler(SM) Tests
+Crawler(SM) Tests 
 1. movie and quotes crawler
 """
