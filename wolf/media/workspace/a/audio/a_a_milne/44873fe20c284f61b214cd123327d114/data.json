@@ -1,0 +1,421 @@
+{
+    "time": 13498,
+    "speaker": "gpt_cove",
+    "rank": 10,
+    "chapter": 1,
+    "speech": "I suppose that every one of us hopes secretly for immortality; to leave, I mean, a name behind him which will live forever in this world, whatever he may be doing, himself, in the next.",
+    "asr_speech": " I suppose that every one of us hopes secretly for immortality. To leave, I mean a name behind him which will live forever in this world, whatever he may be doing himself in the next.",
+    "wer": 0.14285714285714285,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " I suppose that every one of us hopes secretly for immortality. To leave, I mean a name behind him which will live forever in this world, whatever he may be doing himself in the next.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.1,
+                "end": 3.8,
+                "text": " I suppose that every one of us hopes secretly for immortality.",
+                "tokens": [
+                    50364,
+                    286,
+                    7297,
+                    300,
+                    633,
+                    472,
+                    295,
+                    505,
+                    13681,
+                    22611,
+                    337,
+                    44817,
+                    1860,
+                    13,
+                    50584
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24087009024112782,
+                "compression_ratio": 1.368421052631579,
+                "no_speech_prob": 0.0483386293053627,
+                "confidence": 0.91,
+                "words": [
+                    {
+                        "text": "I",
+                        "start": 0.1,
+                        "end": 0.2,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "suppose",
+                        "start": 0.2,
+                        "end": 0.5,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "that",
+                        "start": 0.5,
+                        "end": 0.78,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "every",
+                        "start": 0.78,
+                        "end": 1.08,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "one",
+                        "start": 1.08,
+                        "end": 1.36,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "of",
+                        "start": 1.36,
+                        "end": 1.48,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "us",
+                        "start": 1.48,
+                        "end": 1.68,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "hopes",
+                        "start": 1.68,
+                        "end": 2.04,
+                        "confidence": 0.386
+                    },
+                    {
+                        "text": "secretly",
+                        "start": 2.04,
+                        "end": 2.52,
+                        "confidence": 0.935
+                    },
+                    {
+                        "text": "for",
+                        "start": 2.52,
+                        "end": 2.92,
+                        "confidence": 0.974
+                    },
+                    {
+                        "text": "immortality.",
+                        "start": 2.92,
+                        "end": 3.8,
+                        "confidence": 0.991
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.42,
+                "end": 8.64,
+                "text": " To leave, I mean a name behind him which will live forever in this world,",
+                "tokens": [
+                    50584,
+                    1407,
+                    1856,
+                    11,
+                    286,
+                    914,
+                    257,
+                    1315,
+                    2261,
+                    796,
+                    597,
+                    486,
+                    1621,
+                    5680,
+                    294,
+                    341,
+                    1002,
+                    11,
+                    50820
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24087009024112782,
+                "compression_ratio": 1.368421052631579,
+                "no_speech_prob": 0.0483386293053627,
+                "confidence": 0.962,
+                "words": [
+                    {
+                        "text": "To",
+                        "start": 4.42,
+                        "end": 4.54,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "leave,",
+                        "start": 4.54,
+                        "end": 4.86,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "I",
+                        "start": 5.16,
+                        "end": 5.4,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "mean",
+                        "start": 5.4,
+                        "end": 5.6,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "a",
+                        "start": 5.6,
+                        "end": 5.74,
+                        "confidence": 0.983
+                    },
+                    {
+                        "text": "name",
+                        "start": 5.74,
+                        "end": 5.98,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "behind",
+                        "start": 5.98,
+                        "end": 6.4,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "him",
+                        "start": 6.4,
+                        "end": 6.76,
+                        "confidence": 0.9
+                    },
+                    {
+                        "text": "which",
+                        "start": 6.76,
+                        "end": 7.04,
+                        "confidence": 0.74
+                    },
+                    {
+                        "text": "will",
+                        "start": 7.04,
+                        "end": 7.22,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "live",
+                        "start": 7.22,
+                        "end": 7.38,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "forever",
+                        "start": 7.38,
+                        "end": 7.74,
+                        "confidence": 0.97
+                    },
+                    {
+                        "text": "in",
+                        "start": 7.74,
+                        "end": 8.06,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "this",
+                        "start": 8.06,
+                        "end": 8.24,
+                        "confidence": 0.99
+                    },
+                    {
+                        "text": "world,",
+                        "start": 8.24,
+                        "end": 8.64,
+                        "confidence": 0.997
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 9.14,
+                "end": 12.24,
+                "text": " whatever he may be doing himself in the next.",
+                "tokens": [
+                    50820,
+                    2035,
+                    415,
+                    815,
+                    312,
+                    884,
+                    3647,
+                    294,
+                    264,
+                    958,
+                    13,
+                    51032
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.24087009024112782,
+                "compression_ratio": 1.368421052631579,
+                "no_speech_prob": 0.0483386293053627,
+                "confidence": 0.913,
+                "words": [
+                    {
+                        "text": "whatever",
+                        "start": 9.14,
+                        "end": 9.42,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "he",
+                        "start": 9.42,
+                        "end": 9.64,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "may",
+                        "start": 9.64,
+                        "end": 9.8,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "be",
+                        "start": 9.8,
+                        "end": 9.94,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "doing",
+                        "start": 9.94,
+                        "end": 10.28,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "himself",
+                        "start": 10.28,
+                        "end": 11.04,
+                        "confidence": 0.538
+                    },
+                    {
+                        "text": "in",
+                        "start": 11.04,
+                        "end": 11.68,
+                        "confidence": 0.88
+                    },
+                    {
+                        "text": "the",
+                        "start": 11.68,
+                        "end": 11.82,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "next.",
+                        "start": 11.82,
+                        "end": 12.24,
+                        "confidence": 0.977
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9949652552604675,
+            "zh": 2.150478758267127e-05,
+            "de": 0.00014243711484596133,
+            "es": 0.0002579202991910279,
+            "ru": 3.894014298566617e-05,
+            "ko": 3.803809158853255e-05,
+            "fr": 0.0001552191679365933,
+            "ja": 0.0001589000748936087,
+            "pt": 0.0008456881623715162,
+            "tr": 2.1337436919566244e-05,
+            "pl": 0.0004526642442215234,
+            "ca": 6.778998908885114e-07,
+            "nl": 0.00013698043767362833,
+            "ar": 0.00011534909572219476,
+            "sv": 3.947028744732961e-06,
+            "it": 0.0001286812184844166,
+            "id": 1.5981000615283847e-05,
+            "hi": 1.2941809472977184e-05,
+            "fi": 1.2157704986748286e-05,
+            "vi": 6.370181654347107e-05,
+            "he": 2.1843439753865823e-05,
+            "uk": 1.3640567431139061e-06,
+            "el": 0.0002640367019921541,
+            "ms": 3.356849629199132e-05,
+            "cs": 1.096050368687429e-06,
+            "ro": 1.9888677343260497e-05,
+            "da": 1.23491599879344e-05,
+            "hu": 6.558590030181222e-06,
+            "ta": 1.356289976683911e-05,
+            "no": 8.098776561382692e-06,
+            "th": 3.0090608561295085e-05,
+            "ur": 3.658087371150032e-05,
+            "hr": 6.124315632405342e-07,
+            "bg": 1.864444470811577e-06,
+            "lt": 1.1576598808460403e-06,
+            "la": 0.0011741217458620667,
+            "mi": 2.1171386833884753e-05,
+            "ml": 7.188073709585296e-07,
+            "cy": 0.0001857730239862576,
+            "sk": 7.188073709585296e-07,
+            "te": 1.5578016245854087e-06,
+            "fa": 4.0723211895965505e-06,
+            "lv": 8.807011795397557e-07,
+            "bn": 5.522886567632668e-06,
+            "sr": 1.3964045137981884e-06,
+            "az": 1.972801300098581e-07,
+            "sl": 1.1876071766891982e-05,
+            "kn": 1.5484692994505167e-07,
+            "et": 9.282522483999855e-08,
+            "mk": 3.422036058964295e-07,
+            "br": 1.314561359322397e-05,
+            "eu": 1.1667394801406772e-06,
+            "is": 1.3534415757021634e-06,
+            "hy": 1.3934716491803556e-07,
+            "ne": 5.238404696683574e-07,
+            "mn": 1.6072515336418292e-06,
+            "bs": 1.037719584928709e-06,
+            "kk": 6.052965204617067e-07,
+            "sq": 5.730831844630302e-07,
+            "sw": 1.623266507522203e-05,
+            "gl": 5.653857897414127e-06,
+            "mr": 4.8915456574150085e-08,
+            "pa": 1.3855375300408923e-06,
+            "si": 4.836000698560383e-06,
+            "km": 1.7967922758543864e-05,
+            "sn": 8.621103006589692e-06,
+            "yo": 4.687212822318543e-06,
+            "so": 5.0075453117415236e-08,
+            "af": 3.409712735447101e-05,
+            "oc": 9.748473530635238e-07,
+            "ka": 1.1734208271718671e-07,
+            "be": 1.3611919769118686e-07,
+            "tg": 3.2584718923089895e-08,
+            "sd": 9.979652304537012e-07,
+            "gu": 2.226761495194296e-07,
+            "am": 7.400671364621303e-08,
+            "yi": 7.804909546393901e-05,
+            "lo": 4.242189390879503e-07,
+            "uz": 1.2921458347747716e-09,
+            "fo": 1.5484692994505167e-07,
+            "ht": 4.798366717295721e-06,
+            "ps": 2.253009796504557e-07,
+            "tk": 1.3202072768336848e-09,
+            "nn": 6.781022966606542e-05,
+            "mt": 2.302281700394815e-06,
+            "sa": 3.128928437945433e-05,
+            "lb": 1.569550889257698e-08,
+            "my": 4.472569798963377e-06,
+            "bo": 1.0079091225634329e-05,
+            "tl": 5.5345102737192065e-05,
+            "mg": 1.1834261348653285e-09,
+            "as": 9.881193818728207e-08,
+            "tt": 2.1120616366943068e-08,
+            "haw": 0.0001589000748936087,
+            "ln": 1.1284677725598158e-07,
+            "ha": 8.908165760601605e-09,
+            "ba": 2.0953128121448117e-09,
+            "jw": 2.0044666598550975e-05,
+            "su": 1.121707438045405e-08
+        }
+    }
+}

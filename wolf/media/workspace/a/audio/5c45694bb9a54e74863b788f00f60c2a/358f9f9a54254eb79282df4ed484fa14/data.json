@@ -1,0 +1,596 @@
+{
+    "time": 21874,
+    "speaker": "gpt_cove",
+    "rank": 10,
+    "chapter": 1,
+    "speech": "The duties of the ruler are like those of the helmsman of a great ship. From his lofty position, he makes slight movements with his hands, and the ship, of itself, follows his desires and moves. This is the way whereby the one may control the ten thousand and by quiescence may regulate activity.",
+    "asr_speech": " The duties of the ruler are like those of the helmsman of a great ship. From his lofty position, he makes slight movements with his hands, and the ship of itself follows his desires and moves. This is the way whereby the one may control the ten thousand, and by quiescence may regulate activity.",
+    "wer": 0.05555555555555555,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " The duties of the ruler are like those of the helmsman of a great ship. From his lofty position, he makes slight movements with his hands, and the ship of itself follows his desires and moves. This is the way whereby the one may control the ten thousand, and by quiescence may regulate activity.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.1,
+                "end": 4.0,
+                "text": " The duties of the ruler are like those of the helmsman of a great ship.",
+                "tokens": [
+                    50364,
+                    440,
+                    20910,
+                    295,
+                    264,
+                    19661,
+                    366,
+                    411,
+                    729,
+                    295,
+                    264,
+                    801,
+                    2592,
+                    1601,
+                    295,
+                    257,
+                    869,
+                    5374,
+                    13,
+                    50612
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.19446460824263723,
+                "compression_ratio": 1.5526315789473684,
+                "no_speech_prob": 0.012384091503918171,
+                "confidence": 0.965,
+                "words": [
+                    {
+                        "text": "The",
+                        "start": 0.1,
+                        "end": 0.18,
+                        "confidence": 0.894
+                    },
+                    {
+                        "text": "duties",
+                        "start": 0.18,
+                        "end": 0.48,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "of",
+                        "start": 0.48,
+                        "end": 0.7,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "the",
+                        "start": 0.7,
+                        "end": 0.86,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 0.86,
+                        "end": 1.22,
+                        "confidence": 0.964
+                    },
+                    {
+                        "text": "are",
+                        "start": 1.22,
+                        "end": 1.54,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "like",
+                        "start": 1.54,
+                        "end": 1.74,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "those",
+                        "start": 1.74,
+                        "end": 2.04,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "of",
+                        "start": 2.04,
+                        "end": 2.26,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "the",
+                        "start": 2.26,
+                        "end": 2.42,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "helmsman",
+                        "start": 2.42,
+                        "end": 3.04,
+                        "confidence": 0.885
+                    },
+                    {
+                        "text": "of",
+                        "start": 3.04,
+                        "end": 3.22,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "a",
+                        "start": 3.22,
+                        "end": 3.34,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "great",
+                        "start": 3.34,
+                        "end": 3.58,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "ship.",
+                        "start": 3.58,
+                        "end": 4.0,
+                        "confidence": 0.984
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.06,
+                "end": 9.0,
+                "text": " From his lofty position, he makes slight movements with his hands,",
+                "tokens": [
+                    50612,
+                    3358,
+                    702,
+                    34419,
+                    88,
+                    2535,
+                    11,
+                    415,
+                    1669,
+                    4036,
+                    9981,
+                    365,
+                    702,
+                    2377,
+                    11,
+                    50832
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.19446460824263723,
+                "compression_ratio": 1.5526315789473684,
+                "no_speech_prob": 0.012384091503918171,
+                "confidence": 0.988,
+                "words": [
+                    {
+                        "text": "From",
+                        "start": 5.06,
+                        "end": 5.22,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "his",
+                        "start": 5.22,
+                        "end": 5.4,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "lofty",
+                        "start": 5.4,
+                        "end": 5.94,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "position,",
+                        "start": 5.94,
+                        "end": 6.46,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "he",
+                        "start": 6.76,
+                        "end": 6.94,
+                        "confidence": 0.946
+                    },
+                    {
+                        "text": "makes",
+                        "start": 6.94,
+                        "end": 7.12,
+                        "confidence": 0.973
+                    },
+                    {
+                        "text": "slight",
+                        "start": 7.12,
+                        "end": 7.52,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "movements",
+                        "start": 7.52,
+                        "end": 7.96,
+                        "confidence": 0.983
+                    },
+                    {
+                        "text": "with",
+                        "start": 7.96,
+                        "end": 8.32,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "his",
+                        "start": 8.32,
+                        "end": 8.52,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "hands,",
+                        "start": 8.52,
+                        "end": 9.0,
+                        "confidence": 0.995
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 9.4,
+                "end": 12.84,
+                "text": " and the ship of itself follows his desires and moves.",
+                "tokens": [
+                    50832,
+                    293,
+                    264,
+                    5374,
+                    295,
+                    2564,
+                    10002,
+                    702,
+                    18005,
+                    293,
+                    6067,
+                    13,
+                    51080
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.19446460824263723,
+                "compression_ratio": 1.5526315789473684,
+                "no_speech_prob": 0.012384091503918171,
+                "confidence": 0.994,
+                "words": [
+                    {
+                        "text": "and",
+                        "start": 9.4,
+                        "end": 9.56,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "the",
+                        "start": 9.56,
+                        "end": 9.7,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "ship",
+                        "start": 9.7,
+                        "end": 9.96,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "of",
+                        "start": 9.96,
+                        "end": 10.2,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "itself",
+                        "start": 10.2,
+                        "end": 10.7,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "follows",
+                        "start": 10.7,
+                        "end": 11.4,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "his",
+                        "start": 11.4,
+                        "end": 11.66,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "desires",
+                        "start": 11.66,
+                        "end": 12.2,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "and",
+                        "start": 12.2,
+                        "end": 12.52,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "moves.",
+                        "start": 12.52,
+                        "end": 12.84,
+                        "confidence": 0.998
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 14.44,
+                "end": 17.72,
+                "text": " This is the way whereby the one may control the ten thousand,",
+                "tokens": [
+                    51080,
+                    639,
+                    307,
+                    264,
+                    636,
+                    36998,
+                    264,
+                    472,
+                    815,
+                    1969,
+                    264,
+                    2064,
+                    4714,
+                    11,
+                    51272
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.19446460824263723,
+                "compression_ratio": 1.5526315789473684,
+                "no_speech_prob": 0.012384091503918171,
+                "confidence": 0.894,
+                "words": [
+                    {
+                        "text": "This",
+                        "start": 14.44,
+                        "end": 14.62,
+                        "confidence": 0.752
+                    },
+                    {
+                        "text": "is",
+                        "start": 14.62,
+                        "end": 14.74,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "the",
+                        "start": 14.74,
+                        "end": 14.94,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "way",
+                        "start": 14.94,
+                        "end": 15.18,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "whereby",
+                        "start": 15.18,
+                        "end": 15.54,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "the",
+                        "start": 15.54,
+                        "end": 15.8,
+                        "confidence": 0.959
+                    },
+                    {
+                        "text": "one",
+                        "start": 15.8,
+                        "end": 16.0,
+                        "confidence": 0.93
+                    },
+                    {
+                        "text": "may",
+                        "start": 16.0,
+                        "end": 16.24,
+                        "confidence": 0.947
+                    },
+                    {
+                        "text": "control",
+                        "start": 16.24,
+                        "end": 16.64,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "the",
+                        "start": 16.64,
+                        "end": 16.92,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "ten",
+                        "start": 16.92,
+                        "end": 17.14,
+                        "confidence": 0.481
+                    },
+                    {
+                        "text": "thousand,",
+                        "start": 17.14,
+                        "end": 17.72,
+                        "confidence": 0.878
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "seek": 0,
+                "start": 18.22,
+                "end": 20.82,
+                "text": " and by quiescence may regulate activity.",
+                "tokens": [
+                    51272,
+                    293,
+                    538,
+                    421,
+                    530,
+                    25434,
+                    815,
+                    24475,
+                    5191,
+                    13,
+                    51452
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.19446460824263723,
+                "compression_ratio": 1.5526315789473684,
+                "no_speech_prob": 0.012384091503918171,
+                "confidence": 0.844,
+                "words": [
+                    {
+                        "text": "and",
+                        "start": 18.22,
+                        "end": 18.38,
+                        "confidence": 0.807
+                    },
+                    {
+                        "text": "by",
+                        "start": 18.38,
+                        "end": 18.52,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "quiescence",
+                        "start": 18.52,
+                        "end": 19.26,
+                        "confidence": 0.711
+                    },
+                    {
+                        "text": "may",
+                        "start": 19.26,
+                        "end": 19.5,
+                        "confidence": 0.936
+                    },
+                    {
+                        "text": "regulate",
+                        "start": 19.5,
+                        "end": 20.08,
+                        "confidence": 0.973
+                    },
+                    {
+                        "text": "activity.",
+                        "start": 20.08,
+                        "end": 20.82,
+                        "confidence": 0.994
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9988916516304016,
+            "zh": 2.6042091121780686e-05,
+            "de": 1.1556106983334757e-05,
+            "es": 1.0198229574598372e-05,
+            "ru": 5.720688022847753e-06,
+            "ko": 2.1045234461780638e-06,
+            "fr": 2.4604373720649164e-06,
+            "ja": 4.570529199554585e-05,
+            "pt": 0.00014299919712357223,
+            "tr": 6.185538495628862e-06,
+            "pl": 2.624633998493664e-05,
+            "ca": 1.551315165215783e-08,
+            "nl": 6.042250788595993e-06,
+            "ar": 2.422291800030507e-06,
+            "sv": 5.798571578452538e-07,
+            "it": 9.070493433682714e-06,
+            "id": 1.5885776747381897e-06,
+            "hi": 2.899103719755658e-06,
+            "fi": 1.4577608453691937e-06,
+            "vi": 5.501531632035039e-06,
+            "he": 3.9852963595876645e-07,
+            "uk": 2.634119766753429e-07,
+            "el": 2.479734803273459e-06,
+            "ms": 1.2691901247308124e-05,
+            "cs": 1.91216628309121e-07,
+            "ro": 3.159264224450453e-06,
+            "da": 3.303926519038214e-07,
+            "hu": 3.3368478398188017e-06,
+            "ta": 6.076851377656567e-07,
+            "no": 1.5639491266483674e-06,
+            "th": 1.2691901247308124e-05,
+            "ur": 2.79390842479188e-05,
+            "hr": 1.714054604917692e-07,
+            "bg": 1.6648151586196036e-06,
+            "lt": 3.544595870152989e-07,
+            "la": 0.0005109524936415255,
+            "mi": 2.921841542047332e-06,
+            "ml": 2.297520325100777e-07,
+            "cy": 2.9974262361065485e-05,
+            "sk": 1.8246016963985312e-07,
+            "te": 1.542482266359002e-07,
+            "fa": 7.1195113378053065e-06,
+            "lv": 2.0354902119379403e-07,
+            "bn": 4.742616511066444e-06,
+            "sr": 1.9012786651728675e-06,
+            "az": 1.0037123843176232e-07,
+            "sl": 1.044007240125211e-05,
+            "kn": 3.455213715142236e-08,
+            "et": 1.3165839973794391e-08,
+            "mk": 2.814980746279616e-07,
+            "br": 4.5609299377247225e-06,
+            "eu": 1.1966029944687762e-07,
+            "is": 1.6228342758495273e-07,
+            "hy": 1.244270322331431e-07,
+            "ne": 6.53128040539741e-08,
+            "mn": 3.329839444177196e-07,
+            "bs": 4.6958265897956153e-07,
+            "kk": 2.426664877930307e-07,
+            "sq": 3.189791186741786e-07,
+            "sw": 3.2851146443135804e-06,
+            "gl": 1.1713437970684026e-06,
+            "mr": 2.765518125613653e-08,
+            "pa": 9.266091183235403e-07,
+            "si": 5.127991698827827e-06,
+            "km": 5.631997282762313e-06,
+            "sn": 4.42060536443023e-06,
+            "yo": 1.6778724329924444e-06,
+            "so": 1.1709940572757205e-08,
+            "af": 1.0771476809168234e-05,
+            "oc": 2.3612098232206336e-07,
+            "ka": 4.0712368587492165e-08,
+            "be": 4.419285204448897e-08,
+            "tg": 3.1460078986356166e-08,
+            "sd": 7.622078896929452e-07,
+            "gu": 8.386330563325828e-08,
+            "am": 9.594780969734984e-09,
+            "yi": 3.531831316649914e-05,
+            "lo": 1.603927728410781e-07,
+            "uz": 4.150295385141334e-10,
+            "fo": 1.0601315381109089e-07,
+            "ht": 6.468774813583877e-07,
+            "ps": 1.9575118415104953e-07,
+            "tk": 4.4352577166506535e-10,
+            "nn": 1.734777288220357e-05,
+            "mt": 1.358782583338325e-06,
+            "sa": 2.9509556043194607e-05,
+            "lb": 2.392999132183604e-09,
+            "my": 1.6135941223183181e-06,
+            "bo": 2.422291800030507e-06,
+            "tl": 8.388833521166816e-06,
+            "mg": 1.9806663253962853e-10,
+            "as": 2.743996851961583e-08,
+            "tt": 1.1173703740041674e-08,
+            "haw": 2.3527069060946815e-05,
+            "ln": 1.6449282824737566e-08,
+            "ha": 4.39281100383937e-09,
+            "ba": 6.730018764500301e-10,
+            "jw": 1.2566684972625808e-06,
+            "su": 1.1801783550424716e-08
+        }
+    }
+}

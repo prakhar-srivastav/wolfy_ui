@@ -1,0 +1,377 @@
+{
+    "time": 15466,
+    "speaker": "gpt_cove",
+    "rank": 18,
+    "chapter": 1,
+    "speech": "If ministers forget their ruler and establish relationships with foreign powers in order to advance the interests of their confederates, there will be scant reason for subordinates to obey their superiors.",
+    "asr_speech": " If ministers forget their ruler and establish relationships with foreign powers in order to advance the interests of their Confederates, there will be scant reason for subordinates to obey their superiors.",
+    "wer": 0.03225806451612903,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " If ministers forget their ruler and establish relationships with foreign powers in order to advance the interests of their Confederates, there will be scant reason for subordinates to obey their superiors.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.1,
+                "end": 8.32,
+                "text": " If ministers forget their ruler and establish relationships with foreign powers in order to advance the interests of their Confederates,",
+                "tokens": [
+                    50364,
+                    759,
+                    26220,
+                    2870,
+                    641,
+                    19661,
+                    293,
+                    8327,
+                    6159,
+                    365,
+                    5329,
+                    8674,
+                    294,
+                    1668,
+                    281,
+                    7295,
+                    264,
+                    8847,
+                    295,
+                    641,
+                    31201,
+                    1024,
+                    11,
+                    50796
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.25578450047692586,
+                "compression_ratio": 1.4539007092198581,
+                "no_speech_prob": 0.01749918796122074,
+                "confidence": 0.857,
+                "words": [
+                    {
+                        "text": "If",
+                        "start": 0.1,
+                        "end": 0.22,
+                        "confidence": 0.92
+                    },
+                    {
+                        "text": "ministers",
+                        "start": 0.22,
+                        "end": 0.62,
+                        "confidence": 0.934
+                    },
+                    {
+                        "text": "forget",
+                        "start": 0.62,
+                        "end": 1.12,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "their",
+                        "start": 1.12,
+                        "end": 1.4,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 1.4,
+                        "end": 1.8,
+                        "confidence": 0.959
+                    },
+                    {
+                        "text": "and",
+                        "start": 1.8,
+                        "end": 2.2,
+                        "confidence": 0.831
+                    },
+                    {
+                        "text": "establish",
+                        "start": 2.2,
+                        "end": 2.72,
+                        "confidence": 0.917
+                    },
+                    {
+                        "text": "relationships",
+                        "start": 2.72,
+                        "end": 3.46,
+                        "confidence": 0.978
+                    },
+                    {
+                        "text": "with",
+                        "start": 3.46,
+                        "end": 3.86,
+                        "confidence": 0.968
+                    },
+                    {
+                        "text": "foreign",
+                        "start": 3.86,
+                        "end": 4.22,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "powers",
+                        "start": 4.22,
+                        "end": 4.76,
+                        "confidence": 0.968
+                    },
+                    {
+                        "text": "in",
+                        "start": 4.76,
+                        "end": 5.38,
+                        "confidence": 0.433
+                    },
+                    {
+                        "text": "order",
+                        "start": 5.38,
+                        "end": 5.6,
+                        "confidence": 0.965
+                    },
+                    {
+                        "text": "to",
+                        "start": 5.6,
+                        "end": 5.84,
+                        "confidence": 0.805
+                    },
+                    {
+                        "text": "advance",
+                        "start": 5.84,
+                        "end": 6.24,
+                        "confidence": 0.671
+                    },
+                    {
+                        "text": "the",
+                        "start": 6.24,
+                        "end": 6.6,
+                        "confidence": 0.671
+                    },
+                    {
+                        "text": "interests",
+                        "start": 6.6,
+                        "end": 6.98,
+                        "confidence": 0.971
+                    },
+                    {
+                        "text": "of",
+                        "start": 6.98,
+                        "end": 7.26,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "their",
+                        "start": 7.26,
+                        "end": 7.44,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "Confederates,",
+                        "start": 7.44,
+                        "end": 8.32,
+                        "confidence": 0.694
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 8.8,
+                "end": 13.42,
+                "text": " there will be scant reason for subordinates to obey their superiors.",
+                "tokens": [
+                    50796,
+                    456,
+                    486,
+                    312,
+                    795,
+                    394,
+                    1778,
+                    337,
+                    1422,
+                    6241,
+                    1024,
+                    281,
+                    19297,
+                    641,
+                    1687,
+                    9337,
+                    13,
+                    51072
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.25578450047692586,
+                "compression_ratio": 1.4539007092198581,
+                "no_speech_prob": 0.01749918796122074,
+                "confidence": 0.975,
+                "words": [
+                    {
+                        "text": "there",
+                        "start": 8.8,
+                        "end": 8.92,
+                        "confidence": 0.863
+                    },
+                    {
+                        "text": "will",
+                        "start": 8.92,
+                        "end": 9.08,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "be",
+                        "start": 9.08,
+                        "end": 9.24,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "scant",
+                        "start": 9.24,
+                        "end": 9.82,
+                        "confidence": 0.972
+                    },
+                    {
+                        "text": "reason",
+                        "start": 9.82,
+                        "end": 10.32,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "for",
+                        "start": 10.32,
+                        "end": 10.72,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "subordinates",
+                        "start": 10.72,
+                        "end": 11.66,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "to",
+                        "start": 11.66,
+                        "end": 11.92,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "obey",
+                        "start": 11.92,
+                        "end": 12.32,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "their",
+                        "start": 12.32,
+                        "end": 12.64,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "superiors.",
+                        "start": 12.64,
+                        "end": 13.42,
+                        "confidence": 0.949
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9950597882270813,
+            "zh": 0.00016916432650759816,
+            "de": 0.00012280013470444828,
+            "es": 0.0002367034467170015,
+            "ru": 1.4439002370636445e-05,
+            "ko": 0.00020405113173183054,
+            "fr": 0.0003087195218540728,
+            "ja": 0.00021217961329966784,
+            "pt": 0.0005376031040214002,
+            "tr": 4.4824086216976866e-05,
+            "pl": 6.834857049398124e-05,
+            "ca": 8.099546903395094e-06,
+            "nl": 8.776129834586754e-05,
+            "ar": 0.0002992211957462132,
+            "sv": 7.728641321591567e-06,
+            "it": 6.174778536660597e-05,
+            "id": 6.370787014020607e-05,
+            "hi": 1.942980452440679e-05,
+            "fi": 1.8395767256151885e-05,
+            "vi": 2.827019852702506e-05,
+            "he": 2.271574157930445e-05,
+            "uk": 5.698743279936025e-06,
+            "el": 0.00027032385696657,
+            "ms": 0.00014582875883206725,
+            "cs": 1.3325849295142689e-06,
+            "ro": 2.5740308046806604e-05,
+            "da": 1.0984615073539317e-05,
+            "hu": 6.559213488799287e-06,
+            "ta": 2.821082489390392e-06,
+            "no": 4.989986337022856e-06,
+            "th": 7.85034990258282e-06,
+            "ur": 6.126726657385007e-05,
+            "hr": 4.226052112699108e-07,
+            "bg": 2.0319491795817157e-06,
+            "lt": 8.603815331298392e-07,
+            "la": 0.00033906204043887556,
+            "mi": 5.938226604484953e-05,
+            "ml": 1.251847834282671e-06,
+            "cy": 0.0004707410407718271,
+            "sk": 5.137572429703141e-07,
+            "te": 1.23243955840735e-06,
+            "fa": 1.2064238944731187e-05,
+            "lv": 4.940755502502725e-07,
+            "bn": 6.01907231612131e-06,
+            "sr": 8.209817679016851e-07,
+            "az": 1.7110729686464765e-06,
+            "sl": 1.5734734915895388e-05,
+            "kn": 9.356215002753743e-08,
+            "et": 2.370600356016439e-07,
+            "mk": 9.749398941494292e-07,
+            "br": 2.827019852702506e-05,
+            "eu": 8.274208198599808e-07,
+            "is": 3.27251291309949e-06,
+            "hy": 2.910633156716358e-06,
+            "ne": 7.772899266456079e-07,
+            "mn": 2.7342869088897714e-06,
+            "bs": 1.0624294191075023e-06,
+            "kk": 4.826302415494865e-07,
+            "sq": 5.437778781924862e-06,
+            "sw": 3.253879549447447e-05,
+            "gl": 8.826385965221561e-06,
+            "mr": 1.4434692729992094e-07,
+            "pa": 4.472994532989105e-06,
+            "si": 1.0319091416022275e-05,
+            "km": 2.3620634237886406e-05,
+            "sn": 4.846639058087021e-05,
+            "yo": 1.1511777302075643e-05,
+            "so": 1.4547906346251693e-07,
+            "af": 6.942489562788978e-05,
+            "oc": 2.129464746758458e-06,
+            "ka": 4.0641543819219805e-07,
+            "be": 6.101018357185239e-07,
+            "tg": 7.636319310222461e-08,
+            "sd": 2.0964503164577764e-06,
+            "gu": 2.0356182517389243e-07,
+            "am": 1.604028483370712e-07,
+            "yi": 1.2350334145594388e-05,
+            "lo": 7.475123879885359e-07,
+            "uz": 3.4414453509157283e-09,
+            "fo": 7.022229624453757e-07,
+            "ht": 4.761478521686513e-06,
+            "ps": 7.188756399045815e-07,
+            "tk": 2.7598834329012334e-09,
+            "nn": 0.00021052842203062028,
+            "mt": 5.879640411876608e-06,
+            "sa": 1.3777793355984613e-05,
+            "lb": 2.9555863534369564e-08,
+            "my": 3.825955445790896e-06,
+            "bo": 6.559213488799287e-06,
+            "tl": 0.0002968926273752004,
+            "mg": 2.5425237470955153e-09,
+            "as": 8.485719149575743e-08,
+            "tt": 3.013879990021451e-08,
+            "haw": 0.0001050365244736895,
+            "ln": 6.05353989158175e-07,
+            "ha": 2.4502671891468708e-08,
+            "ba": 3.6921317114746444e-09,
+            "jw": 2.3620634237886406e-05,
+            "su": 1.6069243713445758e-08
+        }
+    }
+}

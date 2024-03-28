@@ -1,0 +1,491 @@
+{
+    "time": 18154,
+    "speaker": "gpt_cove",
+    "rank": 15,
+    "chapter": 1,
+    "speech": "A ruler of men faces two possible misfortunes: if he employs the worthy, the ministers will use worthiness as a pretext to rob their ruler of his power, but if he promotes men recklessly, his affairs will be neglected, and he will not prevail.",
+    "asr_speech": " A ruler of men faces two possible misfortunes. If he employs the worthy, the ministers will use worthiness as a pretext to rob their ruler of his power. But if he promotes men recklessly, his affairs will be neglected, and he will not prevail.",
+    "wer": 0.09090909090909091,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " A ruler of men faces two possible misfortunes. If he employs the worthy, the ministers will use worthiness as a pretext to rob their ruler of his power. But if he promotes men recklessly, his affairs will be neglected, and he will not prevail.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.08,
+                "end": 3.54,
+                "text": " A ruler of men faces two possible misfortunes.",
+                "tokens": [
+                    50364,
+                    316,
+                    19661,
+                    295,
+                    1706,
+                    8475,
+                    732,
+                    1944,
+                    47351,
+                    1584,
+                    279,
+                    13,
+                    50568
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.1863063025096106,
+                "compression_ratio": 1.4817073170731707,
+                "no_speech_prob": 0.02914947271347046,
+                "confidence": 0.976,
+                "words": [
+                    {
+                        "text": "A",
+                        "start": 0.08,
+                        "end": 0.2,
+                        "confidence": 0.888
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 0.2,
+                        "end": 0.6,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "of",
+                        "start": 0.6,
+                        "end": 0.84,
+                        "confidence": 1.0
+                    },
+                    {
+                        "text": "men",
+                        "start": 0.84,
+                        "end": 1.12,
+                        "confidence": 0.974
+                    },
+                    {
+                        "text": "faces",
+                        "start": 1.12,
+                        "end": 1.58,
+                        "confidence": 0.99
+                    },
+                    {
+                        "text": "two",
+                        "start": 1.58,
+                        "end": 1.96,
+                        "confidence": 0.972
+                    },
+                    {
+                        "text": "possible",
+                        "start": 1.96,
+                        "end": 2.52,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "misfortunes.",
+                        "start": 2.52,
+                        "end": 3.54,
+                        "confidence": 0.987
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 4.1,
+                "end": 10.56,
+                "text": " If he employs the worthy, the ministers will use worthiness as a pretext to rob their ruler of his power.",
+                "tokens": [
+                    50568,
+                    759,
+                    415,
+                    846,
+                    49522,
+                    264,
+                    14829,
+                    11,
+                    264,
+                    26220,
+                    486,
+                    764,
+                    3163,
+                    1324,
+                    382,
+                    257,
+                    659,
+                    25111,
+                    281,
+                    3870,
+                    641,
+                    19661,
+                    295,
+                    702,
+                    1347,
+                    13,
+                    50916
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.1863063025096106,
+                "compression_ratio": 1.4817073170731707,
+                "no_speech_prob": 0.02914947271347046,
+                "confidence": 0.925,
+                "words": [
+                    {
+                        "text": "If",
+                        "start": 4.1,
+                        "end": 4.28,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "he",
+                        "start": 4.28,
+                        "end": 4.4,
+                        "confidence": 0.964
+                    },
+                    {
+                        "text": "employs",
+                        "start": 4.4,
+                        "end": 4.88,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "the",
+                        "start": 4.88,
+                        "end": 5.08,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "worthy,",
+                        "start": 5.08,
+                        "end": 5.52,
+                        "confidence": 0.935
+                    },
+                    {
+                        "text": "the",
+                        "start": 5.94,
+                        "end": 6.08,
+                        "confidence": 0.864
+                    },
+                    {
+                        "text": "ministers",
+                        "start": 6.08,
+                        "end": 6.5,
+                        "confidence": 0.932
+                    },
+                    {
+                        "text": "will",
+                        "start": 6.5,
+                        "end": 6.84,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "use",
+                        "start": 6.84,
+                        "end": 7.08,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "worthiness",
+                        "start": 7.08,
+                        "end": 7.74,
+                        "confidence": 0.761
+                    },
+                    {
+                        "text": "as",
+                        "start": 7.74,
+                        "end": 7.98,
+                        "confidence": 0.92
+                    },
+                    {
+                        "text": "a",
+                        "start": 7.98,
+                        "end": 8.12,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "pretext",
+                        "start": 8.12,
+                        "end": 8.68,
+                        "confidence": 0.957
+                    },
+                    {
+                        "text": "to",
+                        "start": 8.68,
+                        "end": 8.9,
+                        "confidence": 0.762
+                    },
+                    {
+                        "text": "rob",
+                        "start": 8.9,
+                        "end": 9.16,
+                        "confidence": 0.956
+                    },
+                    {
+                        "text": "their",
+                        "start": 9.16,
+                        "end": 9.4,
+                        "confidence": 0.939
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 9.4,
+                        "end": 9.74,
+                        "confidence": 0.822
+                    },
+                    {
+                        "text": "of",
+                        "start": 9.74,
+                        "end": 9.98,
+                        "confidence": 0.953
+                    },
+                    {
+                        "text": "his",
+                        "start": 9.98,
+                        "end": 10.12,
+                        "confidence": 0.969
+                    },
+                    {
+                        "text": "power.",
+                        "start": 10.12,
+                        "end": 10.56,
+                        "confidence": 0.994
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 11.12,
+                "end": 16.9,
+                "text": " But if he promotes men recklessly, his affairs will be neglected, and he will not prevail.",
+                "tokens": [
+                    50916,
+                    583,
+                    498,
+                    415,
+                    36015,
+                    1706,
+                    16374,
+                    12048,
+                    11,
+                    702,
+                    17478,
+                    486,
+                    312,
+                    32701,
+                    11,
+                    293,
+                    415,
+                    486,
+                    406,
+                    46059,
+                    13,
+                    51256
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.1863063025096106,
+                "compression_ratio": 1.4817073170731707,
+                "no_speech_prob": 0.02914947271347046,
+                "confidence": 0.973,
+                "words": [
+                    {
+                        "text": "But",
+                        "start": 11.12,
+                        "end": 11.24,
+                        "confidence": 0.875
+                    },
+                    {
+                        "text": "if",
+                        "start": 11.24,
+                        "end": 11.36,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "he",
+                        "start": 11.36,
+                        "end": 11.48,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "promotes",
+                        "start": 11.48,
+                        "end": 11.84,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "men",
+                        "start": 11.84,
+                        "end": 12.24,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "recklessly,",
+                        "start": 12.24,
+                        "end": 13.0,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "his",
+                        "start": 13.36,
+                        "end": 13.48,
+                        "confidence": 0.978
+                    },
+                    {
+                        "text": "affairs",
+                        "start": 13.48,
+                        "end": 13.86,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "will",
+                        "start": 13.86,
+                        "end": 14.12,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "be",
+                        "start": 14.12,
+                        "end": 14.28,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "neglected,",
+                        "start": 14.28,
+                        "end": 14.82,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "and",
+                        "start": 15.3,
+                        "end": 15.54,
+                        "confidence": 0.838
+                    },
+                    {
+                        "text": "he",
+                        "start": 15.54,
+                        "end": 15.7,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "will",
+                        "start": 15.7,
+                        "end": 15.88,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "not",
+                        "start": 15.88,
+                        "end": 16.26,
+                        "confidence": 0.97
+                    },
+                    {
+                        "text": "prevail.",
+                        "start": 16.26,
+                        "end": 16.9,
+                        "confidence": 0.993
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9982162117958069,
+            "zh": 3.213594754924998e-05,
+            "de": 2.9489603548427112e-05,
+            "es": 7.709012425038964e-05,
+            "ru": 6.842137736384757e-06,
+            "ko": 8.581963811593596e-06,
+            "fr": 4.46163430751767e-05,
+            "ja": 1.6542166122235358e-05,
+            "pt": 0.000630515452940017,
+            "tr": 1.2584616342792287e-05,
+            "pl": 0.00012415586388669908,
+            "ca": 3.800224988026457e-07,
+            "nl": 4.030750642414205e-05,
+            "ar": 4.46163430751767e-05,
+            "sv": 1.3578638800026965e-06,
+            "it": 4.324363908381201e-05,
+            "id": 6.528813173645176e-06,
+            "hi": 3.2828934308781754e-06,
+            "fi": 4.215318767819554e-06,
+            "vi": 2.0426850824151188e-05,
+            "he": 2.3645795863558305e-06,
+            "uk": 4.729456577479141e-07,
+            "el": 5.016350041842088e-05,
+            "ms": 2.140715514542535e-05,
+            "cs": 3.1504973208029696e-07,
+            "ro": 7.283417744474718e-06,
+            "da": 2.5567201191734057e-06,
+            "hu": 8.923830137064215e-06,
+            "ta": 1.784878350008512e-06,
+            "no": 2.5567201191734057e-06,
+            "th": 4.966859250998823e-06,
+            "ur": 1.7336042219540104e-05,
+            "hr": 1.3082023997412762e-07,
+            "bg": 5.660418764819042e-07,
+            "lt": 2.7586676765167795e-07,
+            "la": 0.00024119367299135774,
+            "mi": 3.7200056794972625e-06,
+            "ml": 2.9365864406827313e-07,
+            "cy": 6.390995986294001e-05,
+            "sk": 1.3656395481120853e-07,
+            "te": 3.250504789775732e-07,
+            "fa": 3.1081813176569995e-06,
+            "lv": 1.6217369136484194e-07,
+            "bn": 3.3871037885546684e-06,
+            "sr": 5.572661621044972e-07,
+            "az": 8.122814421085423e-08,
+            "sl": 4.522376912063919e-06,
+            "kn": 4.965376732002369e-08,
+            "et": 2.7421414472428296e-08,
+            "mk": 1.2193788734293776e-07,
+            "br": 5.497811798704788e-06,
+            "eu": 1.760378864901213e-07,
+            "is": 4.692651600635145e-07,
+            "hy": 8.782856752986845e-08,
+            "ne": 1.3497293593900395e-07,
+            "mn": 5.840099674969679e-07,
+            "bs": 3.6261999980524706e-07,
+            "kk": 8.74861498800783e-08,
+            "sq": 4.442912882041128e-07,
+            "sw": 5.455027803691337e-06,
+            "gl": 1.929913423737162e-06,
+            "mr": 1.8338093710212888e-08,
+            "pa": 1.0996316177624976e-06,
+            "si": 2.1362195639085257e-06,
+            "km": 6.133252554718638e-06,
+            "sn": 4.3832383198605385e-06,
+            "yo": 1.9756801066250773e-06,
+            "so": 1.6762374599466057e-08,
+            "af": 1.3085930731904227e-05,
+            "oc": 2.971201809032209e-07,
+            "ka": 3.507252088752466e-08,
+            "be": 3.119414770935691e-08,
+            "tg": 1.6762374599466057e-08,
+            "sd": 6.464400712502538e-07,
+            "gu": 7.140411639738886e-08,
+            "am": 1.6762374599466057e-08,
+            "yi": 2.2610462110606022e-05,
+            "lo": 9.240379483799188e-08,
+            "uz": 4.954208709939678e-10,
+            "fo": 7.541777335973165e-08,
+            "ht": 1.6767379520388204e-06,
+            "ps": 9.608474016431501e-08,
+            "tk": 4.915655105186545e-10,
+            "nn": 3.906737401848659e-05,
+            "mt": 1.6636895452393219e-06,
+            "sa": 9.573872375767678e-06,
+            "lb": 5.142277714753618e-09,
+            "my": 1.40096710765647e-06,
+            "bo": 1.9450501440587686e-06,
+            "tl": 3.501977334963158e-05,
+            "mg": 3.4891267652881197e-10,
+            "as": 2.6165695388158383e-08,
+            "tt": 5.253951940176194e-09,
+            "haw": 3.066433419007808e-05,
+            "ln": 5.410960568497103e-08,
+            "ha": 3.211676258274565e-09,
+            "ba": 7.007052715835016e-10,
+            "jw": 4.851802259508986e-06,
+            "su": 3.996996067456848e-09
+        }
+    }
+}

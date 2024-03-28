@@ -1,0 +1,444 @@
+{
+    "time": 16738,
+    "speaker": "gpt_cove",
+    "rank": 20,
+    "chapter": 1,
+    "speech": "The people in the well-ordered ages of the past upheld the public law and abandoned private strategies; they focused their intentions and unified their conduct. Everything they did was for the sake of being employed by the ruler.",
+    "asr_speech": " The people in the well-ordered ages of the past upheld the public law and abandoned private strategies. They focused their intentions and unified their conduct. Everything they did was for the sake of being employed by the ruler.",
+    "wer": 0.05263157894736842,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " The people in the well-ordered ages of the past upheld the public law and abandoned private strategies. They focused their intentions and unified their conduct. Everything they did was for the sake of being employed by the ruler.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.1,
+                "end": 6.58,
+                "text": " The people in the well-ordered ages of the past upheld the public law and abandoned private strategies.",
+                "tokens": [
+                    50364,
+                    440,
+                    561,
+                    294,
+                    264,
+                    731,
+                    12,
+                    765,
+                    4073,
+                    12357,
+                    295,
+                    264,
+                    1791,
+                    493,
+                    23504,
+                    264,
+                    1908,
+                    2101,
+                    293,
+                    13732,
+                    4551,
+                    9029,
+                    13,
+                    50714
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.1435836828671969,
+                "compression_ratio": 1.4585987261146496,
+                "no_speech_prob": 0.01111847348511219,
+                "confidence": 0.951,
+                "words": [
+                    {
+                        "text": "The",
+                        "start": 0.1,
+                        "end": 0.18,
+                        "confidence": 0.906
+                    },
+                    {
+                        "text": "people",
+                        "start": 0.18,
+                        "end": 0.54,
+                        "confidence": 0.983
+                    },
+                    {
+                        "text": "in",
+                        "start": 0.54,
+                        "end": 0.78,
+                        "confidence": 0.961
+                    },
+                    {
+                        "text": "the",
+                        "start": 0.78,
+                        "end": 0.9,
+                        "confidence": 0.99
+                    },
+                    {
+                        "text": "well-ordered",
+                        "start": 0.9,
+                        "end": 1.72,
+                        "confidence": 0.958
+                    },
+                    {
+                        "text": "ages",
+                        "start": 1.72,
+                        "end": 2.04,
+                        "confidence": 0.962
+                    },
+                    {
+                        "text": "of",
+                        "start": 2.04,
+                        "end": 2.32,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "the",
+                        "start": 2.32,
+                        "end": 2.44,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "past",
+                        "start": 2.44,
+                        "end": 2.92,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "upheld",
+                        "start": 2.92,
+                        "end": 3.58,
+                        "confidence": 0.923
+                    },
+                    {
+                        "text": "the",
+                        "start": 3.58,
+                        "end": 3.76,
+                        "confidence": 0.978
+                    },
+                    {
+                        "text": "public",
+                        "start": 3.76,
+                        "end": 4.12,
+                        "confidence": 0.953
+                    },
+                    {
+                        "text": "law",
+                        "start": 4.12,
+                        "end": 4.52,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "and",
+                        "start": 4.52,
+                        "end": 4.78,
+                        "confidence": 0.855
+                    },
+                    {
+                        "text": "abandoned",
+                        "start": 4.78,
+                        "end": 5.26,
+                        "confidence": 0.971
+                    },
+                    {
+                        "text": "private",
+                        "start": 5.26,
+                        "end": 5.84,
+                        "confidence": 0.973
+                    },
+                    {
+                        "text": "strategies.",
+                        "start": 5.84,
+                        "end": 6.58,
+                        "confidence": 0.81
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 7.22,
+                "end": 10.52,
+                "text": " They focused their intentions and unified their conduct.",
+                "tokens": [
+                    50714,
+                    814,
+                    5178,
+                    641,
+                    19354,
+                    293,
+                    26787,
+                    641,
+                    6018,
+                    13,
+                    50914
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.1435836828671969,
+                "compression_ratio": 1.4585987261146496,
+                "no_speech_prob": 0.01111847348511219,
+                "confidence": 0.973,
+                "words": [
+                    {
+                        "text": "They",
+                        "start": 7.22,
+                        "end": 7.38,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "focused",
+                        "start": 7.38,
+                        "end": 7.78,
+                        "confidence": 0.863
+                    },
+                    {
+                        "text": "their",
+                        "start": 7.78,
+                        "end": 8.14,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "intentions",
+                        "start": 8.14,
+                        "end": 8.74,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "and",
+                        "start": 8.74,
+                        "end": 9.18,
+                        "confidence": 0.974
+                    },
+                    {
+                        "text": "unified",
+                        "start": 9.18,
+                        "end": 9.66,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "their",
+                        "start": 9.66,
+                        "end": 10.0,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "conduct.",
+                        "start": 10.0,
+                        "end": 10.52,
+                        "confidence": 0.998
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 11.52,
+                "end": 15.28,
+                "text": " Everything they did was for the sake of being employed by the ruler.",
+                "tokens": [
+                    50914,
+                    5471,
+                    436,
+                    630,
+                    390,
+                    337,
+                    264,
+                    9717,
+                    295,
+                    885,
+                    20115,
+                    538,
+                    264,
+                    19661,
+                    13,
+                    51164
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.1435836828671969,
+                "compression_ratio": 1.4585987261146496,
+                "no_speech_prob": 0.01111847348511219,
+                "confidence": 0.983,
+                "words": [
+                    {
+                        "text": "Everything",
+                        "start": 11.52,
+                        "end": 11.9,
+                        "confidence": 0.875
+                    },
+                    {
+                        "text": "they",
+                        "start": 11.9,
+                        "end": 12.2,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "did",
+                        "start": 12.2,
+                        "end": 12.5,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "was",
+                        "start": 12.5,
+                        "end": 12.8,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "for",
+                        "start": 12.8,
+                        "end": 13.0,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "the",
+                        "start": 13.0,
+                        "end": 13.12,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "sake",
+                        "start": 13.12,
+                        "end": 13.44,
+                        "confidence": 1.0
+                    },
+                    {
+                        "text": "of",
+                        "start": 13.44,
+                        "end": 13.62,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "being",
+                        "start": 13.62,
+                        "end": 13.88,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "employed",
+                        "start": 13.88,
+                        "end": 14.48,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "by",
+                        "start": 14.48,
+                        "end": 14.78,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "the",
+                        "start": 14.78,
+                        "end": 14.94,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "ruler.",
+                        "start": 14.94,
+                        "end": 15.28,
+                        "confidence": 0.956
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9988749623298645,
+            "zh": 3.559472315828316e-05,
+            "de": 3.587389801396057e-05,
+            "es": 5.2196210162946954e-05,
+            "ru": 4.152704605075996e-06,
+            "ko": 2.2449312382377684e-05,
+            "fr": 4.327217538957484e-05,
+            "ja": 2.860116546798963e-05,
+            "pt": 0.00014411835581995547,
+            "tr": 9.505636626272462e-06,
+            "pl": 1.7347483662888408e-05,
+            "ca": 6.570533628291741e-07,
+            "nl": 2.6868307031691074e-05,
+            "ar": 4.6062992623774335e-05,
+            "sv": 2.6396198791189818e-06,
+            "it": 3.0684568628203124e-05,
+            "id": 2.598696255518007e-06,
+            "hi": 2.257786491099978e-06,
+            "fi": 3.259495315433014e-06,
+            "vi": 5.08800030729617e-06,
+            "he": 6.740505341440439e-06,
+            "uk": 5.798474944640475e-07,
+            "el": 5.2196210162946954e-05,
+            "ms": 9.431662874703761e-06,
+            "cs": 1.7962838683160953e-07,
+            "ro": 2.008116780416458e-06,
+            "da": 2.8098606890125666e-06,
+            "hu": 2.944708512586658e-06,
+            "ta": 6.418327416213288e-07,
+            "no": 8.436731491201499e-07,
+            "th": 2.7234104891249444e-06,
+            "ur": 1.5672145309508778e-05,
+            "hr": 4.333736569606117e-08,
+            "bg": 2.760488087005797e-07,
+            "lt": 2.436122201743274e-07,
+            "la": 0.0002267300005769357,
+            "mi": 7.819123311492149e-06,
+            "ml": 5.404773446571198e-07,
+            "cy": 9.751535981195047e-05,
+            "sk": 6.925291273773837e-08,
+            "te": 1.6743207709168928e-07,
+            "fa": 3.389339099157951e-06,
+            "lv": 2.760488087005797e-07,
+            "bn": 2.4034011403273325e-06,
+            "sr": 2.474485540915339e-07,
+            "az": 2.5331664232908224e-07,
+            "sl": 5.249510650173761e-06,
+            "kn": 2.6080886783574897e-08,
+            "et": 6.455081091871762e-08,
+            "mk": 1.3772586271443288e-07,
+            "br": 4.931459443469066e-06,
+            "eu": 1.7274693675517483e-07,
+            "is": 5.664153945872386e-07,
+            "hy": 2.436122201743274e-07,
+            "ne": 7.371934174216221e-08,
+            "mn": 4.2422553292453813e-07,
+            "bs": 1.9574791565446503e-07,
+            "kk": 5.22748422326913e-08,
+            "sq": 6.468666811088042e-07,
+            "sw": 5.720592980651418e-06,
+            "gl": 2.1376292806962738e-06,
+            "mr": 1.8639168430922837e-08,
+            "pa": 1.5761891063448275e-06,
+            "si": 4.4205316953593865e-06,
+            "km": 4.318129867897369e-06,
+            "sn": 6.28284169579274e-06,
+            "yo": 1.772156792867463e-06,
+            "so": 3.7947465614251996e-08,
+            "af": 1.668291042733472e-05,
+            "oc": 4.047988397815061e-07,
+            "ka": 7.314565664273687e-08,
+            "be": 1.254008168416476e-07,
+            "tg": 1.9381667826223747e-08,
+            "sd": 3.435482938130008e-07,
+            "gu": 2.638831730905622e-08,
+            "am": 2.5979204565373948e-08,
+            "yi": 1.1829954928543884e-05,
+            "lo": 1.4099192924277304e-07,
+            "uz": 7.398577861472688e-10,
+            "fo": 3.1037001235745265e-07,
+            "ht": 8.371076773983077e-07,
+            "ps": 9.246477361557481e-08,
+            "tk": 6.684057751726868e-10,
+            "nn": 1.5550183888990432e-05,
+            "mt": 2.2933415948500624e-06,
+            "sa": 5.048405000707135e-06,
+            "lb": 7.739669349859923e-09,
+            "my": 7.925575005174323e-07,
+            "bo": 2.8541096526168985e-06,
+            "tl": 5.301818237057887e-05,
+            "mg": 4.823758059657735e-10,
+            "as": 1.5153535315448607e-08,
+            "tt": 5.424307225609937e-09,
+            "haw": 2.280283661093563e-05,
+            "ln": 4.0394862566017764e-08,
+            "ha": 3.6275098480587076e-09,
+            "ba": 9.839885573015295e-10,
+            "jw": 2.70221653408953e-06,
+            "su": 2.9376472365783e-09
+        }
+    }
+}

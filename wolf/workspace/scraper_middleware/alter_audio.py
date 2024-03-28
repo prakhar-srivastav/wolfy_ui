@@ -3,7 +3,7 @@
 from playwright.sync_api import sync_playwright
 
 def run(playwright, file_path, affects):
-    browser = playwright.chromium.launch(headless=False)  # Set headless=False to see the browser
+    browser = playwright.chromium.launch(headless=True)  # Set headless=False to see the browser
     page = browser.new_page()
 
     input_f = '#__next > div > div > form > div > input[type=file]' # Input a file
@@ -28,5 +28,16 @@ def run(playwright, file_path, affects):
 
 
 def alter_audio(file_path, affects = 'slowed-reverb'):
+    suff = file_path.split('.')[-1]
+    import os
+    old_file_path = file_path
+    new_file_path = file_path.replace(suff,'mp3')
+
+    if old_file_path != new_file_path:
+        os.rename(old_file_path, new_file_path)
+
     with sync_playwright() as playwright:
-        run(playwright, file_path, affects)
+        run(playwright, new_file_path, affects)
+
+    if old_file_path != new_file_path:
+        os.rename(new_file_path, old_file_path)

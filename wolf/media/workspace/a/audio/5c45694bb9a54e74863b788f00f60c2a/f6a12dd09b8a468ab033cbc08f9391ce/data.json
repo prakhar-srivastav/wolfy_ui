@@ -1,0 +1,424 @@
+{
+    "time": 14194,
+    "speaker": "gpt_cove",
+    "rank": 19,
+    "chapter": 1,
+    "speech": "Within the frontiers of a state, there are no more than ten people who do good of themselves, whereas if one makes it so that the people can do no wrong, the entire state can be kept peaceful.",
+    "asr_speech": " Within the frontiers of a state, there are no more than 10 people who do good of themselves. Whereas if one makes it so that the people can do no wrong, the entire state can be kept peaceful.",
+    "wer": 0.07894736842105263,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " Within the frontiers of a state, there are no more than 10 people who do good of themselves. Whereas if one makes it so that the people can do no wrong, the entire state can be kept peaceful.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.12,
+                "end": 5.08,
+                "text": " Within the frontiers of a state, there are no more than 10 people who do good of themselves.",
+                "tokens": [
+                    50364,
+                    15996,
+                    264,
+                    1868,
+                    4890,
+                    295,
+                    257,
+                    1785,
+                    11,
+                    456,
+                    366,
+                    572,
+                    544,
+                    813,
+                    1266,
+                    561,
+                    567,
+                    360,
+                    665,
+                    295,
+                    2969,
+                    13,
+                    50664
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.15933563311894736,
+                "compression_ratio": 1.4253731343283582,
+                "no_speech_prob": 0.02312617562711239,
+                "confidence": 0.939,
+                "words": [
+                    {
+                        "text": "Within",
+                        "start": 0.12,
+                        "end": 0.3,
+                        "confidence": 0.962
+                    },
+                    {
+                        "text": "the",
+                        "start": 0.3,
+                        "end": 0.44,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "frontiers",
+                        "start": 0.44,
+                        "end": 1.08,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "of",
+                        "start": 1.08,
+                        "end": 1.26,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "a",
+                        "start": 1.26,
+                        "end": 1.38,
+                        "confidence": 0.938
+                    },
+                    {
+                        "text": "state,",
+                        "start": 1.38,
+                        "end": 1.78,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "there",
+                        "start": 2.26,
+                        "end": 2.34,
+                        "confidence": 0.882
+                    },
+                    {
+                        "text": "are",
+                        "start": 2.34,
+                        "end": 2.44,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "no",
+                        "start": 2.44,
+                        "end": 2.6,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "more",
+                        "start": 2.6,
+                        "end": 2.82,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "than",
+                        "start": 2.82,
+                        "end": 3.0,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "10",
+                        "start": 3.0,
+                        "end": 3.3,
+                        "confidence": 0.539
+                    },
+                    {
+                        "text": "people",
+                        "start": 3.3,
+                        "end": 3.8,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "who",
+                        "start": 3.8,
+                        "end": 4.06,
+                        "confidence": 0.974
+                    },
+                    {
+                        "text": "do",
+                        "start": 4.06,
+                        "end": 4.24,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "good",
+                        "start": 4.24,
+                        "end": 4.48,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "of",
+                        "start": 4.48,
+                        "end": 4.64,
+                        "confidence": 0.861
+                    },
+                    {
+                        "text": "themselves.",
+                        "start": 4.64,
+                        "end": 5.08,
+                        "confidence": 0.961
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.0,
+                "end": 12.4,
+                "text": " Whereas if one makes it so that the people can do no wrong, the entire state can be kept peaceful.",
+                "tokens": [
+                    50664,
+                    13813,
+                    498,
+                    472,
+                    1669,
+                    309,
+                    370,
+                    300,
+                    264,
+                    561,
+                    393,
+                    360,
+                    572,
+                    2085,
+                    11,
+                    264,
+                    2302,
+                    1785,
+                    393,
+                    312,
+                    4305,
+                    13962,
+                    13,
+                    51064
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.15933563311894736,
+                "compression_ratio": 1.4253731343283582,
+                "no_speech_prob": 0.02312617562711239,
+                "confidence": 0.96,
+                "words": [
+                    {
+                        "text": "Whereas",
+                        "start": 6.0,
+                        "end": 6.3,
+                        "confidence": 0.931
+                    },
+                    {
+                        "text": "if",
+                        "start": 6.3,
+                        "end": 6.62,
+                        "confidence": 0.833
+                    },
+                    {
+                        "text": "one",
+                        "start": 6.62,
+                        "end": 6.88,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "makes",
+                        "start": 6.88,
+                        "end": 7.2,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "it",
+                        "start": 7.2,
+                        "end": 7.44,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "so",
+                        "start": 7.44,
+                        "end": 7.66,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "that",
+                        "start": 7.66,
+                        "end": 7.86,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "the",
+                        "start": 7.86,
+                        "end": 8.04,
+                        "confidence": 0.964
+                    },
+                    {
+                        "text": "people",
+                        "start": 8.04,
+                        "end": 8.3,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "can",
+                        "start": 8.3,
+                        "end": 8.54,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "do",
+                        "start": 8.54,
+                        "end": 8.72,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "no",
+                        "start": 8.72,
+                        "end": 8.92,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "wrong,",
+                        "start": 8.92,
+                        "end": 9.38,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "the",
+                        "start": 9.9,
+                        "end": 10.04,
+                        "confidence": 0.704
+                    },
+                    {
+                        "text": "entire",
+                        "start": 10.04,
+                        "end": 10.5,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "state",
+                        "start": 10.5,
+                        "end": 10.98,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "can",
+                        "start": 10.98,
+                        "end": 11.32,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "be",
+                        "start": 11.32,
+                        "end": 11.5,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "kept",
+                        "start": 11.5,
+                        "end": 11.84,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "peaceful.",
+                        "start": 11.84,
+                        "end": 12.4,
+                        "confidence": 0.931
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9964472651481628,
+            "zh": 0.00012490787776187062,
+            "de": 0.00011284486390650272,
+            "es": 0.00026033035828731954,
+            "ru": 2.5179093427141197e-05,
+            "ko": 7.117036147974432e-05,
+            "fr": 0.0002749636769294739,
+            "ja": 0.00011826039553852752,
+            "pt": 0.0003503127954900265,
+            "tr": 4.350556991994381e-05,
+            "pl": 5.900230098632164e-05,
+            "ca": 3.952907718485221e-06,
+            "nl": 6.040150037733838e-05,
+            "ar": 0.00041600671829655766,
+            "sv": 1.0173273039981723e-05,
+            "it": 9.355168003821746e-05,
+            "id": 1.588025588716846e-05,
+            "hi": 1.757783866196405e-05,
+            "fi": 7.327533694478916e-06,
+            "vi": 1.8565899154054932e-05,
+            "he": 1.445913494535489e-05,
+            "uk": 1.4094526932240115e-06,
+            "el": 9.577019227435812e-05,
+            "ms": 3.606738755479455e-05,
+            "cs": 8.157285833476635e-07,
+            "ro": 9.860274076345377e-06,
+            "da": 5.706689080398064e-06,
+            "hu": 9.190785931423306e-06,
+            "ta": 2.217380369984312e-06,
+            "no": 5.7514466789143626e-06,
+            "th": 1.1893760529346764e-05,
+            "ur": 3.7798290577484295e-05,
+            "hr": 2.2475687444512005e-07,
+            "bg": 1.512122025815188e-06,
+            "lt": 4.833031539419608e-07,
+            "la": 0.0005597982672043145,
+            "mi": 1.5756673747091554e-05,
+            "ml": 1.560121972943307e-06,
+            "cy": 0.00016808191139716655,
+            "sk": 2.9543730306613725e-07,
+            "te": 7.906312475824961e-07,
+            "fa": 9.556905752106104e-06,
+            "lv": 7.723163548689627e-07,
+            "bn": 8.838692338031251e-06,
+            "sr": 4.4698242618324e-07,
+            "az": 7.485546689167677e-07,
+            "sl": 7.985093361639883e-06,
+            "kn": 1.1390124399213164e-07,
+            "et": 1.2906701840620372e-07,
+            "mk": 2.1614657441659801e-07,
+            "br": 1.4014275620866101e-05,
+            "eu": 8.350730809070228e-07,
+            "is": 1.7540921817271737e-06,
+            "hy": 5.967997935840685e-07,
+            "ne": 4.5758227429359977e-07,
+            "mn": 1.6349938505300088e-06,
+            "bs": 4.540213751624833e-07,
+            "kk": 2.546829023231112e-07,
+            "sq": 1.0311775895388564e-06,
+            "sw": 7.327533694478916e-06,
+            "gl": 5.887838597118389e-06,
+            "mr": 1.0700030372845504e-07,
+            "pa": 3.4612817216839176e-06,
+            "si": 7.560134235973237e-06,
+            "km": 9.482532732363325e-06,
+            "sn": 1.3477395441441331e-05,
+            "yo": 4.514362444751896e-06,
+            "so": 9.973526005069289e-08,
+            "af": 2.274741382279899e-05,
+            "oc": 1.5003546423031366e-06,
+            "ka": 1.3632194395540864e-07,
+            "be": 1.8926427003407298e-07,
+            "tg": 3.998309594521743e-08,
+            "sd": 1.0392652711743722e-06,
+            "gu": 7.127757584157735e-08,
+            "am": 7.49906092778474e-08,
+            "yi": 2.4214496079366654e-05,
+            "lo": 4.6843354084558086e-07,
+            "uz": 1.7362680182486656e-09,
+            "fo": 3.169579656514543e-07,
+            "ht": 3.952907718485221e-06,
+            "ps": 3.481102339719655e-07,
+            "tk": 1.2530319004611101e-09,
+            "nn": 8.996776887215674e-05,
+            "mt": 3.7425381833600113e-06,
+            "sa": 1.94568947335938e-05,
+            "lb": 1.2386185410662165e-08,
+            "my": 2.115839151883847e-06,
+            "bo": 9.335520189779345e-06,
+            "tl": 0.00011196669947821647,
+            "mg": 8.027223885598289e-10,
+            "as": 8.530808770501608e-08,
+            "tt": 1.0389549665035247e-08,
+            "haw": 8.517976675648242e-05,
+            "ln": 1.7641369254306483e-07,
+            "ha": 7.396128598458063e-09,
+            "ba": 1.7126915441423307e-09,
+            "jw": 1.0496207323740236e-05,
+            "su": 6.975214184024026e-09
+        }
+    }
+}

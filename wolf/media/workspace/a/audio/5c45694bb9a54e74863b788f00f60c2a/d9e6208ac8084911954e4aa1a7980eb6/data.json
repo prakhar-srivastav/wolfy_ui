@@ -1,0 +1,378 @@
+{
+    "time": 13474,
+    "speaker": "gpt_cove",
+    "rank": 3,
+    "chapter": 1,
+    "speech": "He who is vain and delights in his own ability is deceived by his inferiors. When he likes to bring forth arguments and kindliness, his inferiors take advantage of his abilities.",
+    "asr_speech": " He who is vain and delights in his own ability is deceived by his infuriars. When he likes to bring forth arguments and kindness, his infuriars take advantage of his abilities.",
+    "wer": 0.0967741935483871,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " He who is vain and delights in his own ability is deceived by his infuriars. When he likes to bring forth arguments and kindness, his infuriars take advantage of his abilities.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.08,
+                "end": 5.26,
+                "text": " He who is vain and delights in his own ability is deceived by his infuriars.",
+                "tokens": [
+                    50364,
+                    634,
+                    567,
+                    307,
+                    22240,
+                    293,
+                    1103,
+                    5761,
+                    294,
+                    702,
+                    1065,
+                    3485,
+                    307,
+                    41304,
+                    538,
+                    702,
+                    1536,
+                    9744,
+                    685,
+                    13,
+                    50648
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2843016494404186,
+                "compression_ratio": 1.3968253968253967,
+                "no_speech_prob": 0.055392324924468994,
+                "confidence": 0.829,
+                "words": [
+                    {
+                        "text": "He",
+                        "start": 0.08,
+                        "end": 0.22,
+                        "confidence": 0.667
+                    },
+                    {
+                        "text": "who",
+                        "start": 0.22,
+                        "end": 0.38,
+                        "confidence": 0.955
+                    },
+                    {
+                        "text": "is",
+                        "start": 0.38,
+                        "end": 0.52,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "vain",
+                        "start": 0.52,
+                        "end": 0.92,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "and",
+                        "start": 0.92,
+                        "end": 1.34,
+                        "confidence": 0.974
+                    },
+                    {
+                        "text": "delights",
+                        "start": 1.34,
+                        "end": 1.84,
+                        "confidence": 0.974
+                    },
+                    {
+                        "text": "in",
+                        "start": 1.84,
+                        "end": 2.02,
+                        "confidence": 0.948
+                    },
+                    {
+                        "text": "his",
+                        "start": 2.02,
+                        "end": 2.14,
+                        "confidence": 0.786
+                    },
+                    {
+                        "text": "own",
+                        "start": 2.14,
+                        "end": 2.32,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "ability",
+                        "start": 2.32,
+                        "end": 2.84,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "is",
+                        "start": 2.84,
+                        "end": 3.34,
+                        "confidence": 0.819
+                    },
+                    {
+                        "text": "deceived",
+                        "start": 3.34,
+                        "end": 3.94,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "by",
+                        "start": 3.94,
+                        "end": 4.3,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "his",
+                        "start": 4.3,
+                        "end": 4.48,
+                        "confidence": 0.915
+                    },
+                    {
+                        "text": "infuriars.",
+                        "start": 4.48,
+                        "end": 5.26,
+                        "confidence": 0.486
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.98,
+                "end": 12.18,
+                "text": " When he likes to bring forth arguments and kindness, his infuriars take advantage of his abilities.",
+                "tokens": [
+                    50648,
+                    1133,
+                    415,
+                    5902,
+                    281,
+                    1565,
+                    5220,
+                    12869,
+                    293,
+                    18171,
+                    11,
+                    702,
+                    1536,
+                    9744,
+                    685,
+                    747,
+                    5002,
+                    295,
+                    702,
+                    11582,
+                    13,
+                    51024
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2843016494404186,
+                "compression_ratio": 1.3968253968253967,
+                "no_speech_prob": 0.055392324924468994,
+                "confidence": 0.921,
+                "words": [
+                    {
+                        "text": "When",
+                        "start": 5.98,
+                        "end": 6.12,
+                        "confidence": 0.965
+                    },
+                    {
+                        "text": "he",
+                        "start": 6.12,
+                        "end": 6.24,
+                        "confidence": 0.807
+                    },
+                    {
+                        "text": "likes",
+                        "start": 6.24,
+                        "end": 6.46,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "to",
+                        "start": 6.46,
+                        "end": 6.7,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "bring",
+                        "start": 6.7,
+                        "end": 6.9,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "forth",
+                        "start": 6.9,
+                        "end": 7.26,
+                        "confidence": 1.0
+                    },
+                    {
+                        "text": "arguments",
+                        "start": 7.26,
+                        "end": 7.86,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "and",
+                        "start": 7.86,
+                        "end": 8.2,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "kindness,",
+                        "start": 8.2,
+                        "end": 8.74,
+                        "confidence": 0.637
+                    },
+                    {
+                        "text": "his",
+                        "start": 9.56,
+                        "end": 9.8,
+                        "confidence": 0.628
+                    },
+                    {
+                        "text": "infuriars",
+                        "start": 9.8,
+                        "end": 10.48,
+                        "confidence": 0.963
+                    },
+                    {
+                        "text": "take",
+                        "start": 10.48,
+                        "end": 10.72,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "advantage",
+                        "start": 10.72,
+                        "end": 11.2,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "of",
+                        "start": 11.2,
+                        "end": 11.5,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "his",
+                        "start": 11.5,
+                        "end": 11.66,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "abilities.",
+                        "start": 11.66,
+                        "end": 12.18,
+                        "confidence": 0.88
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9971593618392944,
+            "zh": 4.0264829294756055e-05,
+            "de": 2.9001668735872954e-05,
+            "es": 1.4928778909961693e-05,
+            "ru": 8.244454875239171e-06,
+            "ko": 4.113311206310755e-06,
+            "fr": 1.1902259757334832e-05,
+            "ja": 3.842096703010611e-05,
+            "pt": 0.0004905260284431279,
+            "tr": 2.4043229132075794e-05,
+            "pl": 0.0005180987645871937,
+            "ca": 2.0879765472159306e-08,
+            "nl": 3.0872113711666316e-05,
+            "ar": 1.3699417650059331e-05,
+            "sv": 4.4730185777552833e-07,
+            "it": 5.1701066695386544e-05,
+            "id": 3.5183015825168695e-06,
+            "hi": 7.928615559649188e-06,
+            "fi": 2.9627071853610687e-06,
+            "vi": 4.598387749865651e-05,
+            "he": 9.656146175984759e-07,
+            "uk": 3.825975625204592e-07,
+            "el": 4.154297130298801e-05,
+            "ms": 3.312094122520648e-05,
+            "cs": 3.825975625204592e-07,
+            "ro": 1.6016241715988144e-05,
+            "da": 4.884677764493972e-06,
+            "hu": 2.718732730500051e-06,
+            "ta": 1.075279669748852e-05,
+            "no": 1.5920294345050934e-06,
+            "th": 2.0726558432215825e-05,
+            "ur": 6.849277997389436e-05,
+            "hr": 2.1211739920090622e-07,
+            "bg": 1.102766645999509e-06,
+            "lt": 6.019104148435872e-07,
+            "la": 0.0008475530776195228,
+            "mi": 5.199713086767588e-06,
+            "ml": 2.5887842980409914e-07,
+            "cy": 5.634062472381629e-05,
+            "sk": 2.5887842980409914e-07,
+            "te": 6.955061735425261e-07,
+            "fa": 2.3992731712496607e-06,
+            "lv": 1.5824922172669176e-07,
+            "bn": 8.439967132289894e-06,
+            "sr": 1.5612368997608428e-06,
+            "az": 8.051068078884782e-08,
+            "sl": 8.914381396607496e-06,
+            "kn": 1.2765450208007678e-07,
+            "et": 1.35602116202449e-08,
+            "mk": 1.691147417659522e-07,
+            "br": 3.687148364406312e-06,
+            "eu": 1.7792437745356438e-07,
+            "is": 2.1630104640735226e-07,
+            "hy": 4.176839496494722e-08,
+            "ne": 1.8285662406469783e-07,
+            "mn": 6.508203682642488e-07,
+            "bs": 4.386502610032039e-07,
+            "kk": 2.933477105671045e-07,
+            "sq": 2.137810497515602e-07,
+            "sw": 3.80419123757747e-06,
+            "gl": 1.3044622164670727e-06,
+            "mr": 1.8716500349569287e-08,
+            "pa": 2.5341375931020593e-06,
+            "si": 5.3647695494873915e-06,
+            "km": 1.338207130174851e-05,
+            "sn": 3.0807277653366327e-06,
+            "yo": 1.8685558416109416e-06,
+            "so": 1.8570846194165824e-08,
+            "af": 2.05652613658458e-05,
+            "oc": 2.5686384219625324e-07,
+            "ka": 2.4554370980922613e-08,
+            "be": 2.967612822146748e-08,
+            "tg": 2.027692858064256e-08,
+            "sd": 1.0814371762535302e-06,
+            "gu": 2.3942342863847443e-07,
+            "am": 2.1584675380381668e-08,
+            "yi": 6.5868858655449e-05,
+            "lo": 1.6584375828188058e-07,
+            "uz": 6.803351770834354e-10,
+            "fo": 6.70069368879922e-08,
+            "ht": 1.5982604963937774e-06,
+            "ps": 9.19460845238973e-08,
+            "tk": 7.333761931072047e-10,
+            "nn": 6.091873729019426e-05,
+            "mt": 9.07111086689838e-07,
+            "sa": 5.1298724429216236e-05,
+            "lb": 4.051682100936205e-09,
+            "my": 4.5175888772064354e-06,
+            "bo": 7.219085546239512e-06,
+            "tl": 3.444033063715324e-05,
+            "mg": 4.935088449009584e-10,
+            "as": 5.511840228678011e-08,
+            "tt": 1.144116801299333e-08,
+            "haw": 7.348202780121937e-05,
+            "ln": 3.202493914500337e-08,
+            "ha": 5.0473261126171565e-09,
+            "ba": 9.359436559108758e-10,
+            "jw": 7.990799531398807e-06,
+            "su": 8.289190667198909e-09
+        }
+    }
+}

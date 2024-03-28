@@ -6,7 +6,7 @@ import numpy as np
 parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(parent_dir)
 
-from audio_generator import WolfyTTSMiddleware
+from audio_generator import ThemeFactory
 
 from moviepy.editor import TextClip, AudioClip, VideoClip, AudioFileClip, VideoFileClip, CompositeAudioClip, ImageSequenceClip, ImageClip, CompositeVideoClip
 from moviepy.editor import concatenate_audioclips, concatenate_videoclips
@@ -119,17 +119,20 @@ def create_video(audio_path, subtitle_path, video_path, data_path):
 
     overlay_clip = utility.overlay(defaults.flames_overlay, clips[0].duration)
     clips.append(overlay_clip)
-    image_clips = create_image_clips(subtitle_path)
-    clips.extend(image_clips)
-    final_video = CompositeVideoClip(clips).set_audio(audio_clip)
-    # clips[0] = utility.shaky(clips[0])
-    final_video.write_videofile(video_path, fps=24, codec="libx264")
 
+    # image_clips = create_image_clips(subtitle_path)
+    # clips.extend(image_clips)
+
+    final_video = CompositeVideoClip(clips).set_audio(audio_clip)
+    final_video.write_videofile(video_path,
+                        fps = 24,
+                        codec="libx264",
+                        ffmpeg_params = [ "-preset", "fast"])
 
 def _make_(argument_map):
     workspace = argument_map.get('workspace')
     speech = argument_map.get('speech')
-    wolfy_tts_middleware = WolfyTTSMiddleware(workspace, _id_ = speech)
+    wolfy_tts_middleware = ThemeFactory().get_middleware(workspace, _id_ = speech)
     context = wolfy_tts_middleware.get_internal_context()
 
     audio_files = []
@@ -157,6 +160,6 @@ def _make_(argument_map):
 if __name__ == '__main__':
 
     _make_({
-        'workspace' : 'video_2',
-        'speech' : 'story2'
+        'workspace' : 'a',
+        'speech' : 'a_a_milne'
     })

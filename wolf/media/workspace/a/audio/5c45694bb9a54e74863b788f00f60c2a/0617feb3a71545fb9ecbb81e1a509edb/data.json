@@ -1,0 +1,536 @@
+{
+    "time": 21466,
+    "speaker": "gpt_cove",
+    "rank": 13,
+    "chapter": 1,
+    "speech": "If you rely on political factions to promote men to office, the people will work to develop instrumental relationships and will not seek to be useful with regard to the law. Thus, a ruler who mistakes reputation for ability when assigning offices will see his state fall into disorder.",
+    "asr_speech": " If you rely on political factions to promote men to office, the people will work to develop instrumental relationships and will not seek to be useful with regard to the law. Thus, a ruler who mistakes reputation for ability when assigning offices will see his state fall into disorder.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " If you rely on political factions to promote men to office, the people will work to develop instrumental relationships and will not seek to be useful with regard to the law. Thus, a ruler who mistakes reputation for ability when assigning offices will see his state fall into disorder.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.12,
+                "end": 6.36,
+                "text": " If you rely on political factions to promote men to office, the people will work to develop",
+                "tokens": [
+                    50364,
+                    759,
+                    291,
+                    10687,
+                    322,
+                    3905,
+                    41252,
+                    281,
+                    9773,
+                    1706,
+                    281,
+                    3398,
+                    11,
+                    264,
+                    561,
+                    486,
+                    589,
+                    281,
+                    1499,
+                    50692
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.15131730418051442,
+                "compression_ratio": 1.5240641711229947,
+                "no_speech_prob": 0.03366610035300255,
+                "confidence": 0.946,
+                "words": [
+                    {
+                        "text": "If",
+                        "start": 0.12,
+                        "end": 0.22,
+                        "confidence": 0.947
+                    },
+                    {
+                        "text": "you",
+                        "start": 0.22,
+                        "end": 0.34,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "rely",
+                        "start": 0.34,
+                        "end": 0.66,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "on",
+                        "start": 0.66,
+                        "end": 0.9,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "political",
+                        "start": 0.9,
+                        "end": 1.32,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "factions",
+                        "start": 1.32,
+                        "end": 1.96,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "to",
+                        "start": 1.96,
+                        "end": 2.52,
+                        "confidence": 0.951
+                    },
+                    {
+                        "text": "promote",
+                        "start": 2.52,
+                        "end": 2.92,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "men",
+                        "start": 2.92,
+                        "end": 3.28,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "to",
+                        "start": 3.28,
+                        "end": 3.54,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "office,",
+                        "start": 3.54,
+                        "end": 4.04,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "the",
+                        "start": 4.7,
+                        "end": 4.78,
+                        "confidence": 0.591
+                    },
+                    {
+                        "text": "people",
+                        "start": 4.78,
+                        "end": 5.14,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "will",
+                        "start": 5.14,
+                        "end": 5.38,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "work",
+                        "start": 5.38,
+                        "end": 5.66,
+                        "confidence": 0.965
+                    },
+                    {
+                        "text": "to",
+                        "start": 5.66,
+                        "end": 5.94,
+                        "confidence": 0.923
+                    },
+                    {
+                        "text": "develop",
+                        "start": 5.94,
+                        "end": 6.36,
+                        "confidence": 0.919
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.44,
+                "end": 11.22,
+                "text": " instrumental relationships and will not seek to be useful with regard to the law.",
+                "tokens": [
+                    50692,
+                    17388,
+                    6159,
+                    293,
+                    486,
+                    406,
+                    8075,
+                    281,
+                    312,
+                    4420,
+                    365,
+                    3843,
+                    281,
+                    264,
+                    2101,
+                    13,
+                    50928
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.15131730418051442,
+                "compression_ratio": 1.5240641711229947,
+                "no_speech_prob": 0.03366610035300255,
+                "confidence": 0.989,
+                "words": [
+                    {
+                        "text": "instrumental",
+                        "start": 6.44,
+                        "end": 7.08,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "relationships",
+                        "start": 7.08,
+                        "end": 8.02,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "and",
+                        "start": 8.02,
+                        "end": 8.58,
+                        "confidence": 0.938
+                    },
+                    {
+                        "text": "will",
+                        "start": 8.58,
+                        "end": 8.72,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "not",
+                        "start": 8.72,
+                        "end": 8.94,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "seek",
+                        "start": 8.94,
+                        "end": 9.26,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "to",
+                        "start": 9.26,
+                        "end": 9.46,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "be",
+                        "start": 9.46,
+                        "end": 9.58,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "useful",
+                        "start": 9.58,
+                        "end": 9.98,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "with",
+                        "start": 9.98,
+                        "end": 10.28,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "regard",
+                        "start": 10.28,
+                        "end": 10.58,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "to",
+                        "start": 10.58,
+                        "end": 10.84,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "the",
+                        "start": 10.84,
+                        "end": 10.98,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "law.",
+                        "start": 10.98,
+                        "end": 11.22,
+                        "confidence": 0.985
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 12.36,
+                "end": 19.32,
+                "text": " Thus, a ruler who mistakes reputation for ability when assigning offices will see his state fall",
+                "tokens": [
+                    50976,
+                    13827,
+                    11,
+                    257,
+                    19661,
+                    567,
+                    8038,
+                    13061,
+                    337,
+                    3485,
+                    562,
+                    49602,
+                    14434,
+                    486,
+                    536,
+                    702,
+                    1785,
+                    2100,
+                    51344
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.15131730418051442,
+                "compression_ratio": 1.5240641711229947,
+                "no_speech_prob": 0.03366610035300255,
+                "confidence": 0.927,
+                "words": [
+                    {
+                        "text": "Thus,",
+                        "start": 12.36,
+                        "end": 12.6,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "a",
+                        "start": 13.02,
+                        "end": 13.18,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 13.18,
+                        "end": 13.48,
+                        "confidence": 0.964
+                    },
+                    {
+                        "text": "who",
+                        "start": 13.48,
+                        "end": 13.74,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "mistakes",
+                        "start": 13.74,
+                        "end": 14.12,
+                        "confidence": 0.969
+                    },
+                    {
+                        "text": "reputation",
+                        "start": 14.12,
+                        "end": 14.82,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "for",
+                        "start": 14.82,
+                        "end": 15.24,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "ability",
+                        "start": 15.24,
+                        "end": 15.78,
+                        "confidence": 0.944
+                    },
+                    {
+                        "text": "when",
+                        "start": 15.78,
+                        "end": 16.34,
+                        "confidence": 0.825
+                    },
+                    {
+                        "text": "assigning",
+                        "start": 16.34,
+                        "end": 16.78,
+                        "confidence": 0.943
+                    },
+                    {
+                        "text": "offices",
+                        "start": 16.78,
+                        "end": 17.4,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "will",
+                        "start": 17.4,
+                        "end": 17.9,
+                        "confidence": 0.81
+                    },
+                    {
+                        "text": "see",
+                        "start": 17.9,
+                        "end": 18.2,
+                        "confidence": 0.969
+                    },
+                    {
+                        "text": "his",
+                        "start": 18.2,
+                        "end": 18.44,
+                        "confidence": 0.894
+                    },
+                    {
+                        "text": "state",
+                        "start": 18.44,
+                        "end": 18.82,
+                        "confidence": 0.824
+                    },
+                    {
+                        "text": "fall",
+                        "start": 18.82,
+                        "end": 19.32,
+                        "confidence": 0.803
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "seek": 0,
+                "start": 19.32,
+                "end": 20.34,
+                "text": " into disorder.",
+                "tokens": [
+                    51344,
+                    666,
+                    13399,
+                    13,
+                    51684
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.15131730418051442,
+                "compression_ratio": 1.5240641711229947,
+                "no_speech_prob": 0.03366610035300255,
+                "confidence": 0.879,
+                "words": [
+                    {
+                        "text": "into",
+                        "start": 19.32,
+                        "end": 19.88,
+                        "confidence": 0.78
+                    },
+                    {
+                        "text": "disorder.",
+                        "start": 19.88,
+                        "end": 20.34,
+                        "confidence": 0.992
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9938923120498657,
+            "zh": 0.00047759313019923866,
+            "de": 4.583321788231842e-05,
+            "es": 0.00017029105219990015,
+            "ru": 2.2337328118737787e-05,
+            "ko": 0.00016376731218770146,
+            "fr": 0.00033602872281335294,
+            "ja": 0.00033341371454298496,
+            "pt": 0.0005005132989026606,
+            "tr": 6.9343441282399e-05,
+            "pl": 5.615603367914446e-05,
+            "ca": 5.647760644933442e-06,
+            "nl": 5.748773764935322e-05,
+            "ar": 0.0003439973806962371,
+            "sv": 8.346848517248873e-06,
+            "it": 3.0770966986892745e-05,
+            "id": 2.8458493034122512e-05,
+            "hi": 1.1498270396259613e-05,
+            "fi": 1.2144593711127527e-05,
+            "vi": 2.9824244847986847e-05,
+            "he": 1.8809914763551205e-05,
+            "uk": 4.4677462938125245e-06,
+            "el": 5.528541441890411e-05,
+            "ms": 0.0002556371910031885,
+            "cs": 1.4058388160265167e-06,
+            "ro": 8.816029549052473e-06,
+            "da": 5.96522386331344e-06,
+            "hu": 5.647760644933442e-06,
+            "ta": 2.391412181168562e-06,
+            "no": 4.398480541567551e-06,
+            "th": 1.3654534086526837e-05,
+            "ur": 7.981382077559829e-05,
+            "hr": 3.5131057529724785e-07,
+            "bg": 3.762219421332702e-06,
+            "lt": 9.076777587324614e-07,
+            "la": 0.0013605362037196755,
+            "mi": 7.324127363972366e-05,
+            "ml": 2.5857332275336375e-06,
+            "cy": 0.0002988701162394136,
+            "sk": 8.593720508542901e-07,
+            "te": 8.797514396974293e-07,
+            "fa": 2.801728442136664e-05,
+            "lv": 6.386310928974126e-07,
+            "bn": 7.139438366721151e-06,
+            "sr": 1.8479402115190169e-06,
+            "az": 1.2503790003393078e-06,
+            "sl": 2.453275374136865e-05,
+            "kn": 1.1630335450263374e-07,
+            "et": 3.0166793862917984e-07,
+            "mk": 1.1838350246762275e-06,
+            "br": 7.556620403192937e-05,
+            "eu": 8.264499911092571e-07,
+            "is": 1.9825506569759455e-06,
+            "hy": 1.5319961903514923e-06,
+            "ne": 5.769550170953153e-07,
+            "mn": 1.877040972431132e-06,
+            "bs": 1.5440119796039653e-06,
+            "kk": 6.336612159429933e-07,
+            "sq": 2.8845940960309235e-06,
+            "sw": 2.7155283532920294e-05,
+            "gl": 8.885174793249462e-06,
+            "mr": 1.7323331746865733e-07,
+            "pa": 1.8479402115190169e-06,
+            "si": 9.532401236356236e-06,
+            "km": 1.8957443899125792e-05,
+            "sn": 5.0337945140199736e-05,
+            "yo": 2.3409318600897677e-05,
+            "so": 1.7596136103747995e-07,
+            "af": 6.264658441068605e-05,
+            "oc": 2.6470520424481947e-06,
+            "ka": 2.6935916253023606e-07,
+            "be": 4.0593857875137473e-07,
+            "tg": 9.164483572021709e-08,
+            "sd": 1.6564829365961486e-06,
+            "gu": 1.292399360863783e-07,
+            "am": 1.5050773072289303e-07,
+            "yi": 1.6993340977933258e-05,
+            "lo": 9.43835573252727e-07,
+            "uz": 2.620154093690985e-09,
+            "fo": 9.662178399594268e-07,
+            "ht": 5.473997134686215e-06,
+            "ps": 8.661121455588727e-07,
+            "tk": 2.47104048334279e-09,
+            "nn": 0.0002576421538833529,
+            "mt": 3.4794845760188764e-06,
+            "sa": 1.2827247701352462e-05,
+            "lb": 1.636695579065872e-08,
+            "my": 6.300532731984276e-06,
+            "bo": 9.239119208359625e-06,
+            "tl": 0.0003413204103708267,
+            "mg": 1.6983198181108605e-09,
+            "as": 7.717269312479402e-08,
+            "tt": 2.9636728626769582e-08,
+            "haw": 0.0001479514321545139,
+            "ln": 4.7089699251046113e-07,
+            "ha": 2.3628459189239948e-08,
+            "ba": 3.3121854148276952e-09,
+            "jw": 4.044767047162168e-05,
+            "su": 1.9588682675930613e-08
+        }
+    }
+}

@@ -11,5 +11,3 @@ def extract_audio_from_chat_gpt(text, file_path, speaker_wav = 'echo'):
     voice="echo",
     )
     response.stream_to_file(file_path)
-
-extract_audio_from_chat_gpt("Have Faith in God", 'duff.mp3')

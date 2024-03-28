@@ -1,0 +1,337 @@
+{
+    "time": 12514,
+    "speaker": "gpt_cove",
+    "rank": 23,
+    "chapter": 1,
+    "speech": "The intelligent ruler makes the law select men and makes no arbitrary appointment himself; he makes the law measure merits and makes no arbitrary judgment himself.",
+    "asr_speech": " The intelligent ruler makes the law select men and makes no arbitrary appointment himself. He makes the law measure merits and makes no arbitrary judgment himself.",
+    "wer": 0.07692307692307693,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " The intelligent ruler makes the law select men and makes no arbitrary appointment himself. He makes the law measure merits and makes no arbitrary judgment himself.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.06,
+                "end": 5.84,
+                "text": " The intelligent ruler makes the law select men and makes no arbitrary appointment himself.",
+                "tokens": [
+                    50364,
+                    440,
+                    13232,
+                    19661,
+                    1669,
+                    264,
+                    2101,
+                    3048,
+                    1706,
+                    293,
+                    1669,
+                    572,
+                    23211,
+                    13653,
+                    3647,
+                    13,
+                    50704
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26860846895160095,
+                "compression_ratio": 1.5673076923076923,
+                "no_speech_prob": 0.024259168654680252,
+                "confidence": 0.908,
+                "words": [
+                    {
+                        "text": "The",
+                        "start": 0.06,
+                        "end": 0.18,
+                        "confidence": 0.947
+                    },
+                    {
+                        "text": "intelligent",
+                        "start": 0.18,
+                        "end": 0.72,
+                        "confidence": 0.925
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 0.72,
+                        "end": 1.26,
+                        "confidence": 0.975
+                    },
+                    {
+                        "text": "makes",
+                        "start": 1.26,
+                        "end": 1.6,
+                        "confidence": 0.99
+                    },
+                    {
+                        "text": "the",
+                        "start": 1.6,
+                        "end": 1.84,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "law",
+                        "start": 1.84,
+                        "end": 2.08,
+                        "confidence": 0.893
+                    },
+                    {
+                        "text": "select",
+                        "start": 2.08,
+                        "end": 2.52,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "men",
+                        "start": 2.52,
+                        "end": 2.98,
+                        "confidence": 0.776
+                    },
+                    {
+                        "text": "and",
+                        "start": 2.98,
+                        "end": 3.56,
+                        "confidence": 0.577
+                    },
+                    {
+                        "text": "makes",
+                        "start": 3.56,
+                        "end": 3.78,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "no",
+                        "start": 3.78,
+                        "end": 4.1,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "arbitrary",
+                        "start": 4.1,
+                        "end": 4.68,
+                        "confidence": 0.985
+                    },
+                    {
+                        "text": "appointment",
+                        "start": 4.68,
+                        "end": 5.3,
+                        "confidence": 0.956
+                    },
+                    {
+                        "text": "himself.",
+                        "start": 5.3,
+                        "end": 5.84,
+                        "confidence": 0.851
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 6.8,
+                "end": 11.54,
+                "text": " He makes the law measure merits and makes no arbitrary judgment himself.",
+                "tokens": [
+                    50704,
+                    634,
+                    1669,
+                    264,
+                    2101,
+                    3481,
+                    40923,
+                    293,
+                    1669,
+                    572,
+                    23211,
+                    12216,
+                    3647,
+                    13,
+                    50984
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.26860846895160095,
+                "compression_ratio": 1.5673076923076923,
+                "no_speech_prob": 0.024259168654680252,
+                "confidence": 0.951,
+                "words": [
+                    {
+                        "text": "He",
+                        "start": 6.8,
+                        "end": 6.94,
+                        "confidence": 0.851
+                    },
+                    {
+                        "text": "makes",
+                        "start": 6.94,
+                        "end": 7.16,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "the",
+                        "start": 7.16,
+                        "end": 7.38,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "law",
+                        "start": 7.38,
+                        "end": 7.6,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "measure",
+                        "start": 7.6,
+                        "end": 8.08,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "merits",
+                        "start": 8.08,
+                        "end": 8.56,
+                        "confidence": 0.938
+                    },
+                    {
+                        "text": "and",
+                        "start": 8.56,
+                        "end": 9.18,
+                        "confidence": 0.923
+                    },
+                    {
+                        "text": "makes",
+                        "start": 9.18,
+                        "end": 9.36,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "no",
+                        "start": 9.36,
+                        "end": 9.72,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "arbitrary",
+                        "start": 9.72,
+                        "end": 10.3,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "judgment",
+                        "start": 10.3,
+                        "end": 10.94,
+                        "confidence": 0.795
+                    },
+                    {
+                        "text": "himself.",
+                        "start": 10.94,
+                        "end": 11.54,
+                        "confidence": 0.983
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.997323751449585,
+            "zh": 8.52547018439509e-05,
+            "de": 3.695517807500437e-05,
+            "es": 9.660622890805826e-05,
+            "ru": 1.4247490071284119e-05,
+            "ko": 3.136345185339451e-05,
+            "fr": 8.135061216307804e-05,
+            "ja": 6.536704313475639e-05,
+            "pt": 0.0002605593472253531,
+            "tr": 2.4617454982944764e-05,
+            "pl": 0.0001818997407099232,
+            "ca": 1.769404775586736e-06,
+            "nl": 4.782355244969949e-05,
+            "ar": 0.00017493129416834563,
+            "sv": 7.449472832377069e-06,
+            "it": 7.407056546071544e-05,
+            "id": 1.2945242815476377e-06,
+            "hi": 5.001339559385087e-06,
+            "fi": 7.507899681513663e-06,
+            "vi": 1.247551972483052e-05,
+            "he": 3.581818600650877e-05,
+            "uk": 1.943311190188979e-06,
+            "el": 8.071752381511033e-05,
+            "ms": 2.189521910622716e-05,
+            "cs": 1.107265347854991e-06,
+            "ro": 4.698323664342752e-06,
+            "da": 1.973913640540559e-06,
+            "hu": 4.3885360355488956e-05,
+            "ta": 8.489697620461811e-07,
+            "no": 1.5134521618165309e-06,
+            "th": 8.915851140045561e-06,
+            "ur": 3.261282836319879e-05,
+            "hr": 3.457051036548364e-07,
+            "bg": 1.2256309673830401e-06,
+            "lt": 5.567679295381822e-07,
+            "la": 0.00084109598537907,
+            "mi": 7.929922503535636e-06,
+            "ml": 1.7832825278674136e-06,
+            "cy": 9.889718057820573e-05,
+            "sk": 2.629985260682588e-07,
+            "te": 6.309007289928559e-07,
+            "fa": 1.705201248114463e-05,
+            "lv": 6.663639737780613e-07,
+            "bn": 7.220276074804133e-06,
+            "sr": 1.636432102714025e-06,
+            "az": 2.8436923571462103e-07,
+            "sl": 1.787035580491647e-05,
+            "kn": 1.0963410801423379e-07,
+            "et": 2.129827265662243e-07,
+            "mk": 3.566789246178814e-07,
+            "br": 1.9474011423881166e-05,
+            "eu": 8.556282296012796e-07,
+            "is": 1.4441460507441661e-06,
+            "hy": 6.50927688639058e-07,
+            "ne": 1.879566013940348e-07,
+            "mn": 1.0483377081982326e-06,
+            "bs": 1.178677734969824e-06,
+            "kk": 1.24717942640018e-07,
+            "sq": 1.4106925618762034e-06,
+            "sw": 2.4952610147011e-06,
+            "gl": 4.277872449165443e-06,
+            "mr": 1.1267326982533632e-07,
+            "pa": 1.769404775586736e-06,
+            "si": 2.202059931732947e-06,
+            "km": 5.119942670717137e-06,
+            "sn": 4.178775725449668e-06,
+            "yo": 6.998131993896095e-06,
+            "so": 5.40612283828068e-08,
+            "af": 9.343732017441653e-06,
+            "oc": 1.943311190188979e-06,
+            "ka": 1.1900669250053397e-07,
+            "be": 1.3538006271573977e-07,
+            "tg": 3.986225394214671e-08,
+            "sd": 7.975332323439943e-07,
+            "gu": 1.0667691441312854e-07,
+            "am": 5.77731142925586e-08,
+            "yi": 3.964711868320592e-05,
+            "lo": 2.3946290639287326e-07,
+            "uz": 1.0057588095691017e-09,
+            "fo": 2.5490692223684164e-07,
+            "ht": 1.151373794527899e-06,
+            "ps": 2.4323389880009927e-07,
+            "tk": 9.338154693949718e-10,
+            "nn": 3.1119379855226725e-05,
+            "mt": 3.491497636787244e-06,
+            "sa": 9.343732017441653e-06,
+            "lb": 8.25823676109394e-09,
+            "my": 1.5860842950132792e-06,
+            "bo": 3.987415311712539e-06,
+            "tl": 5.170959411771037e-05,
+            "mg": 5.146956194579388e-10,
+            "as": 2.645045782401212e-08,
+            "tt": 1.178325970130345e-08,
+            "haw": 1.9780680304393172e-05,
+            "ln": 5.4272817351375124e-08,
+            "ha": 3.825464389706212e-09,
+            "ba": 1.2298769780372254e-09,
+            "jw": 2.827501020874479e-06,
+            "su": 4.85476636669091e-09
+        }
+    }
+}

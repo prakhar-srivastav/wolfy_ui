@@ -1,0 +1,393 @@
+{
+    "time": 12250,
+    "speaker": "gpt_cove",
+    "rank": 17,
+    "chapter": 1,
+    "speech": "If a ruler of men wants to put an end to vice, he must examine the correspondence between form and name and look to see how what is said differs from what is done.",
+    "asr_speech": " If a ruler of men wants to put an end to vice, he must examine the correspondence between form and name and look to see how what is said differs from what is done.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " If a ruler of men wants to put an end to vice, he must examine the correspondence between form and name and look to see how what is said differs from what is done.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.1,
+                "end": 7.26,
+                "text": " If a ruler of men wants to put an end to vice, he must examine the correspondence between form and name",
+                "tokens": [
+                    50364,
+                    759,
+                    257,
+                    19661,
+                    295,
+                    1706,
+                    2738,
+                    281,
+                    829,
+                    364,
+                    917,
+                    281,
+                    11964,
+                    11,
+                    415,
+                    1633,
+                    17496,
+                    264,
+                    38135,
+                    1296,
+                    1254,
+                    293,
+                    1315,
+                    50748
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.20100442374624858,
+                "compression_ratio": 1.3697478991596639,
+                "no_speech_prob": 0.01418616995215416,
+                "confidence": 0.903,
+                "words": [
+                    {
+                        "text": "If",
+                        "start": 0.1,
+                        "end": 0.22,
+                        "confidence": 0.932
+                    },
+                    {
+                        "text": "a",
+                        "start": 0.22,
+                        "end": 0.36,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 0.36,
+                        "end": 0.66,
+                        "confidence": 0.977
+                    },
+                    {
+                        "text": "of",
+                        "start": 0.66,
+                        "end": 0.94,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "men",
+                        "start": 0.94,
+                        "end": 1.26,
+                        "confidence": 0.964
+                    },
+                    {
+                        "text": "wants",
+                        "start": 1.26,
+                        "end": 1.58,
+                        "confidence": 0.981
+                    },
+                    {
+                        "text": "to",
+                        "start": 1.58,
+                        "end": 1.78,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "put",
+                        "start": 1.78,
+                        "end": 1.98,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "an",
+                        "start": 1.98,
+                        "end": 2.16,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "end",
+                        "start": 2.16,
+                        "end": 2.32,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "to",
+                        "start": 2.32,
+                        "end": 2.54,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "vice,",
+                        "start": 2.54,
+                        "end": 3.0,
+                        "confidence": 0.823
+                    },
+                    {
+                        "text": "he",
+                        "start": 3.54,
+                        "end": 3.76,
+                        "confidence": 0.574
+                    },
+                    {
+                        "text": "must",
+                        "start": 3.76,
+                        "end": 3.96,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "examine",
+                        "start": 3.96,
+                        "end": 4.6,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "the",
+                        "start": 4.6,
+                        "end": 4.88,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "correspondence",
+                        "start": 4.88,
+                        "end": 5.58,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "between",
+                        "start": 5.58,
+                        "end": 6.22,
+                        "confidence": 0.86
+                    },
+                    {
+                        "text": "form",
+                        "start": 6.22,
+                        "end": 6.7,
+                        "confidence": 0.562
+                    },
+                    {
+                        "text": "and",
+                        "start": 6.7,
+                        "end": 6.94,
+                        "confidence": 0.77
+                    },
+                    {
+                        "text": "name",
+                        "start": 6.94,
+                        "end": 7.26,
+                        "confidence": 0.863
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 7.8,
+                "end": 11.46,
+                "text": " and look to see how what is said differs from what is done.",
+                "tokens": [
+                    50748,
+                    293,
+                    574,
+                    281,
+                    536,
+                    577,
+                    437,
+                    307,
+                    848,
+                    37761,
+                    490,
+                    437,
+                    307,
+                    1096,
+                    13,
+                    50968
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.20100442374624858,
+                "compression_ratio": 1.3697478991596639,
+                "no_speech_prob": 0.01418616995215416,
+                "confidence": 0.981,
+                "words": [
+                    {
+                        "text": "and",
+                        "start": 7.8,
+                        "end": 7.9,
+                        "confidence": 0.849
+                    },
+                    {
+                        "text": "look",
+                        "start": 7.9,
+                        "end": 8.08,
+                        "confidence": 0.987
+                    },
+                    {
+                        "text": "to",
+                        "start": 8.08,
+                        "end": 8.32,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "see",
+                        "start": 8.32,
+                        "end": 8.58,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "how",
+                        "start": 8.58,
+                        "end": 8.94,
+                        "confidence": 0.984
+                    },
+                    {
+                        "text": "what",
+                        "start": 8.94,
+                        "end": 9.24,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "is",
+                        "start": 9.24,
+                        "end": 9.36,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "said",
+                        "start": 9.36,
+                        "end": 9.72,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "differs",
+                        "start": 9.72,
+                        "end": 10.3,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "from",
+                        "start": 10.3,
+                        "end": 10.82,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "what",
+                        "start": 10.82,
+                        "end": 11.02,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "is",
+                        "start": 11.02,
+                        "end": 11.16,
+                        "confidence": 0.991
+                    },
+                    {
+                        "text": "done.",
+                        "start": 11.16,
+                        "end": 11.46,
+                        "confidence": 0.999
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9961143732070923,
+            "zh": 2.273981590406038e-05,
+            "de": 0.00012008260819129646,
+            "es": 0.0001471282885177061,
+            "ru": 2.238726847281214e-05,
+            "ko": 9.934288755175658e-06,
+            "fr": 8.061964035732672e-05,
+            "ja": 3.990961704403162e-05,
+            "pt": 0.0002770276623778045,
+            "tr": 2.5969686248572543e-05,
+            "pl": 0.0001268324995180592,
+            "ca": 6.252319622035429e-07,
+            "nl": 9.499316365690902e-05,
+            "ar": 0.000311470590531826,
+            "sv": 5.704782779503148e-06,
+            "it": 5.5409022024832666e-05,
+            "id": 5.113734005135484e-06,
+            "hi": 1.689879718469456e-05,
+            "fi": 6.989645953581203e-06,
+            "vi": 2.989092536154203e-05,
+            "he": 1.8705262846197e-05,
+            "uk": 1.282892640119826e-06,
+            "el": 0.00012008260819129646,
+            "ms": 6.22980369371362e-05,
+            "cs": 8.186477771232603e-07,
+            "ro": 2.439626223349478e-05,
+            "da": 8.431122296315152e-06,
+            "hu": 1.0910683158726897e-05,
+            "ta": 1.1983040167251602e-05,
+            "no": 9.553713425702881e-06,
+            "th": 1.4681927495985292e-05,
+            "ur": 0.00016671817866154015,
+            "hr": 4.664514108299045e-07,
+            "bg": 2.4155569917638786e-06,
+            "lt": 9.061604941962287e-07,
+            "la": 0.001291009597480297,
+            "mi": 5.749525371356867e-06,
+            "ml": 2.269205651828088e-06,
+            "cy": 0.00010848559759324417,
+            "sk": 4.1649425952527963e-07,
+            "te": 1.2434220479917713e-06,
+            "fa": 1.9911647541448474e-05,
+            "lv": 9.683780035629752e-07,
+            "bn": 1.6124944522744045e-05,
+            "sr": 2.802095195875154e-06,
+            "az": 4.005385960681451e-07,
+            "sl": 1.4341821952257305e-05,
+            "kn": 2.678605142136803e-07,
+            "et": 1.663183724076589e-07,
+            "mk": 5.919577006352483e-07,
+            "br": 1.3685062185686547e-05,
+            "eu": 6.526828997266421e-07,
+            "is": 2.269205651828088e-06,
+            "hy": 2.5459780772507656e-07,
+            "ne": 6.57801990655571e-07,
+            "mn": 1.6472667994094081e-06,
+            "bs": 1.1499776064738398e-06,
+            "kk": 6.227944027159538e-07,
+            "sq": 1.6472667994094081e-06,
+            "sw": 7.4987951848015655e-06,
+            "gl": 4.27268469138653e-06,
+            "mr": 1.9750797264350695e-07,
+            "pa": 5.749525371356867e-06,
+            "si": 1.0492701221664902e-05,
+            "km": 1.7164913515443914e-05,
+            "sn": 7.736832230875734e-06,
+            "yo": 8.431122296315152e-06,
+            "so": 8.628484238215606e-08,
+            "af": 3.719985397765413e-05,
+            "oc": 1.420032845089736e-06,
+            "ka": 9.739235196093432e-08,
+            "be": 8.628484238215606e-08,
+            "tg": 6.960317477933131e-08,
+            "sd": 3.569962018445949e-06,
+            "gu": 3.8219661746552447e-07,
+            "am": 1.1209790784505458e-07,
+            "yi": 0.00014372005534823984,
+            "lo": 4.812582119484432e-07,
+            "uz": 2.141196775440335e-09,
+            "fo": 2.1862139476525044e-07,
+            "ht": 4.206443009024952e-06,
+            "ps": 5.648499836752308e-07,
+            "tk": 1.6497481158950222e-09,
+            "nn": 6.631591531913728e-05,
+            "mt": 1.125702510762494e-05,
+            "sa": 5.716789382859133e-05,
+            "lb": 2.725699310701657e-08,
+            "my": 2.802095195875154e-06,
+            "bo": 5.23500284543843e-06,
+            "tl": 7.51457700971514e-05,
+            "mg": 8.804633133685513e-10,
+            "as": 1.1341928995989292e-07,
+            "tt": 3.13726111755841e-08,
+            "haw": 6.085489803808741e-05,
+            "ln": 1.0009217277229254e-07,
+            "ha": 1.2213914324377129e-08,
+            "ba": 2.3106681013018715e-09,
+            "jw": 1.1797260413004551e-05,
+            "su": 1.618080602838745e-08
+        }
+    }
+}

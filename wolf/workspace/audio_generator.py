@@ -10,11 +10,20 @@ from pydub.playback import play
 from jiwer import wer
 import json
 import sys
-sys.path.append('/home/prakharrrr4/wolfy_ui/wolf/wolf')
 
-import setting2 as settings
-# from django.conf import settings
+"""
+T E S T
+"""
+# sys.path.append('/home/prakharrrr4/wolfy_ui/wolf/wolf')
+# import setting2 as settings
+# import scraper_middleware as sm
+
+"""
+P R O D
+"""
+from django.conf import settings
 import workspace.scraper_middleware as sm
+
 
 
 """
@@ -168,7 +177,7 @@ class AudioGenerator(object):
 class ThemeFactory(object):
 
     def __init__(self):
-        self._theme_  = ['xtts', 'gpt']
+        self._theme_  = ['xtts', 'gpt_quote', 'gpt_movie']
 
     def get_middleware(self,workspace, theme = '', _id_ = None):
         
@@ -178,9 +187,9 @@ class ThemeFactory(object):
         elif theme == 'gpt_quote':
             return QuotesGPTMiddleware(workspace, _id_ = _id_)
         elif theme == 'gpt_movie':
-            raise ValueError("GptMovieMiddleware is not yet implemented")
+            return MovieGPTMiddleware(workspace, _id_ = _id_)
         else:
-            raise ValueError("GptMovieMiddleware is not yet implemented")
+            raise ValueError("Not yet implemented")
 
 
 class WolfyTTSMiddleware(object):
@@ -605,8 +614,8 @@ class QuotesGPTMiddleware(WolfyTTSMiddleware):
         speaker = 'gpt_cove'
         _folder_path_ = self.get_folder_path()
 
-        author_text = '\n'.split(text)
-        author_list = [x.strip() for x in author]
+        author_text = text.split('\n')
+        author_list = [x.strip() for x in author_text]
 
         sentences = []
 
@@ -637,7 +646,54 @@ class QuotesGPTMiddleware(WolfyTTSMiddleware):
             current_audio = AudioSegment.silent(duration=silence)
         else:
             sm.extract_audio_from_chat_gpt(text, file_path)
-            sm.alter_audio(file_path, affect = 'slowed-reverb')
+            sm.alter_audio(file_path, affects = 'slowed-reverb')
+            current_audio0 = AudioSegment.from_file(file_path)
+            current_audio = current_audio0 + AudioSegment.silent(duration=silence)
+        time = len(current_audio)
+        current_audio.export(file_path, format="wav") 
+        return time
+
+
+class MovieGPTMiddleware(WolfyTTSMiddleware):
+
+    def __init__(self, workspace, _id_ = None):
+        super().__init__(workspace, _id_ = _id_)
+        pass
+
+
+    def synthesize(self, text = '', speaker = '', output = ''):
+
+        speaker = 'gpt_cove'
+        _folder_path_ = self.get_folder_path()
+
+        audio_files = []
+        
+        if type(text) == str:
+            text = [text]
+
+        sentences = text
+        os.makedirs(_folder_path_, exist_ok = True)
+
+        for itr in range(len(sentences)):
+            sen = sentences[itr]
+            _hash_ = uuid.uuid4().hex
+            audio_folder = os.path.join(_folder_path_, _hash_)
+            os.mkdir(audio_folder)
+            audio_file = os.path.join(audio_folder, 'speech.wav')
+            self.save_audio_instance(text = sen,
+                                     file_path = audio_file,
+                                     speaker_wav = speaker,
+                                     silence = 250,
+                                     rank = itr + 1,
+                                     chapter = 1,
+                                     )
+
+
+    def save_with_silence(self, text="", file_path = "", speaker_wav = "", silence = 250):
+        if text == "":
+            current_audio = AudioSegment.silent(duration=silence)
+        else:
+            sm.extract_audio_from_chat_gpt(text, file_path)
             current_audio0 = AudioSegment.from_file(file_path)
             current_audio = current_audio0 + AudioSegment.silent(duration=silence)
         time = len(current_audio)
@@ -694,7 +750,7 @@ __________________________________________
 Test Case 2
 Function Add-ons
 
-0. regenerate_by_ids 
+0. regenerate_by_ids ✅
 1. whisperx ✅
 2. word level ts ✅
 3. delete speech [I] ✅
@@ -711,11 +767,12 @@ UI Tests
 _____________________________________________
 
 Test Case 4
-preset_{i}.py impl. 
+0. video file optimization 
+1. preset_{i}.py impl. 
 
 _____________________________________________
 
 Test Case 5
 Crawler(SM) Tests 
-1. movie and quotes crawler
+1. movie and quotes crawler ✅ 
 """

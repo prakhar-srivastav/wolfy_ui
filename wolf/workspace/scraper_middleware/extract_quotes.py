@@ -70,4 +70,3 @@ def extract_quotes(author_url):
 
     return list(set(quotes))
 
-result = extract_quotes('https://www.brainyquote.com/authors/kevin-hart-quotes')

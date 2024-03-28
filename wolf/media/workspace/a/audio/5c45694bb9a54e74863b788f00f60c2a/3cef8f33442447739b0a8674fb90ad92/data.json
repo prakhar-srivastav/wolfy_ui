@@ -1,0 +1,435 @@
+{
+    "time": 15154,
+    "speaker": "gpt_cove",
+    "rank": 7,
+    "chapter": 1,
+    "speech": "The intelligent ruler does not value people who are of themselves good without rewards and punishments. Why is that? The laws of the state cannot be neglected, and it is not one man who is being ruled.",
+    "asr_speech": " The intelligent ruler does not value people who are of themselves good without rewards and punishments. Why is that? The laws of the state cannot be neglected, and it is not one man who is being ruled.",
+    "wer": 0.0,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " The intelligent ruler does not value people who are of themselves good without rewards and punishments. Why is that? The laws of the state cannot be neglected, and it is not one man who is being ruled.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.08,
+                "end": 6.42,
+                "text": " The intelligent ruler does not value people who are of themselves good without rewards and punishments.",
+                "tokens": [
+                    50364,
+                    440,
+                    13232,
+                    19661,
+                    775,
+                    406,
+                    2158,
+                    561,
+                    567,
+                    366,
+                    295,
+                    2969,
+                    665,
+                    1553,
+                    17203,
+                    293,
+                    9842,
+                    1117,
+                    13,
+                    50714
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.18951382928965044,
+                "compression_ratio": 1.3958333333333333,
+                "no_speech_prob": 0.0337388776242733,
+                "confidence": 0.921,
+                "words": [
+                    {
+                        "text": "The",
+                        "start": 0.08,
+                        "end": 0.18,
+                        "confidence": 0.893
+                    },
+                    {
+                        "text": "intelligent",
+                        "start": 0.18,
+                        "end": 0.72,
+                        "confidence": 0.941
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 0.72,
+                        "end": 1.12,
+                        "confidence": 0.98
+                    },
+                    {
+                        "text": "does",
+                        "start": 1.12,
+                        "end": 1.36,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "not",
+                        "start": 1.36,
+                        "end": 1.64,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "value",
+                        "start": 1.64,
+                        "end": 2.12,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "people",
+                        "start": 2.12,
+                        "end": 2.58,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "who",
+                        "start": 2.58,
+                        "end": 2.86,
+                        "confidence": 0.905
+                    },
+                    {
+                        "text": "are",
+                        "start": 2.86,
+                        "end": 3.02,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "of",
+                        "start": 3.02,
+                        "end": 3.18,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "themselves",
+                        "start": 3.18,
+                        "end": 3.62,
+                        "confidence": 0.986
+                    },
+                    {
+                        "text": "good",
+                        "start": 3.62,
+                        "end": 4.22,
+                        "confidence": 0.94
+                    },
+                    {
+                        "text": "without",
+                        "start": 4.22,
+                        "end": 4.96,
+                        "confidence": 0.51
+                    },
+                    {
+                        "text": "rewards",
+                        "start": 4.96,
+                        "end": 5.42,
+                        "confidence": 0.946
+                    },
+                    {
+                        "text": "and",
+                        "start": 5.42,
+                        "end": 5.72,
+                        "confidence": 0.904
+                    },
+                    {
+                        "text": "punishments.",
+                        "start": 5.72,
+                        "end": 6.42,
+                        "confidence": 0.943
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 7.08,
+                "end": 7.7,
+                "text": " Why is that?",
+                "tokens": [
+                    50714,
+                    1545,
+                    307,
+                    300,
+                    30,
+                    50794
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.18951382928965044,
+                "compression_ratio": 1.3958333333333333,
+                "no_speech_prob": 0.0337388776242733,
+                "confidence": 0.996,
+                "words": [
+                    {
+                        "text": "Why",
+                        "start": 7.08,
+                        "end": 7.26,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "is",
+                        "start": 7.26,
+                        "end": 7.46,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "that?",
+                        "start": 7.46,
+                        "end": 7.7,
+                        "confidence": 0.998
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 8.66,
+                "end": 13.8,
+                "text": " The laws of the state cannot be neglected, and it is not one man who is being ruled.",
+                "tokens": [
+                    50794,
+                    440,
+                    6064,
+                    295,
+                    264,
+                    1785,
+                    2644,
+                    312,
+                    32701,
+                    11,
+                    293,
+                    309,
+                    307,
+                    406,
+                    472,
+                    587,
+                    567,
+                    307,
+                    885,
+                    20077,
+                    13,
+                    51114
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.18951382928965044,
+                "compression_ratio": 1.3958333333333333,
+                "no_speech_prob": 0.0337388776242733,
+                "confidence": 0.972,
+                "words": [
+                    {
+                        "text": "The",
+                        "start": 8.66,
+                        "end": 8.8,
+                        "confidence": 0.936
+                    },
+                    {
+                        "text": "laws",
+                        "start": 8.8,
+                        "end": 9.06,
+                        "confidence": 0.953
+                    },
+                    {
+                        "text": "of",
+                        "start": 9.06,
+                        "end": 9.3,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "the",
+                        "start": 9.3,
+                        "end": 9.44,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "state",
+                        "start": 9.44,
+                        "end": 9.72,
+                        "confidence": 0.915
+                    },
+                    {
+                        "text": "cannot",
+                        "start": 9.72,
+                        "end": 10.1,
+                        "confidence": 0.989
+                    },
+                    {
+                        "text": "be",
+                        "start": 10.1,
+                        "end": 10.36,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "neglected,",
+                        "start": 10.36,
+                        "end": 10.92,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "and",
+                        "start": 11.38,
+                        "end": 11.52,
+                        "confidence": 0.801
+                    },
+                    {
+                        "text": "it",
+                        "start": 11.52,
+                        "end": 11.64,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "is",
+                        "start": 11.64,
+                        "end": 11.78,
+                        "confidence": 0.996
+                    },
+                    {
+                        "text": "not",
+                        "start": 11.78,
+                        "end": 12.02,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "one",
+                        "start": 12.02,
+                        "end": 12.36,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "man",
+                        "start": 12.36,
+                        "end": 12.72,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "who",
+                        "start": 12.72,
+                        "end": 13.0,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "is",
+                        "start": 13.0,
+                        "end": 13.12,
+                        "confidence": 0.973
+                    },
+                    {
+                        "text": "being",
+                        "start": 13.12,
+                        "end": 13.38,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "ruled.",
+                        "start": 13.38,
+                        "end": 13.8,
+                        "confidence": 0.998
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.99647057056427,
+            "zh": 0.00010518544149817899,
+            "de": 6.582336209248751e-05,
+            "es": 0.00016291439533233643,
+            "ru": 6.685992411803454e-05,
+            "ko": 6.952332478249446e-05,
+            "fr": 0.0002075583179248497,
+            "ja": 0.0002108268963638693,
+            "pt": 0.00030436416273005307,
+            "tr": 7.006861414993182e-05,
+            "pl": 6.232030864339322e-05,
+            "ca": 3.0785997751081595e-06,
+            "nl": 4.667575558414683e-05,
+            "ar": 0.000279300264082849,
+            "sv": 1.3063046026218217e-05,
+            "it": 5.2478961151791736e-05,
+            "id": 2.3106176740839146e-05,
+            "hi": 3.750502219190821e-05,
+            "fi": 1.703742418612819e-05,
+            "vi": 3.309806561446749e-05,
+            "he": 5.8421555877430364e-06,
+            "uk": 3.2771524729469093e-06,
+            "el": 5.0468526751501486e-05,
+            "ms": 5.330538988346234e-05,
+            "cs": 1.8098155578627484e-06,
+            "ro": 8.303377398988232e-06,
+            "da": 6.72427995596081e-06,
+            "hu": 1.2760441677528434e-05,
+            "ta": 4.805626304005273e-06,
+            "no": 3.627476871770341e-06,
+            "th": 4.023701694677584e-05,
+            "ur": 8.584985334891826e-05,
+            "hr": 4.2320436932641314e-07,
+            "bg": 1.4542275721396436e-06,
+            "lt": 7.255409855133621e-07,
+            "la": 0.0005554548115469515,
+            "mi": 1.8278487914358266e-05,
+            "ml": 6.218942871782929e-06,
+            "cy": 0.00015545399219263345,
+            "sk": 5.739502171309141e-07,
+            "te": 2.3420752768288366e-06,
+            "fa": 1.856633389252238e-05,
+            "lv": 1.1237399348829058e-06,
+            "bn": 1.0578777619230095e-05,
+            "sr": 1.3449406424115296e-06,
+            "az": 1.0806901400428615e-06,
+            "sl": 7.2706802711763885e-06,
+            "kn": 1.4797950598222087e-07,
+            "et": 1.6315981099523924e-07,
+            "mk": 3.4272133575541375e-07,
+            "br": 2.459639472363051e-05,
+            "eu": 1.1503886980790412e-06,
+            "is": 2.2174324385559885e-06,
+            "hy": 1.1325536206641118e-06,
+            "ne": 7.783919500070624e-07,
+            "mn": 2.397615844529355e-06,
+            "bs": 1.1325536206641118e-06,
+            "kk": 3.944698221403087e-07,
+            "sq": 1.6738056274334667e-06,
+            "sw": 6.366420166159514e-06,
+            "gl": 6.12252688370063e-06,
+            "mr": 1.6379840417357627e-07,
+            "pa": 3.3811804769356968e-06,
+            "si": 1.0253302207274828e-05,
+            "km": 2.2395273845177144e-05,
+            "sn": 2.0074992789886892e-05,
+            "yo": 1.1261050531174988e-05,
+            "so": 7.24017255038234e-08,
+            "af": 3.635111352195963e-05,
+            "oc": 1.6223081047428423e-06,
+            "ka": 2.7538430913409684e-07,
+            "be": 2.9086379527143436e-07,
+            "tg": 4.692902777492236e-08,
+            "sd": 2.323849003005307e-06,
+            "gu": 1.8853080518965726e-07,
+            "am": 9.857561877879562e-08,
+            "yi": 1.9006620277650654e-05,
+            "lo": 9.537058076602989e-07,
+            "uz": 2.1066959288162934e-09,
+            "fo": 6.710158118039544e-07,
+            "ht": 5.1556839935074095e-06,
+            "ps": 4.400629052270233e-07,
+            "tk": 1.767099355731716e-09,
+            "nn": 0.0001566732389619574,
+            "mt": 2.6539187274465803e-06,
+            "sa": 1.9305931346025318e-05,
+            "lb": 1.1636015706528724e-08,
+            "my": 4.0467434700985905e-06,
+            "bo": 1.217609769810224e-05,
+            "tl": 0.00011462459951872006,
+            "mg": 9.664014033461399e-10,
+            "as": 1.1390390852739074e-07,
+            "tt": 1.5780779349938712e-08,
+            "haw": 0.00012491080269683152,
+            "ln": 2.1955551687824482e-07,
+            "ha": 1.159065199374254e-08,
+            "ba": 2.2513433339810263e-09,
+            "jw": 2.2220991013455205e-05,
+            "su": 1.6092025489911066e-08
+        }
+    }
+}

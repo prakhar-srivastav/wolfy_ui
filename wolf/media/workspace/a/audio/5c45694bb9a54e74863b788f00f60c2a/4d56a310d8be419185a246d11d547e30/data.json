@@ -1,0 +1,430 @@
+{
+    "time": 18274,
+    "speaker": "gpt_cove",
+    "rank": 5,
+    "chapter": 1,
+    "speech": "The ruler who possesses methods of government does not follow the good that happens by chance but practices according to necessary principles. Law, methods, and power must be employed for government: these constitute its 'necessary principles.'",
+    "asr_speech": " The ruler who possesses methods of government does not follow the good that happens by chance, but practices according to necessary principles. Law, methods, and power must be employed for government. These constitute its necessary principles.",
+    "wer": 0.1388888888888889,
+    "silence": 250,
+    "segment_timestamps": {
+        "text": " The ruler who possesses methods of government does not follow the good that happens by chance, but practices according to necessary principles. Law, methods, and power must be employed for government. These constitute its necessary principles.",
+        "segments": [
+            {
+                "id": 0,
+                "seek": 0,
+                "start": 0.08,
+                "end": 5.34,
+                "text": " The ruler who possesses methods of government does not follow the good that happens by chance,",
+                "tokens": [
+                    50364,
+                    440,
+                    19661,
+                    567,
+                    17490,
+                    279,
+                    7150,
+                    295,
+                    2463,
+                    775,
+                    406,
+                    1524,
+                    264,
+                    665,
+                    300,
+                    2314,
+                    538,
+                    2931,
+                    11,
+                    50656
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2211907386779785,
+                "compression_ratio": 1.51875,
+                "no_speech_prob": 0.01932721771299839,
+                "confidence": 0.957,
+                "words": [
+                    {
+                        "text": "The",
+                        "start": 0.08,
+                        "end": 0.18,
+                        "confidence": 0.964
+                    },
+                    {
+                        "text": "ruler",
+                        "start": 0.18,
+                        "end": 0.52,
+                        "confidence": 0.914
+                    },
+                    {
+                        "text": "who",
+                        "start": 0.52,
+                        "end": 0.8,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "possesses",
+                        "start": 0.8,
+                        "end": 1.42,
+                        "confidence": 0.993
+                    },
+                    {
+                        "text": "methods",
+                        "start": 1.42,
+                        "end": 1.8,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "of",
+                        "start": 1.8,
+                        "end": 2.04,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "government",
+                        "start": 2.04,
+                        "end": 2.52,
+                        "confidence": 0.988
+                    },
+                    {
+                        "text": "does",
+                        "start": 2.52,
+                        "end": 2.98,
+                        "confidence": 0.756
+                    },
+                    {
+                        "text": "not",
+                        "start": 2.98,
+                        "end": 3.24,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "follow",
+                        "start": 3.24,
+                        "end": 3.64,
+                        "confidence": 0.97
+                    },
+                    {
+                        "text": "the",
+                        "start": 3.64,
+                        "end": 3.84,
+                        "confidence": 0.979
+                    },
+                    {
+                        "text": "good",
+                        "start": 3.84,
+                        "end": 4.04,
+                        "confidence": 0.951
+                    },
+                    {
+                        "text": "that",
+                        "start": 4.04,
+                        "end": 4.24,
+                        "confidence": 0.943
+                    },
+                    {
+                        "text": "happens",
+                        "start": 4.24,
+                        "end": 4.58,
+                        "confidence": 0.961
+                    },
+                    {
+                        "text": "by",
+                        "start": 4.58,
+                        "end": 4.88,
+                        "confidence": 0.926
+                    },
+                    {
+                        "text": "chance,",
+                        "start": 4.88,
+                        "end": 5.34,
+                        "confidence": 0.989
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "seek": 0,
+                "start": 5.52,
+                "end": 8.94,
+                "text": " but practices according to necessary principles.",
+                "tokens": [
+                    50656,
+                    457,
+                    7525,
+                    4650,
+                    281,
+                    4818,
+                    9156,
+                    13,
+                    50820
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2211907386779785,
+                "compression_ratio": 1.51875,
+                "no_speech_prob": 0.01932721771299839,
+                "confidence": 0.991,
+                "words": [
+                    {
+                        "text": "but",
+                        "start": 5.52,
+                        "end": 6.08,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "practices",
+                        "start": 6.08,
+                        "end": 6.76,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "according",
+                        "start": 6.76,
+                        "end": 7.3,
+                        "confidence": 0.992
+                    },
+                    {
+                        "text": "to",
+                        "start": 7.3,
+                        "end": 7.64,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "necessary",
+                        "start": 7.64,
+                        "end": 8.24,
+                        "confidence": 0.994
+                    },
+                    {
+                        "text": "principles.",
+                        "start": 8.24,
+                        "end": 8.94,
+                        "confidence": 0.985
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "seek": 0,
+                "start": 10.22,
+                "end": 17.14,
+                "text": " Law, methods, and power must be employed for government. These constitute its necessary principles.",
+                "tokens": [
+                    50872,
+                    7744,
+                    11,
+                    7150,
+                    11,
+                    293,
+                    1347,
+                    1633,
+                    312,
+                    20115,
+                    337,
+                    2463,
+                    13,
+                    1981,
+                    41658,
+                    1080,
+                    4818,
+                    9156,
+                    13,
+                    51228
+                ],
+                "temperature": 0.0,
+                "avg_logprob": -0.2211907386779785,
+                "compression_ratio": 1.51875,
+                "no_speech_prob": 0.01932721771299839,
+                "confidence": 0.951,
+                "words": [
+                    {
+                        "text": "Law,",
+                        "start": 10.22,
+                        "end": 10.5,
+                        "confidence": 0.971
+                    },
+                    {
+                        "text": "methods,",
+                        "start": 10.82,
+                        "end": 11.36,
+                        "confidence": 0.977
+                    },
+                    {
+                        "text": "and",
+                        "start": 11.72,
+                        "end": 11.84,
+                        "confidence": 0.977
+                    },
+                    {
+                        "text": "power",
+                        "start": 11.84,
+                        "end": 12.28,
+                        "confidence": 0.998
+                    },
+                    {
+                        "text": "must",
+                        "start": 12.28,
+                        "end": 12.62,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "be",
+                        "start": 12.62,
+                        "end": 12.86,
+                        "confidence": 0.999
+                    },
+                    {
+                        "text": "employed",
+                        "start": 12.86,
+                        "end": 13.3,
+                        "confidence": 0.997
+                    },
+                    {
+                        "text": "for",
+                        "start": 13.3,
+                        "end": 13.5,
+                        "confidence": 0.995
+                    },
+                    {
+                        "text": "government.",
+                        "start": 13.5,
+                        "end": 13.94,
+                        "confidence": 0.976
+                    },
+                    {
+                        "text": "These",
+                        "start": 14.44,
+                        "end": 14.66,
+                        "confidence": 0.716
+                    },
+                    {
+                        "text": "constitute",
+                        "start": 14.66,
+                        "end": 15.38,
+                        "confidence": 0.982
+                    },
+                    {
+                        "text": "its",
+                        "start": 15.38,
+                        "end": 15.84,
+                        "confidence": 0.847
+                    },
+                    {
+                        "text": "necessary",
+                        "start": 15.84,
+                        "end": 16.54,
+                        "confidence": 0.96
+                    },
+                    {
+                        "text": "principles.",
+                        "start": 16.54,
+                        "end": 17.14,
+                        "confidence": 0.965
+                    }
+                ]
+            }
+        ],
+        "language": "en",
+        "language_probs": {
+            "en": 0.9982932209968567,
+            "zh": 9.594760922482237e-05,
+            "de": 4.291042932891287e-05,
+            "es": 7.356558489846066e-05,
+            "ru": 1.17310582936625e-05,
+            "ko": 7.954335887916386e-05,
+            "fr": 5.3821728215552866e-05,
+            "ja": 0.00017238662985619158,
+            "pt": 0.0001792537368601188,
+            "tr": 1.5420182535308413e-05,
+            "pl": 2.296829734405037e-05,
+            "ca": 2.700642653508112e-06,
+            "nl": 1.8893204469350167e-05,
+            "ar": 2.623061664053239e-05,
+            "sv": 3.2070925044536125e-06,
+            "it": 1.9955201423726976e-05,
+            "id": 1.3502363799489103e-05,
+            "hi": 1.2198369404359255e-05,
+            "fi": 7.875859409978148e-06,
+            "vi": 6.789415692765033e-06,
+            "he": 3.92941228710697e-06,
+            "uk": 1.915042503242148e-06,
+            "el": 4.3928019294980913e-05,
+            "ms": 4.6761131670791656e-05,
+            "cs": 6.073210556678532e-07,
+            "ro": 5.205625711823814e-06,
+            "da": 1.198402969748713e-06,
+            "hu": 2.0706545456050662e-06,
+            "ta": 9.116969295064337e-07,
+            "no": 1.0826668130903272e-06,
+            "th": 2.830249286489561e-06,
+            "ur": 2.278955616930034e-05,
+            "hr": 9.914244003539352e-08,
+            "bg": 5.443990858111647e-07,
+            "lt": 2.891281951633573e-07,
+            "la": 0.0002909575414378196,
+            "mi": 2.9723183615715243e-05,
+            "ml": 9.333172101833043e-07,
+            "cy": 0.00012911163503304124,
+            "sk": 1.8093177800437843e-07,
+            "te": 7.920959319562826e-07,
+            "fa": 4.0541453927289695e-06,
+            "lv": 3.327844524392276e-07,
+            "bn": 3.7788784084114013e-06,
+            "sr": 5.194692676013801e-07,
+            "az": 4.3403281324572163e-07,
+            "sl": 5.541359314520378e-06,
+            "kn": 4.646712525868679e-08,
+            "et": 1.4538277071096672e-07,
+            "mk": 2.0027322022997396e-07,
+            "br": 7.283979357453063e-06,
+            "eu": 3.570256126295135e-07,
+            "is": 6.618209340558678e-07,
+            "hy": 9.188474905386101e-07,
+            "ne": 2.3783034919233614e-07,
+            "mn": 8.631773198430892e-07,
+            "bs": 3.626479667673266e-07,
+            "kk": 2.492440671630902e-07,
+            "sq": 1.1083416211477015e-06,
+            "sw": 5.124919425725238e-06,
+            "gl": 2.4208407012338284e-06,
+            "mr": 9.097821873638168e-08,
+            "pa": 2.006947170229978e-06,
+            "si": 2.5370190996909514e-06,
+            "km": 3.808516794379102e-06,
+            "sn": 7.6934156822972e-06,
+            "yo": 3.522302222336293e-06,
+            "so": 3.748352028765112e-08,
+            "af": 1.7610404029255733e-05,
+            "oc": 6.120843067947135e-07,
+            "ka": 1.4201498288457515e-07,
+            "be": 3.101892502854753e-07,
+            "tg": 2.6065695379884346e-08,
+            "sd": 5.276496608530579e-07,
+            "gu": 6.013293329942826e-08,
+            "am": 4.28075246361459e-08,
+            "yi": 5.246453383733751e-06,
+            "lo": 2.0663058819536673e-07,
+            "uz": 1.3949877919472442e-09,
+            "fo": 1.8093177800437843e-07,
+            "ht": 6.990222800595802e-07,
+            "ps": 2.758880270903319e-07,
+            "tk": 1.0386936866169094e-09,
+            "nn": 4.712788722827099e-05,
+            "mt": 9.629438864067197e-07,
+            "sa": 9.649705134506803e-06,
+            "lb": 5.193141472403795e-09,
+            "my": 1.2559156630231882e-06,
+            "bo": 5.045465059083654e-06,
+            "tl": 8.533756772521883e-05,
+            "mg": 6.919191331000718e-10,
+            "as": 2.919219177499599e-08,
+            "tt": 8.462293088484785e-09,
+            "haw": 2.4070568542811088e-05,
+            "ln": 8.887070634955307e-08,
+            "ha": 6.879794955949592e-09,
+            "ba": 1.4225014499658073e-09,
+            "jw": 8.125865861074999e-06,
+            "su": 7.23818205372595e-09
+        }
+    }
+}
