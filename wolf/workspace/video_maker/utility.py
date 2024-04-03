@@ -69,13 +69,22 @@ A F F E C T S
 """
 
 
-def warmth(clip, strength=0.8):
+def warmth(clip, strength=0.5):
     def process_frame(get_frame, t):
         frame = get_frame(t)
         frame[:, :, 0] = frame[:, :, 0] * strength
         return frame
 
-    return clip.fl(process_frame)
+    return clip.transform(process_frame)
+
+
+def invert(clip):
+    import numpy as np
+    def mirror_frame(get_frame, t):
+        frame = get_frame(t)
+        return np.fliplr(frame)
+
+    return clip.transform(mirror_frame)
 
 
 def shaky(clip, amplitude=0.2):
@@ -99,17 +108,18 @@ def overlay(video_file, duration, opacity = 0.2, fadeout_duration = 3):
         duration_b = clip.duration
 
         if clip.duration < rem:
-            clip = vfx.fadeout(clip.set_start(start), fadeout_duration)
+            # clip = vfx.fadeout(clip.set_start(start), fadeout_duration)
+            clip = clip.set_start(start)
             composite_list.append(clip)
             rem -= clip.duration
             start += clip.duration
         else:
-            clip = vfx.fadeout(clip.set_duration(rem).set_start(start), fadeout_duration)
+            clip = clip.set_duration(rem).set_start(start)
             composite_list.append(clip)
             start += rem
             rem = 0
 
-    result = CompositeVideoClip(composite_list).set_opacity(opacity)
+    result = CompositeVideoClip(composite_list).with_opacity(opacity)
     return result
 
 """
@@ -228,7 +238,7 @@ B A C K G R O U N D
 M U S I C
 """
 
-def add_background_music(audio_file, result_file, background_data = None, credit_file = None):
+def add_background_music(audio_file, result_file = None, background_data = None, factor = 0.1, credit_file = None):
     
     music_data = []
     if background_data:
@@ -244,7 +254,11 @@ def add_background_music(audio_file, result_file, background_data = None, credit
         
 
     from moviepy.editor import AudioFileClip, CompositeAudioClip
-    audio_music = AudioFileClip(audio_file)
+    if type(audio_file) == str:
+        audio_music = AudioFileClip(audio_file)
+    else:
+        audio_music = audio_file
+
     composite_list = [audio_music]
     rem = audio_music.duration
     start = 0
@@ -257,7 +271,7 @@ def add_background_music(audio_file, result_file, background_data = None, credit
         print("rem", rem)
         
         cur_music = random.choice(music_data)
-        cur_music_o = AudioFileClip(cur_music['path']).volumex(0.5)
+        cur_music_o = AudioFileClip(cur_music['path'])
         cur_music_c = cur_music['info']
         duration_a = rem
         duration_b = cur_music_o.duration
@@ -273,8 +287,9 @@ def add_background_music(audio_file, result_file, background_data = None, credit
             credits.append(cur_music_c)
             rem -= duration_a
             start += duration_a
-
+    import moviepy.audio.fx.all as afx
     composite_audio = CompositeAudioClip(composite_list)
+    composite_audio = composite_audio.fx(afx.multiply_volume, factor = factor)
     composite_audio.write_audiofile(result_file, codec='libmp3lame', fps = 44100)
 
     save_json(credits, credit_file)

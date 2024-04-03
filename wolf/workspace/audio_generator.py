@@ -14,15 +14,15 @@ import sys
 """
 T E S T
 """
-# sys.path.append('/home/prakharrrr4/wolfy_ui/wolf/wolf')
-# import setting2 as settings
-# import scraper_middleware as sm
+sys.path.append('/home/prakharrrr4/wolfy_ui/wolf/wolf')
+import setting2 as settings
+import scraper_middleware as sm
 
 """
 P R O D
 """
-from django.conf import settings
-import workspace.scraper_middleware as sm
+# from django.conf import settings
+# import workspace.scraper_middleware as sm
 
 
 
@@ -199,6 +199,16 @@ class WolfyTTSMiddleware(object):
         self.PATH = os.path.join(settings.MEDIA_ROOT,'workspace')
         self._id_ = _id_ if _id_ else uuid.uuid4().hex
         os.makedirs(self.get_folder_path(),exist_ok = True)
+
+
+    def _sentence_splitter_simple_(
+                    self,
+                    text,
+    ):
+        import pysbd
+        segmenter = pysbd.Segmenter(language="en", clean=False)
+        sentences = segmenter.segment(text)
+        return sentences
 
 
     def _sentence_splitter_(
@@ -668,10 +678,8 @@ class MovieGPTMiddleware(WolfyTTSMiddleware):
 
         audio_files = []
         
-        if type(text) == str:
-            text = [text]
 
-        sentences = text
+        sentences = self._sentence_splitter_simple_(text)
         os.makedirs(_folder_path_, exist_ok = True)
 
         for itr in range(len(sentences)):
@@ -699,6 +707,7 @@ class MovieGPTMiddleware(WolfyTTSMiddleware):
         time = len(current_audio)
         current_audio.export(file_path, format="wav") 
         return time
+
 
 
 def test():
@@ -767,7 +776,7 @@ UI Tests
 _____________________________________________
 
 Test Case 4
-0. video file optimization 
+0. video file optimization ✅
 1. preset_{i}.py impl. 
 
 _____________________________________________

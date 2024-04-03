@@ -1,3 +1,13 @@
+"""
+1. Copy quotes channel Entirely.
+2. Make the alert for the same kind of channels.
+3. Copy the theme and the title from the video
+while keeping the content source from brain quotes. -> making it kinda
+automated.
+4. Copy from quotes channel.
+"""
+
+
 import utility, defaults
 import sys
 import os
@@ -68,10 +78,11 @@ def create_image_clips(subtitle_path):
 def create_video(audio_path, subtitle_path, video_path, data_path):
 
     audio_clip = AudioFileClip(audio_path)
-    image_path = 'assets/images/standard.jpg'
+    image_path = 'assets/images/scene2.png'
     image_clip = ImageClip(image_path).set_duration(audio_clip.duration)
 
-    clips = [image_clip]
+    clips = []
+    clips.append(image_clip)
     subtitles = utility.read_json(subtitle_path)
     for subtitle_data in subtitles:
 
@@ -81,32 +92,32 @@ def create_video(audio_path, subtitle_path, video_path, data_path):
         font_size = 60
         txt_color = 'white'
         if len(subtitle) >100:
-            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, fontsize=40, color=txt_color)
-                        .set_position(('center','center'))
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, font_size=40, color=txt_color)
+                        .with_position(('center','center'))
                         .set_start(start_time)
                         .set_end(end_time)
                         .set_duration(end_time-start_time)
                         .crossfadein(0.5) 
                         .crossfadeout(0.5)) 
         elif len(subtitle) >50:
-            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, fontsize=60, color=txt_color)
-                        .set_position(('center','center'))
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, font_size=60, color=txt_color)
+                        .with_position(('center','center'))
                         .set_start(start_time)
                         .set_end(end_time)
                         .set_duration(end_time-start_time)
                         .crossfadein(0.5) 
                         .crossfadeout(0.5)) 
         elif len(subtitle) > 10:
-            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, fontsize=100, color=txt_color)
-                    .set_position(('center','center'))
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file, font_size=100, color=txt_color)
+                    .with_position(('center','center'))
                     .set_start(start_time)
                     .set_end(end_time)
                     .set_duration(end_time-start_time)
                     .crossfadein(0.5) 
                     .crossfadeout(0.5))
         else:
-            txt_clip = (TextClip(subtitle, font=defaults.ttf_file_2, fontsize=300, color=txt_color)
-                    .set_position(('center','center'))
+            txt_clip = (TextClip(subtitle, font=defaults.ttf_file_2, font_size=300, color=txt_color)
+                    .with_position(('center','center'))
                     .set_start(start_time)
                     .set_end(end_time)
                     .set_duration(end_time-start_time)
@@ -114,20 +125,17 @@ def create_video(audio_path, subtitle_path, video_path, data_path):
                     .crossfadeout(0.5))
         clips.append(txt_clip)
 
-    # clips[0] = vfx.lum_contrast(clips[0], lum = 20, contrast = 0.4)
-    # clips[0] = utility.warmth(clips[0])
+    clips[0] = vfx.lum_contrast(clips[0], lum = 20, contrast = 0.4)
+    clips[0] = utility.warmth(clips[0])
 
-    overlay_clip = utility.overlay(defaults.flames_overlay, clips[0].duration)
+    overlay_clip = utility.overlay(defaults.flames_overlay, audio_clip.duration)
     clips.append(overlay_clip)
 
-    # image_clips = create_image_clips(subtitle_path)
-    # clips.extend(image_clips)
-
-    final_video = CompositeVideoClip(clips).set_audio(audio_clip)
+    final_video = CompositeVideoClip(clips).with_audio(audio_clip)
     final_video.write_videofile(video_path,
                         fps = 24,
-                        codec="libx264",
-                        ffmpeg_params = [ "-preset", "fast"])
+                        threads = 16,
+                        preset='ultrafast')
 
 def _make_(argument_map):
     workspace = argument_map.get('workspace')
@@ -152,7 +160,7 @@ def _make_(argument_map):
     subtitles = wolfy_tts_middleware.get_subtitles()
     utility.save_json(subtitles, c_sub)
     utility.add_reverb(c_audio)
-    utility.add_background_music(c_audio, c_audio_bg, credit_file = c_credit)
+    utility.add_background_music(c_audio, c_audio_bg, factor = 0.4,credit_file = c_credit)
     create_video(c_audio_bg, c_sub, c_video, data_files)
 
 

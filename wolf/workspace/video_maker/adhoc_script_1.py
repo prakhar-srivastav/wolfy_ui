@@ -17,9 +17,3 @@ video4.write_videofile("vid.mp4", codec="libx264", ffmpeg_params=["-preset", "fa
 """
 I N V E R T
 """
-import numpy as np
-def mirror_frame(frame):
-    return np.fliplr(frame)
-
-mirrored_clip = video4.fl_image(mirror_frame)
-mirrored_clip.write_videofile("vid.mp4")
